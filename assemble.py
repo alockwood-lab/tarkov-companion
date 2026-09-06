@@ -24,16 +24,16 @@ data = {
 }
 # attach visual map guides
 imgs = json.load(open('mapimages.json'))
-THUMB = '/revision/latest/scale-to-width-down/720'
-CARD  = '/revision/latest/scale-to-width-down/420'
+# NOTE: Fandom's scale-to-width-down thumbnailer 404s on a real GET (it returns 200 to HEAD,
+# which is how broken URLs got shipped once). Images are self-hosted in img/ instead.
 attached = 0
 for m in data['MAPS']:
     gallery = []
     for im in imgs.get(m['name'], []):
         gallery.append({
-            'thumb': im['url'] + CARD,
-            'mid':   im['url'] + THUMB,
-            'full':  im['url'],
+            'thumb': im['thumb_local'],
+            'mid':   im['mid_local'],
+            'full':  im['url'],          # original on the Fandom CDN - verified to work
             'caption': im['caption'],
             'source': im['source'],
         })

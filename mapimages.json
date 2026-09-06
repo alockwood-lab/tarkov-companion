@@ -3,142 +3,178 @@
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/GroundZero3DMapByRe3mr.png",
    "source": "https://escapefromtarkov.fandom.com/wiki/File:GroundZero3DMapByRe3mr.png",
-   "caption": "3D overview \u2014 by RE3MR"
+   "caption": "3D overview — by RE3MR",
+   "thumb_local": "img/ground-zero-0-sm.jpg",
+   "mid_local": "img/ground-zero-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/50/Ground_Zero_Map.png",
    "caption": "In-game area map (Tartowers)",
    "w": 1024,
    "h": 1024,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Ground_Zero_Map.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Ground_Zero_Map.png",
+   "thumb_local": "img/ground-zero-1-sm.jpg",
+   "mid_local": "img/ground-zero-1-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/18/Ground_Zero_Underground_Map.png",
    "caption": "Underground parking level",
    "w": 1024,
    "h": 512,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Ground_Zero_Underground_Map.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Ground_Zero_Underground_Map.png",
+   "thumb_local": "img/ground-zero-2-sm.jpg",
+   "mid_local": "img/ground-zero-2-lg.jpg"
   }
  ],
  "Interchange": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/27/InterchangeMapByre3mr.jpg",
-   "caption": "2D mall layout \u2014 by RE3MR",
+   "caption": "2D mall layout — by RE3MR",
    "w": 4800,
    "h": 2700,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:InterchangeMapByre3mr.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:InterchangeMapByre3mr.jpg",
+   "thumb_local": "img/interchange-0-sm.jpg",
+   "mid_local": "img/interchange-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/OfficialInterchangePaperMap.jpg",
    "caption": "In-game paper map",
    "w": 6000,
    "h": 4905,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:OfficialInterchangePaperMap.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:OfficialInterchangePaperMap.jpg",
+   "thumb_local": "img/interchange-1-sm.jpg",
+   "mid_local": "img/interchange-1-lg.jpg"
   }
  ],
  "Woods": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/Glory4lyfeWoods_map_v4_marked.png",
-   "caption": "Marked loot and extract map \u2014 by Glory4lyfe",
+   "caption": "Marked loot and extract map — by Glory4lyfe",
    "w": 6994,
    "h": 6843,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Glory4lyfeWoods_map_v4_marked.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Glory4lyfeWoods_map_v4_marked.png",
+   "thumb_local": "img/woods-0-sm.jpg",
+   "mid_local": "img/woods-0-lg.jpg"
   }
  ],
  "Customs": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0b/CustomsMapRealNorthColour_Reemr.png",
-   "caption": "2D colour map, true north \u2014 by RE3MR",
+   "caption": "2D colour map, true north — by RE3MR",
    "w": 3840,
    "h": 2160,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:CustomsMapRealNorthColour_Reemr.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:CustomsMapRealNorthColour_Reemr.png",
+   "thumb_local": "img/customs-0-sm.jpg",
+   "mid_local": "img/customs-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/CustomsDormsByre3mr.jpg",
    "source": "https://escapefromtarkov.fandom.com/wiki/File:CustomsDormsByre3mr.jpg",
-   "caption": "Dorms interior breakdown \u2014 by RE3MR"
+   "caption": "Dorms interior breakdown — by RE3MR",
+   "thumb_local": "img/customs-1-sm.jpg",
+   "mid_local": "img/customs-1-lg.jpg"
   }
  ],
  "Shoreline": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/Shoreline2DMapByMonkiUpdatedByJindouz.png",
-   "caption": "2D map \u2014 by Monki, updated by Jindouz",
+   "caption": "2D map — by Monki, updated by Jindouz",
    "w": 6668,
    "h": 4567,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Shoreline2DMapByMonkiUpdatedByJindouz.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Shoreline2DMapByMonkiUpdatedByJindouz.png",
+   "thumb_local": "img/shoreline-0-sm.jpg",
+   "mid_local": "img/shoreline-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a0/Map_Shoreline_Resort.jpg",
    "caption": "Health Resort room numbering",
    "w": 9999,
    "h": 5425,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Map_Shoreline_Resort.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Map_Shoreline_Resort.jpg",
+   "thumb_local": "img/shoreline-1-sm.jpg",
+   "mid_local": "img/shoreline-1-lg.jpg"
   }
  ],
  "Factory": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/33/Factory2DMapbyRe3mr.jpg",
-   "caption": "2D multi-level map \u2014 by RE3MR",
+   "caption": "2D multi-level map — by RE3MR",
    "w": 13440,
    "h": 6656,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Factory2DMapbyRe3mr.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Factory2DMapbyRe3mr.jpg",
+   "thumb_local": "img/factory-0-sm.jpg",
+   "mid_local": "img/factory-0-lg.jpg"
   }
  ],
  "Reserve": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7c/JindouzReserve_v1_2dmap.png",
-   "caption": "Surface 2D map \u2014 by Jindouz",
+   "caption": "Surface 2D map — by Jindouz",
    "w": 4701,
    "h": 2785,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:JindouzReserve_v1_2dmap.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:JindouzReserve_v1_2dmap.png",
+   "thumb_local": "img/reserve-0-sm.jpg",
+   "mid_local": "img/reserve-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/cd/ReserveUnderground2DMapByRe3mr.png",
-   "caption": "Underground bunker network \u2014 by RE3MR",
+   "caption": "Underground bunker network — by RE3MR",
    "w": 3240,
    "h": 5760,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:ReserveUnderground2DMapByRe3mr.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:ReserveUnderground2DMapByRe3mr.png",
+   "thumb_local": "img/reserve-1-sm.jpg",
+   "mid_local": "img/reserve-1-lg.jpg"
   }
  ],
  "Lighthouse": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/13/Jindouz_Lighthouse_Map_V1.png",
-   "caption": "2D map \u2014 by Jindouz",
+   "caption": "2D map — by Jindouz",
    "w": 2242,
    "h": 3892,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Jindouz_Lighthouse_Map_V1.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Jindouz_Lighthouse_Map_V1.png",
+   "thumb_local": "img/lighthouse-0-sm.jpg",
+   "mid_local": "img/lighthouse-0-lg.jpg"
   }
  ],
  "Streets of Tarkov": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/71/StreetsOfTarkov2DMapByJindouz.png",
-   "caption": "2D map \u2014 by Jindouz",
+   "caption": "2D map — by Jindouz",
    "w": 7620,
    "h": 5877,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:StreetsOfTarkov2DMapByJindouz.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:StreetsOfTarkov2DMapByJindouz.png",
+   "thumb_local": "img/streets-of-tarkov-0-sm.jpg",
+   "mid_local": "img/streets-of-tarkov-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/StreetsOfTarkov3DMapByRE3MR.jpg",
-   "caption": "3D overview \u2014 by RE3MR",
+   "caption": "3D overview — by RE3MR",
    "w": 7605,
    "h": 4841,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:StreetsOfTarkov3DMapByRE3MR.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:StreetsOfTarkov3DMapByRE3MR.jpg",
+   "thumb_local": "img/streets-of-tarkov-1-sm.jpg",
+   "mid_local": "img/streets-of-tarkov-1-lg.jpg"
   }
  ],
  "Terminal": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/58/Terminal2DMapByRE3MR.jpg",
-   "caption": "2D map \u2014 by RE3MR",
+   "caption": "2D map — by RE3MR",
    "w": 11520,
    "h": 6480,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Terminal2DMapByRE3MR.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Terminal2DMapByRE3MR.jpg",
+   "thumb_local": "img/terminal-0-sm.jpg",
+   "mid_local": "img/terminal-0-lg.jpg"
   },
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/93/Terminal_Bosses_Map.jpg",
    "caption": "Boss spawn area",
    "w": 11520,
    "h": 6480,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Terminal_Bosses_Map.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Terminal_Bosses_Map.jpg",
+   "thumb_local": "img/terminal-1-sm.jpg",
+   "mid_local": "img/terminal-1-lg.jpg"
   }
  ],
  "The Lab": [
@@ -147,25 +183,31 @@
    "caption": "Full facility layout",
    "w": 2048,
    "h": 2048,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:TheLabMapFull.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:TheLabMapFull.png",
+   "thumb_local": "img/the-lab-0-sm.jpg",
+   "mid_local": "img/the-lab-0-lg.jpg"
   }
  ],
  "The Labyrinth": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8d/The_Labyrinth_Map_by_re3mr.png",
-   "caption": "Maze layout \u2014 by RE3MR",
+   "caption": "Maze layout — by RE3MR",
    "w": 4800,
    "h": 4320,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:The_Labyrinth_Map_by_re3mr.png"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:The_Labyrinth_Map_by_re3mr.png",
+   "thumb_local": "img/the-labyrinth-0-sm.jpg",
+   "mid_local": "img/the-labyrinth-0-lg.jpg"
   }
  ],
  "Icebreaker": [
   {
    "url": "https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bd/Icebreaker_Map_by_re3mr.jpg",
-   "caption": "Deck-by-deck layout \u2014 by RE3MR",
+   "caption": "Deck-by-deck layout — by RE3MR",
    "w": 7680,
    "h": 4320,
-   "source": "https://escapefromtarkov.fandom.com/wiki/File:Icebreaker_Map_by_re3mr.jpg"
+   "source": "https://escapefromtarkov.fandom.com/wiki/File:Icebreaker_Map_by_re3mr.jpg",
+   "thumb_local": "img/icebreaker-0-sm.jpg",
+   "mid_local": "img/icebreaker-0-lg.jpg"
   }
  ]
 }
