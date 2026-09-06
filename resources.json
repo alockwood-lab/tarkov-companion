@@ -1,0 +1,13 @@
+[
+{"name":"Tarkov.dev","url":"https://tarkov.dev","what":"The best free all-rounder: quest tracker, interactive maps with loot and extract layers, live item prices, ammo charts and a public API. Community-run and fast."},
+{"name":"Official EFT Wiki (Fandom)","url":"https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki","what":"The source of truth for quest objectives, keys, loyalty levels and patch changelogs. Note it currently carries a banner that some quest info is still catching up to the 1.1 rework."},
+{"name":"Map Genie — Tarkov","url":"https://mapgenie.io/tarkov","what":"Interactive maps with per-account progress tracking for keys, extracts, stashes and quest items. The paid tier removes limits; the free tier is still usable."},
+{"name":"Tarkov Market","url":"https://tarkov-market.com","what":"Live flea prices with history, plus per-slot profit tools. Use it before you list anything now that the commission is 5%."},
+{"name":"EFT Ammo Chart","url":"https://eft-ammo.com","what":"Penetration and damage tables by calibre. Essential now that armour is a plate system and pen power versus effective durability decides fights."},
+{"name":"Tarkov.dev — Ammo","url":"https://tarkov.dev/ammo","what":"Sortable ammo chart with flea-ban and trader-availability flags, which matters because loose ammo at 42+ penetration cannot be bought on the flea."},
+{"name":"Tarkov.dev — Hideout profit","url":"https://tarkov.dev/hideout-profit","what":"Tells you which crafts are actually worth the materials at current prices. Season 1 halves craft times, which changes the maths."},
+{"name":"Official news and patch notes","url":"https://www.escapefromtarkov.com/news","what":"Where wipe, season and roadmap announcements land first. Worth checking before you plan a long grind."},
+{"name":"r/EscapefromTarkov","url":"https://www.reddit.com/r/EscapefromTarkov/","what":"Fastest signal on whether a quest is bugged, where a spawn moved, or what the current meta ammo is after a rebalance."},
+{"name":"Pestily (Twitch/YouTube)","url":"https://www.youtube.com/@Pestily","what":"Long-form raid footage with commentary. The best way to learn map routing and how a good player reads audio, rather than memorising loot spots."},
+{"name":"Airwingmarine — quest guides","url":"https://www.youtube.com/@Airwingmarine","what":"Short, exact per-quest location videos. When a quest is a knowledge check rather than a skill check, this is the fastest fix."}
+]

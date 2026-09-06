@@ -1,0 +1,1110 @@
+[
+ {
+  "name": "Ground Zero",
+  "size": "Small downtown block, dense interiors plus an underground parking level (~0.16 km², unofficial)",
+  "duration": "30 min",
+  "players": "9–12",
+  "extracts": "6 (6 PMC)",
+  "difficulty": 1,
+  "starter": true,
+  "questCount": 23,
+  "traders": [
+   "Prapor",
+   "Mechanic",
+   "Peacekeeper"
+  ],
+  "extractNames": [
+   "Emercom Checkpoint",
+   "Nakatani Basement Stairs"
+  ],
+  "bosses": [
+   {
+    "name": "No fixed Scav boss below level 21",
+    "chance": "n/a",
+    "threat": "Deliberate — this is the tutorial map and the sub-21 pool has no boss at all."
+   },
+   {
+    "name": "Cultists",
+    "chance": "Level 21+ pool only · ~25–33%",
+    "threat": "Eight mapped spawn points of silent poison-knife rushers. The main reason the 21+ pool feels like a different map."
+   },
+   {
+    "name": "Black Division",
+    "chance": "Season 1 · RARELY encountered roaming (level 21+ pool only)",
+    "threat": "Geared seasonal squad. The single biggest jump in danger when you cross level 21. Note the wiki qualifies this as a rare roaming spawn, not a standing presence — do not plan a raid around meeting them."
+   }
+  ],
+  "loot": [
+   {
+    "name": "TerraGroup HQ",
+    "yield": "The centre of gravity: PC blocks, drawers, intel and tech, with GPU and sealed-crate spawns at 21+. Office 4 on the 2nd floor is the Science Office — 3 PC blocks and 4 drawers"
+   },
+   {
+    "name": "Underground parking — Utility Room",
+    "yield": "Best guns-and-ammo room here: dead Scav, wooden ammo box, toolbox, grenade box, 4×4 and 5×2 weapon boxes"
+   },
+   {
+    "name": "Unity Credit Bank / Tarbank",
+    "yield": "Cash registers and loose currency; customer desk booth 2 has a locked safe and a drawer"
+   },
+   {
+    "name": "Nakatani building and basement",
+    "yield": "Residential safes, drawers, meds and quest items — and it sits on a free extract, making it the safest loot-then-leave loop on the map"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Underground parking utility room key",
+    "opens": "The garage utility room — weapon, ammo, grenade and tool boxes"
+   },
+   {
+    "name": "TerraGroup science office key",
+    "opens": "Office 4, 2nd floor of the main building — 3 PC blocks, 4 drawers"
+   },
+   {
+    "name": "Unity Credit Bank cash register key",
+    "opens": "Tarbank booth 2 — currency, a locked safe and a drawer"
+   },
+   {
+    "name": "Note with code word \"Adaptation\"",
+    "opens": "Activates the Tartowers Sales Office extract. In-raid intel, cannot be taken out"
+   }
+  ],
+  "tip": "Ground Zero is a street map that plays like an indoor map — fights happen in doorways, lobbies and stairwells, not on the road — so route through the TerraGroup and Nakatani interiors and treat every street crossing as a peek. Use your sub-21 raids to memorise Emercom Checkpoint and Nakatani Basement Stairs cold, because at 21+ the same geometry comes with roaming Cultists, Black Division and much better-shooting Scavs. Don't chase an extract along the map perimeter — claymores, minefields and border snipers ring the edges — and don't stand in the open firing the Mira Ave flare; grab it off the Scav body by the yellow bus and shoot from cover.",
+  "notes": "Matchmaking splits at level 21: a beginners pool below 21 and an experienced pool at 21+, so there is effectively a separate 21+ version. Groups match on their highest-level member. The 21+ pool has better rare-loot chance, harder Scavs, Cultists and Season 1 Black Division. One of only two maps directly selectable on a fresh account.",
+  "docs": [
+   "Medical documents",
+   "User documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Ground_Zero",
+  "dev": "https://tarkov.dev/map/ground-zero"
+ },
+ {
+  "name": "Interchange",
+  "size": "One huge dark indoor mall plus ring road and parking decks (~0.4 km², unofficial)",
+  "duration": "40 min",
+  "players": "11–15",
+  "extracts": "7 (7 PMC)",
+  "difficulty": 2,
+  "starter": true,
+  "questCount": 31,
+  "traders": [
+   "Ragman",
+   "Prapor",
+   "Skier"
+  ],
+  "extractNames": [
+   "Emercom Checkpoint",
+   "Railway Exfil"
+  ],
+  "bosses": [
+   {
+    "name": "Killa",
+    "chance": "Guaranteed on red-skull cycle · ~50–60% otherwise, the highest baseline in the game",
+    "threat": "Armoured RPK-16 juggernaut who pushes toward gunfire down the ground-floor aisles and eats unarmoured ammo."
+   },
+   {
+    "name": "Tagilla",
+    "chance": "~25–35%",
+    "threat": "New to the parking garage under Goshan. Melee only, but lethal in the garage's blind corners."
+   }
+  ],
+  "loot": [
+   {
+    "name": "OLI hardware store",
+    "yield": "Best PC-block and GPU density on the map, plus tools, electric motors, fuel, building materials and 18 cash registers. A Bitcoin spawns mid-store inside the sandbags"
+   },
+   {
+    "name": "Techlight / Texho / Rasmussen shelves",
+    "yield": "The classic tech run — loose GPUs and electronics, with a LEDX in the broken box under Techlight"
+   },
+   {
+    "name": "KIBA Arms outlet",
+    "yield": "Weapons, mods, armour plates, 3 weapon boxes, 2 locked registers. Needs both Kiba keys AND mall power, and trips an alarm 3 seconds after the outer door opens"
+   },
+   {
+    "name": "NecrusPharm, ULTRA medical storage and EMERCOM medical unit",
+    "yield": "LEDX, meds, stims and Medbag SMU06s. ULTRA med needs power; EMERCOM's three doors each burn a key use"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Kiba Arms outer door key + inner grate key",
+    "opens": "The KIBA firearms store — needs the pair plus power. Three weapon boxes, mods, armour plates, ammo"
+   },
+   {
+    "name": "Object #11SR keycard",
+    "opens": "The Saferoom in parking section C — modded M4s, 3 weapon boxes, Bitcoin. Also a private single-use extract that locks behind you. Power required"
+   },
+   {
+    "name": "Object #21WS keycard",
+    "opens": "The red TerraGroup container in the outdoor lot — 3 weapon boxes, SIG MPX, HighCom armour. Power required"
+   },
+   {
+    "name": "ULTRA medical storage key",
+    "opens": "The 2nd-floor pharmacy storage room — LEDX and meds. Max 5 per raid, power required"
+   },
+   {
+    "name": "Goshan / OLI / IDEA cash register keys",
+    "opens": "Roughly 30 Goshan, 18 OLI and 20 IDEA registers — the IDEA key also covers NecrusPharm. Bulk rouble farming"
+   }
+  ],
+  "tip": "Spawns ring the mall — highway, the west village and FOB, and the power-station side — so the first 90 seconds is a race to the nearest service or side entrance, never the big glass fronts. The interior is pitch black even at midday, so most deaths are being silhouetted in a doorway or lit up down the long IDEA and Goshan aisles. If you hear a hammer that's Tagilla in the parking garage; an RPK-16 is Killa on the central ground floor — change floors either way. Don't flip the power station switch unless you are actually running Kiba, #11SR, #21WS or ULTRA med: it lights the whole grid and tells fourteen players someone is working the mall.",
+  "notes": "One of only two maps directly selectable on a fresh account — everything else is initially transit-only until the story chapter 'Tour'.",
+  "docs": [
+   "Blueprints and technical documentation",
+   "Financial documents"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Interchange",
+  "dev": "https://tarkov.dev/map/interchange"
+ },
+ {
+  "name": "Woods",
+  "size": "Very large open forest with big elevation change (~1.6 km², unofficial)",
+  "duration": "35 min",
+  "players": "10–14",
+  "extracts": "18 (10 PMC)",
+  "difficulty": 2,
+  "starter": true,
+  "questCount": 57,
+  "traders": [
+   "Prapor",
+   "Skier",
+   "Jaeger",
+   "BTR Driver"
+  ],
+  "extractNames": [
+   "Outskirts",
+   "UN Roadblock"
+  ],
+  "bosses": [
+   {
+    "name": "Shturman + 2–3 guards",
+    "chance": "Guaranteed on red-skull cycle · ~35–40% otherwise",
+    "threat": "Sawmill sniper king — his guards run SVDS and hit you past 150 m before you ever see the yard."
+   },
+   {
+    "name": "The Goons (Knight, Big Pipe, Birdeye)",
+    "chance": "~20–26%, rotating between Customs, Woods, Shoreline and Lighthouse",
+    "threat": "Camp the northwest antenna and Scav Bunker, holding high ground and cross-firing the approach."
+   },
+   {
+    "name": "Partisan",
+    "chance": "~13–15%, roams",
+    "threat": "Mines paths and ambushes lone loot runs with a suppressed AK."
+   },
+   {
+    "name": "Cultists",
+    "chance": "Night raids",
+    "threat": "Silent poison knives, and the treeline hides them completely."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Sawmill + Shturman's common fund stash",
+    "yield": "Fastest money here: cash, valuables, electronics, electronic keys, magazines and ammo packs. Boss kit is SVDS and Red Rebel tier"
+   },
+   {
+    "name": "Old house at the Old Railway Depot",
+    "yield": "Hideout gold behind two cheap keys: 6-STEN-140-M batteries with one guaranteed, military power filters, TerraGroup Blue Folders, a TarCoin, 4×4 weapon boxes"
+   },
+   {
+    "name": "Shatun's hideout, eastern village",
+    "yield": "A TerraGroup Labs Yellow keycard spawn plus rare rifles (M1A, RSASS), Slick carriers and premium headsets"
+   },
+   {
+    "name": "USEC camp",
+    "yield": "Low-risk fill: meds, rations, duffles, ammo boxes. One of three Violet keycard spawns sits on an SUV seat nearby"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Shturman's stash key",
+    "opens": "The common fund stash on a tyre by the log pile at Sawmill. Drops from Shturman, 1–2 uses"
+   },
+   {
+    "name": "Old house room key + toilet key",
+    "opens": "The depot house pair — batteries, power filters, Blue Folders, TarCoin. Cheap and repeatable"
+   },
+   {
+    "name": "Shatun's hideout key",
+    "opens": "The eastern village house with the Yellow keycard spawn"
+   },
+   {
+    "name": "ZB-014 key",
+    "opens": "The grate door inside ZB-014 (5×5 weapon box) and the ZB-014 flare extract"
+   },
+   {
+    "name": "Minefield map (Woods)",
+    "opens": "Activates the Railway Bridge to Tarkov extract. In-raid intel, cannot be taken out"
+   }
+  ],
+  "tip": "Woods is a sound-and-sightline map and the first ten minutes belong to whoever takes the ridge north of Sawmill. Shturman's guards run SVDS and reach past 150 m, so pull the boss from the log piles at the fence line rather than walking through the yard gate. The consistent death spots are the open field between USEC camp and Sawmill, anywhere on the road — BTR, snipers and mines — and the Outskirts funnel in the last five minutes. Don't hug the west or southwest map edge: minefields and border snipers kill more new players here than PMCs do.",
+  "notes": "",
+  "docs": [
+   "Test documentation",
+   "Technical documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Woods",
+  "dev": "https://tarkov.dev/map/woods"
+ },
+ {
+  "name": "Customs",
+  "size": "Medium industrial corridor, long east–west (~0.6 km², unofficial)",
+  "duration": "35 min",
+  "players": "10–12",
+  "extracts": "26 (11 PMC)",
+  "difficulty": 3,
+  "starter": true,
+  "questCount": 60,
+  "traders": [
+   "Prapor",
+   "Skier",
+   "Therapist"
+  ],
+  "extractNames": [
+   "RUAF Roadblock",
+   "Crossroads"
+  ],
+  "bosses": [
+   {
+    "name": "Reshala + 4 guards",
+    "chance": "Guaranteed on red-skull cycle · ~35–40% otherwise",
+    "threat": "Dorms, New Gas and Scav-base warlord whose four guards are the actual danger — they flank and out-armour you while he tanks."
+   },
+   {
+    "name": "The Goons (Knight, Big Pipe, Birdeye)",
+    "chance": "~20–26%, rotating across four maps",
+    "threat": "Roaming death squad at the Scav base and ZB-013. Birdeye headshots at range while Big Pipe walls you off with 40 mm."
+   },
+   {
+    "name": "Partisan",
+    "chance": "~13–15%, no fixed spawn",
+    "threat": "Lone stalker who mines paths and ambushes with a suppressed AK. Kills you while you're looting, not while you're fighting."
+   },
+   {
+    "name": "Cultists",
+    "chance": "Night raids only · ~25–33%",
+    "threat": "Silent knife-rushers with poison blades, nearly invisible in the dark."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Three-storey Dorms — marked room 314",
+    "yield": "The jackpot keyed room: rare valuables, Labs keycards, cases and containers, currency, high-tier weapons"
+   },
+   {
+    "name": "Two-storey Dorms — guard desk, 1st floor",
+    "yield": "The key farm. Spawns the 314 marked key, Tarcone office key, trailer-park key and dorm keys 104, 105, 108, 118, 204, 218, 303, 308 and 315, plus a weapon rack and ammo boxes"
+   },
+   {
+    "name": "Big Red warehouse — Tarcone Director's Office",
+    "yield": "Tech and intel: 3 PC blocks, a safe, sport bag, intelligence folder, plus backpack and armour spawns"
+   },
+   {
+    "name": "New Gas Station — office and storage room",
+    "yield": "Safe, pistol, ammo packs, 4×4 weapon box, medbag and medcase. Also a Reshala spawn"
+   },
+   {
+    "name": "Warehouse 6 — USEC stash",
+    "yield": "Two 4×4 weapon boxes and rare Western rifles: AUG, SR-25, M16, G36, SCAR-L"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Dorm room 314 marked key",
+    "opens": "The marked room on the 3rd floor of three-storey dorms. Highest expected value on the map and very fragile"
+   },
+   {
+    "name": "Dorm guard desk key",
+    "opens": "The 1st-floor key-farm room in two-storey dorms"
+   },
+   {
+    "name": "Tarcone Director's office key",
+    "opens": "The office at the top of the stairs in Big Red"
+   },
+   {
+    "name": "Factory emergency exit key",
+    "opens": "Both doors of the crane-yard guard building by New Gas — and on Factory, the Cellars and Med Tent Gate extracts"
+   },
+   {
+    "name": "Dorm room 110 and 114 keys",
+    "opens": "A cheap two-storey pair: safe, intel folder, secure flash drive, medcase, PC block"
+   }
+  ],
+  "tip": "Your spawn decides the raid. East spawns at Trailer Park and the bus depot must commit to Dorms inside three minutes or lose it; west spawns should loot the warehouses and arrive at Dorms around minute eight to twelve to clean up survivors. The reliable death spots are the open ground between New Gas and three-storey, both dorm stairwells — everyone pre-fires the landings — and the tarmac at Crossroads, so cross on the rail berm or treeline instead. Don't sprint the road straight into three-storey on an east spawn, and never loot 314 with your back to the door.",
+  "notes": "Roughly 60 trader tasks reference Customs, about 34 of them Customs-only — the heaviest early-game funnel in the game.",
+  "docs": [
+   "Financial documents",
+   "Project documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Customs",
+  "dev": "https://tarkov.dev/map/customs"
+ },
+ {
+  "name": "Shoreline",
+  "size": "Very large: beach, fields, village and the Azure Coast resort (~2.0 km², unofficial)",
+  "duration": "45 min",
+  "players": "10–14",
+  "extracts": "13 (9 PMC)",
+  "difficulty": 3,
+  "starter": false,
+  "questCount": 50,
+  "traders": [
+   "Peacekeeper",
+   "Prapor",
+   "Therapist",
+   "Jaeger"
+  ],
+  "extractNames": [
+   "Road to Customs",
+   "Tunnel"
+  ],
+  "bosses": [
+   {
+    "name": "Sanitar + 3 guards",
+    "chance": "Guaranteed on red-skull cycle · ~50–60% otherwise",
+    "threat": "Resort and pier doctor who heals himself mid-fight and pushes with stims while his guards pin you in corridors."
+   },
+   {
+    "name": "The Goons (Knight, Big Pipe, Birdeye)",
+    "chance": "~20–26%, rotating across four maps",
+    "threat": "Hold the weather station on the southeast hill and dominate the whole open approach."
+   },
+   {
+    "name": "Partisan",
+    "chance": "~13–15%, roams",
+    "threat": "Mines the resort approaches and ambushes loot runs."
+   },
+   {
+    "name": "Black Division",
+    "chance": "Season 1 · RARELY encountered roaming",
+    "threat": "Kitted seasonal squad with SR-25 and M60E6-class weapons. Fights like a geared player squad, not like Scavs. Note the wiki qualifies this as a rare roaming spawn, not a standing presence — do not plan a raid around meeting them."
+   },
+   {
+    "name": "Cultists",
+    "chance": "Night raids",
+    "threat": "Silent poison knives in the treelines and cottages."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Health Resort west wing, 3rd floor (W301 → W304)",
+    "yield": "Best roubles-per-second on the map: LEDX, 2 GPUs, 5×5 weapon box, 2 PCs, SV-98. W311 is now permanently unlocked and holds a LEDX"
+   },
+   {
+    "name": "Health Resort east wing (E222 → E226, E110, E328)",
+    "yield": "Physical Bitcoin, RSASS, SV-98, MP5, 6×3 weapon box. E110 is Sanitar's office with multiple LEDX, a GPU and a PC"
+   },
+   {
+    "name": "HEP station — Voron's hideout and storage room",
+    "yield": "A Violet Labs keycard spawn, LEDX, ophthalmoscope, GPU and sports bags. The USEC stash adds 3 weapon boxes and an intel folder"
+   },
+   {
+    "name": "Cottages, weather station and Admin building",
+    "yield": "A Yellow Labs keycard spawn, 2 safes, 2 gun cabinets, a weather-station server-bay GPU, plus Admin desk GPUs and a cafeteria-cart LEDX"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Health Resort office key with a blue tape",
+    "opens": "East wing room 110, Sanitar's office — multiple LEDX in the bathroom, GPU, suitcase, PC"
+   },
+   {
+    "name": "West wing room 301 key",
+    "opens": "W301 (LEDX + GPU) and the balcony route into W304 — multiple LEDX, 2 GPUs, 5×5 box, 2 PCs"
+   },
+   {
+    "name": "East wing room 222 key",
+    "opens": "E222 (Bitcoin, RSASS, SV-98, MP5, 6×3 box) and the balcony into E226 for multiple LEDX"
+   },
+   {
+    "name": "Universal utility room key",
+    "opens": "Every resort utility room, plus a second route into E328"
+   },
+   {
+    "name": "Knossos LLC facility key",
+    "opens": "The west-wing basement door to the Labyrinth transit — the only way in"
+   }
+  ],
+  "tip": "The resort is the map's gravity well: spawns sit on the ring road and everyone funnels in, so the reliable killzones are the front courtyard, the fountain approach, and anybody standing on a 3rd-floor balcony. Chain rooms via the balconies rather than the corridors — W301→304, E222→226, E306→308 — and stop buying keys that 1.x made worthless: E108, E209, E213, E216, E322, W207, W303, W309, W323, W325 and the gas station and weather station safes are now permanently unlocked. Don't drift toward the Port Terminal gate without an access item; the RUAF gunners are neutral until you close distance, then they erase you.",
+  "notes": "Shoreline is the transit hub for two other locations: the west-wing basement leads to The Labyrinth, and the pier leads to Icebreaker.",
+  "docs": [
+   "Test documentation",
+   "Technical documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Shoreline",
+  "dev": "https://tarkov.dev/map/shoreline"
+ },
+ {
+  "name": "Factory",
+  "size": "Very small multi-level indoor CQB with a tunnel network (~0.13 km², unofficial)",
+  "duration": "20 min day / 25 min night",
+  "players": "7–8 day / 5–6 night",
+  "extracts": "8 (6 PMC)",
+  "difficulty": 4,
+  "starter": false,
+  "questCount": 33,
+  "traders": [
+   "Prapor",
+   "Jaeger",
+   "Skier"
+  ],
+  "extractNames": [
+   "Gate 0",
+   "Gate 3"
+  ],
+  "bosses": [
+   {
+    "name": "Tagilla",
+    "chance": "Guaranteed on red-skull cycle · ~35–40% otherwise",
+    "threat": "Hammer-swinging melee bruiser in a welding mask. He sprints at sound and one-shots through the chest in these corridors."
+   },
+   {
+    "name": "Cultists",
+    "chance": "Night raids only",
+    "threat": "Silent poison-knife rushers, brutal in the dark tunnels."
+   }
+  ],
+  "loot": [
+   {
+    "name": "TerraGroup storage room, underground by the Camera Bunker Door",
+    "yield": "Keycard-locked jackpot: 2 TerraGroup safes, weapon locker, medbag, toolbox, possible LEDX and Physical Bitcoin"
+   },
+   {
+    "name": "Office block, 2nd and 3rd floors",
+    "yield": "Filing cabinets, weapon boxes, medbags and tech. The 3rd-floor locked room holds early quest items. This is the map's control point"
+   },
+   {
+    "name": "Locker room, 2nd floor off the main hall",
+    "yield": "Jackets and several weapon boxes, plus a back route onto the Courtyard Gate extract"
+   },
+   {
+    "name": "Main hall forklift crates and med-tent side",
+    "yield": "Loose weapon boxes, meds and provisions, with armour spawns nearby"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Factory emergency exit key",
+    "opens": "Near-mandatory: the Cellars extract, the Med Tent Gate extract, and the 3rd-floor office locked room. Max 5 per raid"
+   },
+   {
+    "name": "TerraGroup storage room keycard",
+    "opens": "The underground TerraGroup storage room. Drops from Cultists only, so it's a night-raid pursuit"
+   },
+   {
+    "name": "Note with code word \"Ark\"",
+    "opens": "Activates the Smugglers' Passage extract. Found in raid, cannot be taken out"
+   }
+  ],
+  "tip": "Read your spawn in the first two seconds and move — several spawns sit within ten seconds of two others, and the forklift-area spawns are the worst. Veterans play the vertical: own the 2nd and 3rd floor office catwalks and stairwell landings rather than the main hall floor, pre-nade blind corners, and use the tunnels only to reposition. Don't stand on Gate 3 running down the extract timer, it's the single most camped spot in the game, and don't reload in the open — on Factory somebody always hears it.",
+  "notes": "Rated harder than its size suggests. It is superb for weapon-specific kill tasks because contact is guaranteed and a mistake only costs you twenty minutes — but it is not a beginner map.",
+  "docs": [
+   "Blueprints and technical documentation",
+   "Project documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Factory",
+  "dev": "https://tarkov.dev/map/factory"
+ },
+ {
+  "name": "Reserve",
+  "size": "Medium-small but very dense, with a large underground bunker network (~0.4 km², unofficial)",
+  "duration": "40 min",
+  "players": "9–11",
+  "extracts": "11 (7 PMC)",
+  "difficulty": 4,
+  "starter": false,
+  "questCount": 38,
+  "traders": [
+   "Prapor",
+   "Peacekeeper",
+   "Mechanic"
+  ],
+  "extractNames": [
+   "Exit to Woods",
+   "Bunker Hermetic Door"
+  ],
+  "bosses": [
+   {
+    "name": "Glukhar + 6 guards",
+    "chance": "Guaranteed on red-skull cycle · ~35–40% otherwise",
+    "threat": "The heaviest boss group in the game — seven bodies with ASh-12s sweeping the storage buildings and barracks as a coordinated squad."
+   },
+   {
+    "name": "Scav Raiders",
+    "chance": "Always present; extra waves are event-triggered",
+    "threat": "Elite AI that pushes with grenades and 7.62. The D-2 lever, the hermetic door lever and the armoured train all spawn them at you."
+   }
+  ],
+  "loot": [
+   {
+    "name": "The three marked rooms — RB-VO, RB-BK, RB-PKPM",
+    "yield": "Rare valuables, weapons, containers, cash, and a primary source of TerraGroup Labs keycards plus the Black, #11SR and #21WS cards. Bitcoin and GPUs in RB-VO"
+   },
+   {
+    "name": "The four underground caged supply areas (RB-PSP1/PSP2/PSV1/PSV2)",
+    "yield": "Bulk medical, ration and technical supply crates — the cheapest keys for the volume of hideout and barter loot"
+   },
+   {
+    "name": "RB-ST repair warehouse",
+    "yield": "Best military-tech room: TP-200 TNT brick, military gyrotachometer, 2 phased array elements, 2 6-STEN batteries, 3 OFZ shells, 3 weapon boxes"
+   },
+   {
+    "name": "RB-AK — Black Bishop school building, 2nd floor west staircase",
+    "yield": "Virtex processors, phased array elements, Tetriz, Golden 1GPhone, GPUs, 2 PC blocks. Pair it with the D-2 command bunker and the King and Queen server racks"
+   }
+  ],
+  "keys": [
+   {
+    "name": "RB-VO marked key",
+    "opens": "The marked room in the security barracks — rare valuables, keycards, Bitcoin, GPU. Max 5 per raid"
+   },
+   {
+    "name": "RB-BK marked key",
+    "opens": "The marked room in Black Pawn barracks, 1st floor — same marked-room table"
+   },
+   {
+    "name": "RB-PKPM marked key",
+    "opens": "The marked room next to the underground command office, on the natural D-2 route"
+   },
+   {
+    "name": "RB-PSP2 key, then PSP1 / PSV1 / PSV2",
+    "opens": "The caged supply areas in the underground storage bunkers"
+   },
+   {
+    "name": "RB-ST key",
+    "opens": "The repair warehouse — TNT brick, gyrotachometer, phased arrays, batteries, OFZ shells"
+   }
+  ],
+  "tip": "Spawns are the tightest in Tarkov — several put you inside 100 m of another PMC — so identify your spawn by the nearest chess-marked building and hold an angle for thirty seconds instead of sprinting the open middle courtyard. The three marked rooms and the D-2 power lever are the map's standing ambush spots, and Reserve spawns Raiders at you: the D-2 lever spawns them in the bunker command section, the hermetic door lever spawns them at the train yard behind a four-minute siren. Don't extract on the armoured train unless you're already holding the doorway — it honks twice on arrival, sits exactly seven minutes, and by then every survivor is walking to it.",
+  "notes": "Reserve's difficulty is the exit, not the loot: most extracts need an item, a condition or another player's cooperation. Decide your way out before you spawn.",
+  "docs": [
+   "PMC personnel files",
+   "Project documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Reserve",
+  "dev": "https://tarkov.dev/map/reserve"
+ },
+ {
+  "name": "Lighthouse",
+  "size": "Large, long north–south coastal strip with heavy elevation (~1.7 km², unofficial)",
+  "duration": "40 min",
+  "players": "10–12",
+  "extracts": "12 (8 PMC)",
+  "difficulty": 4,
+  "starter": false,
+  "questCount": 40,
+  "traders": [
+   "Prapor",
+   "Mechanic",
+   "Skier"
+  ],
+  "extractNames": [
+   "Path to Shoreline",
+   "Southern Road"
+  ],
+  "bosses": [
+   {
+    "name": "Rogues (USEC faction)",
+    "chance": "Always — they garrison the water treatment plant",
+    "threat": "Scripted base with NSV Utyos and AGS-30 emplacements and patrols that suppress you at range. Right now they only warn USEC players and shoot BEAR on sight."
+   },
+   {
+    "name": "Zryachiy + snipers",
+    "chance": "Always, on the Lightkeeper peninsula bridge",
+    "threat": "Sniper guarding the claymore-lined bridge. You need an encoded DSP radio transmitter to pass, and harming him decodes it."
+   },
+   {
+    "name": "The Goons (Knight, Big Pipe, Birdeye)",
+    "chance": "~20–26%, rotating across four maps",
+    "threat": "Spawn at the water treatment plant or the blue chalet and cross-fire the exposed middle of the map."
+   },
+   {
+    "name": "Partisan",
+    "chance": "~13–15%, roams",
+    "threat": "Mines the main road and picks off runners."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Water Treatment Plant — the Rogue base, north",
+    "yield": "The payday: the Operating room at LEDX and ophthalmoscope tier, the WTP storage room with military crates and weapon boxes, and the Rogue USEC barracks. Rogue corpses drop class 5–6 armour, M4 and HK416 platforms, high-pen ammo and NVGs"
+   },
+   {
+    "name": "The chalets and USEC cottages, mid-map",
+    "yield": "Two keyed cottage safes, jackets, PC blocks, wallets and weapon crates. Also a Goons spawn at the blue chalet"
+   },
+   {
+    "name": "Village and Hillside house, south",
+    "yield": "Loose loot, jackets and safes — cheap and quiet, close to the southern spawns and extracts"
+   },
+   {
+    "name": "Lighthouse peninsula",
+    "yield": "Best per-slot loot on the map — radar station, guard building and a shared-bedroom marked room — but gated behind an encoded DSP transmitter and Zryachiy"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Water treatment plant storage room key",
+    "opens": "Building 2, 1st floor southeast corner — military crates and a weapon box"
+   },
+   {
+    "name": "Operating room key",
+    "opens": "Building 1, ground floor northeast corner — the medical room"
+   },
+   {
+    "name": "Rogue USEC barrack key",
+    "opens": "Building 3, 1st floor southwest corner — gear and weapons"
+   },
+   {
+    "name": "USEC cottage room key, plus first and second safe keys",
+    "opens": "The chalet interior and its two safes"
+   },
+   {
+    "name": "Hillside house key",
+    "opens": "The south village house"
+   }
+  ],
+  "tip": "Your first Lighthouse deaths are the Rogue Utyos and AGS off the water-treatment catwalks, or a claymore on the peninsula bridge — so treat the north half as no-go until you have a break-line-of-sight plan. Southern spawns cluster around the village and southern road, and the customary early fight is over the chalets: commit or hard-avoid the middle for five minutes. Night raids blind the Rogue snipers and are the cheap way to learn the map. Don't hug the waterline to skip the road, because minefields and border snipers cover it, and never fire near the peninsula unless your DSP transmitter is already encoded.",
+  "notes": "",
+  "docs": [
+   "PMC personnel files",
+   "Technical documentation"
+  ],
+  "upcoming": "Patch 1.1.5.0 (September 2026) reworks Lighthouse and is NOT live yet: the Rogue base moves from the water treatment plant to the chalet area, landmines are removed except at the playable-area and Lightkeeper-peninsula boundaries, Lighthouse becomes the third BTR route along the main road through the village and water treatment plant, Rogues will shoot USEC on sight so the USEC free pass is gone, a UN checkpoint is added as cover on the central main road, and new Rogue caches, outposts and observation posts plus an underground cliff route appear. The Lightkeeper task chain is reworked too. Everything above describes the map as it is now.",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Lighthouse",
+  "dev": "https://tarkov.dev/map/lighthouse"
+ },
+ {
+  "name": "Streets of Tarkov",
+  "size": "Large, dense vertical urban core — the most complex geometry in the game (~1.2 km², unofficial)",
+  "duration": "40 min",
+  "players": "12–16",
+  "extracts": "17 (11 PMC)",
+  "difficulty": 5,
+  "starter": false,
+  "questCount": 53,
+  "traders": [
+   "Ragman",
+   "Prapor",
+   "Peacekeeper",
+   "Mechanic",
+   "BTR Driver"
+  ],
+  "extractNames": [
+   "Expo Checkpoint",
+   "Damaged House"
+  ],
+  "bosses": [
+   {
+    "name": "Kaban + 2 bodyguards, 4 guards and 2–3 snipers",
+    "chance": "Guaranteed on red-skull cycle · ~30–35% otherwise",
+    "threat": "Holds the LexOs dealership with the largest entourage in the game. His snipers pin you while the guards close, and the dealership is claymored."
+   },
+   {
+    "name": "Kollontay + 4 guards",
+    "chance": "~35%",
+    "threat": "Melee-focused ex-police boss at Klimov mall and the ministry, with a police baton and heavy armour."
+   },
+   {
+    "name": "Black Division",
+    "chance": "Season 1 · RARELY encountered roaming",
+    "threat": "Geared seasonal squad that fights like a player team — on top of the two bosses. Note the wiki qualifies this as a rare roaming spawn, not a standing presence — do not plan a raid around meeting them."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Chekannaya 13 marked room",
+    "yield": "Marked-room table: LEDX, GPUs, keycards, moonshine, rare barter and high-tier weapons"
+   },
+   {
+    "name": "Abandoned factory marked room, 3rd floor of the northern factory",
+    "yield": "The map's second marked-room table"
+   },
+   {
+    "name": "LexOs car dealership — closed section and director's office",
+    "yield": "GPUs, cash, tech and high-tier weapons. Kaban drops PKM, PKP or RPK-16"
+   },
+   {
+    "name": "Concordia apartment complex",
+    "yield": "The security room is 2 PC blocks plus a safe — the fastest value on the map — plus keyed apartments 8, 34, 63 and 64, and a LEDX behind the east-side counter"
+   },
+   {
+    "name": "Tarbank and Klimov mall",
+    "yield": "Cash registers and safes. The Klimov toy-store whale slide holds a LEDX, and 1.1.0 added new loot points at the school, Rus Post office, Klimov mall and Cardinal apartments"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Mysterious room marked key",
+    "opens": "The marked room at house 13 Chekannaya Street"
+   },
+   {
+    "name": "Abandoned factory marked key",
+    "opens": "The 3rd-floor marked room in the northern abandoned factory"
+   },
+   {
+    "name": "Concordia security room key",
+    "opens": "2 PC blocks and a safe — the best time-to-value room on the map"
+   },
+   {
+    "name": "Car dealership closed section key + director's office key",
+    "opens": "Kaban's stash area at LexOs"
+   },
+   {
+    "name": "Pinewood hotel room 215 key",
+    "opens": "A quest room on the natural north-side rotation"
+   }
+  ],
+  "tip": "Streets decides itself in the first 90 seconds — spawns are tight and paired, so learn your own spawn plus the two nearest hostile ones and clear those angles instead of sprinting into them. Live in interiors and on rooftops, never on Primorsky or Klimov Street, because the long lanes are where geared squads farm. The reliable grinders are the LexOs block, the Concordia courtyards and the Klimov mall atrium, and you should always carry a green RSP-30 so the Klimov Street extract stays open. Don't contest Kaban's dealership on a loot run — his snipers pin you while a third party rotates in — and in Season 1 expect roaming Black Division on top of both bosses.",
+  "notes": "The most quest-dense map in the game: about 53 trader tasks reference it, 37 of them Streets-only. It is also the heaviest on your hardware — turn settings down before you blame your aim.",
+  "docs": [
+   "Financial documents",
+   "User documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Streets_of_Tarkov",
+  "dev": "https://tarkov.dev/map/streets-of-tarkov"
+ },
+ {
+  "name": "Terminal",
+  "size": "Medium linear fortified port with container berths and a pier",
+  "duration": "45 min",
+  "players": "1–5 · in PvP, strangers are matched in even if you queue solo",
+  "extracts": "1 (1 PMC)",
+  "difficulty": 4,
+  "starter": false,
+  "questCount": 0,
+  "traders": [
+   "Prapor",
+   "Lightkeeper"
+  ],
+  "extractNames": [
+   "Zubr Boat"
+  ],
+  "bosses": [
+   {
+    "name": "One random boss per raid: Glukhar, Killa, Reshala, Sanitar or Tagilla",
+    "chance": "Exactly one of the five spawns every raid, in the medium container-ship berths",
+    "threat": "You cannot plan which one you get, and Glukhar, Reshala and Sanitar each arrive with three guards. Scout the berths before committing."
+   },
+   {
+    "name": "Black Division",
+    "chance": "Always present as scripted assault squads",
+    "threat": "They ambush you at the armoury exit, the seaport terminal building, the administration door and the SZ-1 charge spawns. Scripted, not a rare roam."
+   }
+  ],
+  "loot": [
+   {
+    "name": "The Armory",
+    "yield": "Your confiscated kit in a random locker. The Armory key is guaranteed on a dead RUAF soldier outside, and Black Division assault the west exit as you leave"
+   },
+   {
+    "name": "Seaport terminal building (MS)",
+    "yield": "The Black Division keycard in a 5×2 weapon box on a tipped-over ATM, guarded by a BD squad"
+   },
+   {
+    "name": "Administration building (D3)",
+    "yield": "A keycard-swipe service passage, with the hallway inside stocked with provisions and meds"
+   },
+   {
+    "name": "Pumping station and the container-ship berths",
+    "yield": "The Pier door key in a safe, guaranteed, plus the drain button. The berths are the boss spawn"
+   }
+  ],
+  "keys": [
+   {
+    "name": "An access item — bring exactly one",
+    "opens": "Entry itself, at the port garrison intercom: Prapor's letter for the port checkpoint, an RFID keycard with unknown name from Lightkeeper, a reprogrammed RFID keycard with Prapor's hash codes, or Kerman's hash-code keycard plus the Secure container Alpha-1 with TerraGroup evidence"
+   },
+   {
+    "name": "Toolset — not a key, but non-negotiable",
+    "opens": "Guaranteed electrical-panel repair. Repairing bare-handed injures your arms. Solo repairs one panel, groups up to five"
+   },
+   {
+    "name": "\"The Eye\" mortar strike signaling device",
+    "opens": "Warns you when a mortar barrage is about to land on you"
+   },
+   {
+    "name": "Armory key, Black Division keycard, SZ-1 charge, Pier door key",
+    "opens": "The four in-raid objective locks. All spawn guaranteed in raid, cannot be discarded, and cannot go in a secure container — so don't try to bring them"
+   }
+  ],
+  "tip": "Terminal is not a loot raid, it is a 45-minute scripted assault where everyone spawns in one building — including strangers you got matched with while queuing solo — so your first real decision is cooperate or kill, because the Zubr never has enough seats for a four or five man and the pier timer is only three minutes. Bring a Toolset and \"The Eye\". Don't sprint the pier gate: the classic wipe is a squad reaching the boat together and then knifing each other over the last seat. And never re-raise your weapon after it auto-lowers near the transit zone — the garrison just deletes you.",
+  "notes": "Entry is transit-only from Shoreline with no direct map selection: present an access item at the port garrison intercom on the watchtower. Your gear is restored on death or extract, minus the consumed access item — but not if you die on Shoreline en route. Seats: three or fewer players all get one, four get three to four, five get four to five. Zero trader side tasks — Terminal exists for the story chapter 'The Ticket'. In PvE it forces play on BSG servers.",
+  "docs": [],
+  "upcoming": "",
+  "pending": "Wiki lists the entry window as 21:00–06:00 but a later patch widened it — current hours unverified",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Terminal",
+  "dev": "https://tarkov.dev/map/terminal"
+ },
+ {
+  "name": "The Lab",
+  "size": "Small, fully indoor multi-level TerraGroup facility (~0.09 km², unofficial)",
+  "duration": "30 min",
+  "players": "8–10",
+  "extracts": "7 (7 PMC)",
+  "difficulty": 5,
+  "starter": false,
+  "questCount": 21,
+  "traders": [
+   "Ragman",
+   "Therapist",
+   "Peacekeeper",
+   "Mechanic"
+  ],
+  "extractNames": [
+   "Main Elevator",
+   "Medical Block Elevator"
+  ],
+  "bosses": [
+   {
+    "name": "Scav Raiders",
+    "chance": "Always — there is no traditional boss",
+    "threat": "The hardest AI in the game in the most enclosed space. They push with grenades and 7.62 rather than trading peeks."
+   },
+   {
+    "name": "Black Division and The Wedge",
+    "chance": "Season 1 seasonal characters — they replace Raiders here entirely (not a rare roam)",
+    "threat": "SR-25, M60E6 and SCAR-H kits with far more pocket space than Raiders. On seasonal characters the transit out is also disabled."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Kruglov's office (R22) and the laboratory experiment's area (G12)",
+    "yield": "Black keycard rooms. The safe holds a guaranteed Cardinal apartment key every raid, plus Bitcoin, intel folders, Blue Folders, keycards and textbooks. G12 adds LEDX, a medcase and stims"
+   },
+   {
+    "name": "Security arsenal (Red keycard) and arsenal storage",
+    "yield": "MP5s and modded M4s including an M4A1 SOPMOD II, bulk ammo and mods, Bitcoin on the shelves"
+   },
+   {
+    "name": "Security post (Violet keycard)",
+    "yield": "UHF RFID Reader on the server rack, 3 weapon boxes, Blue Folders, cash, MP5SD or modded M4, Bitcoin, LEDX"
+   },
+   {
+    "name": "Medical block: quarantine zone (Blue G11), laboratory block (Green G22), Sanitar's room",
+    "yield": "Medcases, LEDX, stims and ophthalmoscopes, plus a Black keycard spawn in G22 and Red keycard spawns in G11 and the Yellow room"
+   },
+   {
+    "name": "The free-loot layer, no keycards needed",
+    "yield": "GPUs on the white tables right of the orange dome, LEDX on the barrels and by the forklift in the chemical spill dome, and a LEDX in the server room office (B12)"
+   }
+  ],
+  "keys": [
+   {
+    "name": "TerraGroup Labs access keycard",
+    "opens": "Entry itself — consumed every raid, one per squad member. From Therapist or Ref LL3, an Intelligence Center craft, marked rooms, bosses or the Cultist Circle"
+   },
+   {
+    "name": "Labs keycard (Black)",
+    "opens": "Kruglov's office (R22) and its safe, plus the laboratory experiment's area (G12) — the highest-value rooms in the map"
+   },
+   {
+    "name": "Labs keycard (Violet)",
+    "opens": "The security post — UHF RFID Reader, 3 weapon boxes, Bitcoin, LEDX"
+   },
+   {
+    "name": "Labs keycard (Red)",
+    "opens": "The security arsenal — MP5s, modded M4s, SOPMOD II, ammo and mods, and the arsenal storage door"
+   },
+   {
+    "name": "Labs keycard (Green)",
+    "opens": "The laboratory block (G22) — 3 medcases, LEDX, and a Black keycard spawn"
+   }
+  ],
+  "tip": "Never insure anything you bring here — Labs returns nothing, ever, so every death is a total loss on top of a consumed keycard. Every extract except Ventilation Shaft, which allows no backpack, and Sewage Conduit, which needs the B1 water drained over about eighty seconds, fires a PA announcement naming your sector the instant you activate it. Flipping any extract switch can spawn Raiders who then walk straight at that switch, so activate late or just use the two silent ones. Fight from the long hallways and dome catwalks, and never loot a single-door keycard room while Raiders are still alive.",
+  "notes": "The access keycard is consumed on entry, so treat every raid as an investment that needs a return.",
+  "docs": [
+   "Medical documents",
+   "User documentation"
+  ],
+  "upcoming": "On Season 1 seasonal characters, Black Division and The Wedge replace Raiders and the transit out of The Lab is disabled. Permanent PvP and PvE profiles keep the normal Raider setup.",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Lab",
+  "dev": "https://tarkov.dev/map/the-lab"
+ },
+ {
+  "name": "The Labyrinth",
+  "size": "Small, fully indoor trap-laid bunker maze",
+  "duration": "30 min",
+  "players": "1–5 (PvPvE)",
+  "extracts": "2 (2 PMC)",
+  "difficulty": 5,
+  "starter": false,
+  "questCount": 6,
+  "traders": [
+   "Jaeger",
+   "Mechanic",
+   "Lightkeeper"
+  ],
+  "extractNames": [
+   "The Way Up",
+   "Ariadne's Path"
+  ],
+  "bosses": [
+   {
+    "name": "Shadow of Tagilla",
+    "chance": "Always",
+    "threat": "One-shots with the Chained Labrys and lays the tripwires at raid start. Fight him down a corridor with a wall to break his charge."
+   },
+   {
+    "name": "Vengeful Killa",
+    "chance": "Always, but only spawns after Shadow of Tagilla dies",
+    "threat": "A harder Killa variant that appears the instant you win the first boss fight — usually while you are still looting."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Prototype weapon area / \"Item 1156\" missile lab",
+    "yield": "The core objective zone, with multiple Labrys research notes spawns. Five are needed for Hypotheses Testing, and each crafts a fresh access keycard"
+   },
+   {
+    "name": "Observation room",
+    "yield": "More research notes plus the deceased scientist's audio tape. Small and fast, and the key is guaranteed in the hand of one of five lab technicians"
+   },
+   {
+    "name": "Corpse room",
+    "yield": "Quest-relevant loot. The key spawns guaranteed each raid across six possible spots, or drops from Shadow of Tagilla"
+   },
+   {
+    "name": "Boss bodies",
+    "yield": "The real payday: Tagilla's \"ZABEY\" mask, Tagilla-edition AVS carrier, Labrys research notes, a Labrys access keycard and the Ariadne symbol key, plus Killa's Maska helmet and face shield, 6B13 M and RPK-16. Scavs here are better equipped than normal and often carry xTG-12 injectors"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Labrys access keycard",
+    "opens": "Entry itself — mandatory, consumed on entry, one per player. Jaeger mails you two during the story chapter then offers a barter; also craftable from Labrys research notes at the Cultist Circle"
+   },
+   {
+    "name": "Knossos LLC facility key",
+    "opens": "The Shoreline health-resort west-wing basement door that leads to the Labyrinth transit"
+   },
+   {
+    "name": "Observation room key",
+    "opens": "The observation room. The only Labyrinth key that fits a secure container, so keep a spare between raids"
+   },
+   {
+    "name": "Corpse room key",
+    "opens": "The corpse room. Carryable but not secure-container eligible"
+   },
+   {
+    "name": "xTG-12 or Perfotoran — not a key, but non-negotiable",
+    "opens": "Counters the poisoned barbed wire, which ticks about 140 HP per minute"
+   }
+  ],
+  "tip": "Never insure anything you bring here — insurance returns nothing from the Labyrinth. First thing every raid, solve your spawn chamber's hazard before you think about loot: find Key 01-04, the BBQ-S43 gas torch or the valve handwheel and hit the button or lever, because panicking into the toxic pool, steam or shotgun trap is the number-one death. Walk, don't sprint — spike pits toggle each raid and the poisoned barbed wire rotates — and drifting into the centre trips an alarm that summons Shadow of Tagilla. Don't plan on Ariadne's Path, its key only drops in-raid; The Way Up opens at fifteen minutes with an audible door sound and is the honest exit.",
+  "notes": "Entry is transit-only from Shoreline via the health resort west-wing basement: the door needs the Knossos LLC facility key and each player consumes a Labrys access keycard. It began as a March 2025 event map and was kept permanently after positive feedback. Six trader side tasks — one each from Therapist, Skier, Peacekeeper, Mechanic, Ragman and Lightkeeper — plus its own story chapter.",
+  "docs": [
+   "Blueprints and technical documentation",
+   "Medical documents"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Labyrinth",
+  "dev": "https://tarkov.dev/map/the-labyrinth"
+ },
+ {
+  "name": "Icebreaker",
+  "size": "Small footprint but strongly vertical — the nuclear icebreaker \"Boreas\", multiple decks",
+  "duration": "50 min",
+  "players": "1–3, AI only — no random players are ever matched in",
+  "extracts": "1 (1 PMC)",
+  "difficulty": 4,
+  "starter": false,
+  "questCount": 3,
+  "traders": [
+   "Peacekeeper",
+   "BTR Driver",
+   "Skier"
+  ],
+  "extractNames": [
+   "Helicopter"
+  ],
+  "bosses": [
+   {
+    "name": "The Wedge + 3–6 guards",
+    "chance": "Always — fixed spawn on level 3, in the gym",
+    "threat": "Black Division commander with an MP7 and up to six heavily armoured guards, in a gym with almost no cover."
+   },
+   {
+    "name": "Knight + 2 Rogue guards",
+    "chance": "Always — fixed spawn on level 0",
+    "threat": "The Goons' leader appears solo here with Rogue escorts and a .50 AE Desert Eagle. Level 0 is tight and he pushes."
+   },
+   {
+    "name": "Rogues and Black Division",
+    "chance": "Always — the standing garrison",
+    "threat": "Rogues and Black Division garrison the ship and scale with your squad size, so a trio faces meaningfully more guns than a solo. Not a rare roam."
+   }
+  ],
+  "loot": [
+   {
+    "name": "Compartments C-1 and C-3, keycard-locked cargo holds",
+    "yield": "The Boreas' classified cargo, and the C-1 hard drives that the Boreas questline turns in"
+   },
+   {
+    "name": "Boreas crew quarters",
+    "yield": "Keycard-locked living decks — personal valuables and gear"
+   },
+   {
+    "name": "Boreas engine room",
+    "yield": "Keycard-locked machinery spaces — technical and hideout materials, AMG-10 hydraulic fluid"
+   },
+   {
+    "name": "Bridge, upper decks and the boss bodies",
+    "yield": "The Wedge's LV-119 carrier, ComTac VI headset and MP7 parts; Knight's mask, Goons-edition CPC carrier and Desert Eagle L6"
+   }
+  ],
+  "keys": [
+   {
+    "name": "Green flare (RSP-30 or 26×75 mm) + €2,400 per player",
+    "opens": "The Helicopter extract — the only way off the ship. Fire the flare high inside the signal area or the helicopter will not come"
+   },
+   {
+    "name": "Boreas crew quarters keycard",
+    "opens": "The crew living decks"
+   },
+   {
+    "name": "Boreas engine room keycard",
+    "opens": "The engine room machinery spaces"
+   },
+   {
+    "name": "Compartment C-1 and C-3 keycards",
+    "opens": "The two locked cargo compartments — the C-1 hard drives are a Boreas objective"
+   },
+   {
+    "name": "SZ-1 explosive charge / BBQ-S43 gas torch",
+    "opens": "Breaching charges and a cutting tool for sealed doors aboard"
+   }
+  ],
+  "tip": "Never insure anything you bring here — insurance returns nothing from Icebreaker, and entry costs 700,000 roubles on top. There are no random PMCs, so this is a scripted PvE clear: move deck by deck with your squad, use the stairwells as chokepoints, and let the scaling AI come to you rather than pushing the gym where The Wedge's six guards have every angle. Do not board without a green flare and €2,400 per player, because the helicopter is the only extract on the ship and a raid with no flare is a guaranteed fifty-minute loss.",
+  "notes": "Added 25 May 2026 as the thirteenth location, alongside the 'Boreas' story chapter. Entry is initially transit-only from the Shoreline pier for 700,000 roubles after unlocking it in Boreas; direct selection unlocks on completing the Stick to It questline, and the fee still applies. Because no random players are matched in, it is the one large map you can learn without being hunted. In PvE it forces play on BSG servers.",
+  "docs": [
+   "PMC personnel files",
+   "Test documentation"
+  ],
+  "upcoming": "",
+  "pending": "",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Icebreaker",
+  "dev": "https://tarkov.dev/map/icebreaker"
+ }
+]

@@ -1,0 +1,104 @@
+{
+ "note": "Each row is a specific, checkable claim. Verify column tells you exactly where to look.",
+ "items": [
+  {"cat":"Quests","believe":"Shooter Born in Heaven is a Jaeger quest.",
+   "actual":"It is a MECHANIC quest. Gated purely on Mechanic LL4 — no prerequisite quest at all.",
+   "detail":"And it is 20 headshots, not a vague grind: 5 on Customs OR Lighthouse, 5 on Streets OR Shoreline, 5 on Interchange OR Ground Zero, 5 on Woods OR Reserve. Pick the easier map in each pair.",
+   "verify":"wiki: Shooter Born in Heaven → Requirements says 'Must reach Loyalty Level 4 with Mechanic'","impact":"high"},
+
+  {"cat":"Kappa","believe":"Kappa needs the long checklist of Kappa-flagged quests from every trader.",
+   "actual":"Gone. Collector now names only FOUR prerequisite quests.",
+   "detail":"Chemical — Part 3, Sew it Good — Part 2, Shooter Born in Heaven, The Tarkov Shooter — Part 4. Plus 44 items, LL4 with seven traders, Scav karma +3. The wall is now rep, not quests.",
+   "verify":"wiki: Collector → Requirements","impact":"high"},
+
+  {"cat":"Quests","believe":"Gunsmith is Parts 1 through 25.",
+   "actual":"Renamed to weapon names. The numbered pages are gone.",
+   "detail":"Gunsmith - Model 870, - P226R, - AKM, - HK MP5, - M4A1, plus Gunsmith Master - Part 1 and Gunsmith - Special Order. Searching 'Gunsmith - Part 4' returns nothing.",
+   "verify":"wiki search 'Gunsmith' — the numbered titles 404","impact":"high"},
+
+  {"cat":"Economy","believe":"Bartering a key from a trader beats paying flea price.",
+   "actual":"Inverted by 1.1.0.0. Trader buy prices rose ~25%, so most key barters are now far WORSE than cash.",
+   "detail":"Therapist LL1 for Dorm room 206: ~106,000 ₽ of goods against a 10,000 ₽ flea price. That is +958%. Dorm 220 barter is +1290%. Only a handful still work: Therapist LL2 for Dorm 114, Peacekeeper LL2 for Resort E306, Mechanic LL2 for E328.",
+   "verify":"price the barter items individually, then compare to the flea ask","impact":"high"},
+
+  {"cat":"Keys","believe":"Insure your keys, or at least the expensive ones.",
+   "actual":"Keys are on the Uninsurable Items list. You cannot insure a key in any mode, and never could.",
+   "detail":"The ONLY protection is the secure container — and nearly every key and keycard is container-eligible. So a bought key is a permanent asset, not a per-raid consumable. Pouch it and death costs you nothing.",
+   "verify":"wiki: Insurance → Uninsurable Items","impact":"high"},
+
+  {"cat":"Keys","believe":"The Reserve marked keys are great value.",
+   "actual":"They are the most expensive doors in the game per entry. 10 uses each.",
+   "detail":"RB-VO works out at ~480,000 ₽ per open, RB-PKPM ~390,000, RB-BK ~200,000. Compare Factory emergency exit at 101 ₽/open over 20 uses. Marked keys are lottery tickets, not routes.",
+   "verify":"divide current flea ask by remaining uses shown on the item","impact":"high"},
+
+  {"cat":"Quests","believe":"Tarkov Shooter Part 2 unlocks when you finish Part 1.",
+   "actual":"It unlocks when you ACCEPT Part 1. Run both in the same raids.",
+   "detail":"And Part 2 counts HITS, not kills — leg the same Scav three times and let him live. Biggest single time-saver in the chain.",
+   "verify":"accept Part 1 and check Jaeger's list immediately","impact":"high"},
+
+  {"cat":"Quests","believe":"Hunting Trip and Goals and Means are painful long-range grinds.",
+   "actual":"Both were cut hard. Hunting Trip 75m → 40m. Goals and Means 100m → 50m. Connections Up North 50 kills → 20.",
+   "detail":"If you bounced off these in a previous wipe they are materially easier now. 40m is a normal Woods engagement.",
+   "verify":"wiki: Hunting Trip → Objectives; changelog 1.0.2.0","impact":"high"},
+
+  {"cat":"Quests","believe":"Farm Labs Raiders / Rogues for Scav-kill quest objectives.",
+   "actual":"Dead. Only regular Scavs, Sniper Scavs and Player Scavs count now.",
+   "detail":"Scav Bosses, Raiders and Rogues stopped counting in 1.1.0.0. Every old 'farm Labs for kill quests' guide is now actively wrong.",
+   "verify":"changelog 1.1.0.0, side task section","impact":"high"},
+
+  {"cat":"Quests","believe":"Quest availability is driven by your character level.",
+   "actual":"Only 24 of 89 tracked quests state a character level. 12 are gated by trader LOYALTY level; 53 state no gate at all.",
+   "detail":"This is why the memorised wipe route broke in 1.1.0.0 — side tasks are handed out in batches of 2-4 tied to trader LL. Pushing rep beats levelling.",
+   "verify":"any quest page → Requirements. Most say 'Must reach Loyalty Level N with X'","impact":"high"},
+
+  {"cat":"Traders","believe":"Prapor and Therapist are the insurance options.",
+   "actual":"Jaeger is a third provider since 1.1.0.0 — 1-2h return, the fastest in the game.",
+   "detail":"But only 24h to collect, and he is the most expensive. Insure with Jaeger before a session, never before you log off for the night.",
+   "verify":"wiki: Insurance → providers table","impact":"medium"},
+
+  {"cat":"Bosses","believe":"Reshala is ~35%, Killa ~50%, and so on.",
+   "actual":"Boss spawns run on a rotating red-skull cycle now. Skull on the map select = that boss is GUARANTEED.",
+   "detail":"The wiki's per-boss spawn-chance fields are blank as a result. Queue the skull map when you need a boss item; off-cycle it drops to a lower baseline.",
+   "verify":"location select screen — look for the rotating red skull icon","impact":"high"},
+
+  {"cat":"Keys","believe":"Shoreline resort keys are the backbone of the map.",
+   "actual":"Twelve of the 47 open rooms that are now permanently unlocked. The flea has not caught up.",
+   "detail":"East 216 is the worst: its own page says 'This key has no usage. Room 216 is always unlocked' — and it still averages ~51,000 ₽. West 303, Gas station safe and Weather station safe are all dead too. But do NOT generalise: 226, 301, 306 and 328 still lock.",
+   "verify":"the key's wiki page — look for the 'Always unlocked' flag on the specific door","impact":"high"},
+
+  {"cat":"Keys","believe":"You buy the marked key to get into the Customs marked room.",
+   "actual":"The Dorm guard desk key is the actual play — 19,000 ₽ for a cabinet that rolls 13 different Customs keys including the 314 marked key.",
+   "detail":"855,600 ₽ of downstream key value off a 19,000 ₽ spend. Also: Therapist buys the 314 marked key at 765,000 against a ~600,000 flea ask, so it has a vendor backstop above market.",
+   "verify":"wiki: Dorm guard desk key → Behind the Lock lists the cabinet contents","impact":"high"},
+
+  {"cat":"Progression","believe":"Ground Zero is just the low-level map.",
+   "actual":"Matchmaking splits at level 21 into two separate pools.",
+   "detail":"The 21+ pool has better rare-loot chance, harder Scavs, Cultists at 8 mapped spawns, and Season 1 Black Division. Groups match on the highest-level member. Clear its quests before you cross 21.",
+   "verify":"wiki: Ground Zero → notes on the level restriction","impact":"medium"},
+
+  {"cat":"Lightkeeper","believe":"Knock-Knock gives you the transmitter and then you can cross the bridge.",
+   "actual":"It gives it to you DECODED. It does not protect you — claymores live, Zryachiy shooting.",
+   "detail":"You encode it yourself: a 2-hour Intelligence Center LEVEL 2 craft (screwdriver + Secure Flash drive V3 + decoded transmitter + electronic components). No trader does it. Build IC2 before Getting Acquainted or you sit on a brick.",
+   "verify":"wiki: Digital secure DSP radio transmitter → states table","impact":"high"},
+
+  {"cat":"Season 1","believe":"Black Division roam Ground Zero, Shoreline and Streets.",
+   "actual":"The wiki says they can be RARELY encountered there. It is not a standing presence.",
+   "detail":"Practical upshot: Customs, Reserve, Interchange and Factory have no Black Division roam at all, which makes them the safe maps to farm keys on in Season. They HAVE fully replaced Raiders on The Lab though.",
+   "verify":"wiki: Seasons → 'can be rarely encountered roaming'","impact":"medium"},
+
+  {"cat":"Keys","believe":"The Lab colour keycards are expensive.",
+   "actual":"Right now the trader pays MORE than the flea asks on five of them.",
+   "detail":"Red: flea ~499,999, Therapist pays 841,500. Black: 144,000 vs 382,500. Violet: 99,999 vs 306,000. That is free margin with no raid — and it exists because card prices are crashing while buy-backs are static. Volatile, so check tonight.",
+   "verify":"open the flea, then right-click the card and check the trader sell price","impact":"high"},
+
+  {"cat":"Quests","believe":"Chemical — Part 3 is a Customs or Shoreline fetch and needs a key.",
+   "actual":"It is on FACTORY, at level 11, and the door needs a BREACHING CHARGE — not a key.",
+   "detail":"Third floor of the Factory offices, three possible spawns in that one room. Also worth knowing the whole Chemical chain is level 10/10/11, not the 20s.",
+   "verify":"wiki: Chemical - Part 3 → Objectives and Requirements","impact":"medium"},
+
+  {"cat":"Quests","believe":"'The Huntsman Path — Woods Cleaning' is a Woods task.",
+   "actual":"The page is a redirect. The real name is Forest Cleaning, and it counts 50 Scavs ANYWHERE in Tarkov.",
+   "detail":"Pays Jaeger +0.75 — one of his three biggest awards — and completes passively while you do anything else. Jaeger's LL4 is only character level 33, the lowest of the seven Collector traders.",
+   "verify":"wiki: search 'Woods Cleaning' → redirects to Forest Cleaning","impact":"medium"}
+ ]
+}

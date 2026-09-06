@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tarkov Companion — Maps &amp; Quests</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <div class="brand">
+      <h1>Tarkov<span class="tick">//</span>Companion</h1>
+      <span class="sub" id="patchTag">loading patch…</span>
+    </div>
+    <div class="lvlbox">
+      <label for="lvl">PMC Level</label>
+      <input id="lvl" type="number" min="1" max="79" value="1">
+    </div>
+    <button class="btn" id="exportBtn">Export</button>
+    <button class="btn" id="importBtn">Import</button>
+    <button class="btn danger" id="resetBtn">Reset</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="tabs" id="tabs">
+    <button class="tab on" data-pane="myths">Start here<span class="n" id="nMyths"></span></button>
+    <button class="tab" data-pane="quests">Quests<span class="n" id="nQuests"></span></button>
+    <button class="tab" data-pane="maps">Maps<span class="n" id="nMaps"></span></button>
+    <button class="tab" data-pane="keys">Keys<span class="n" id="nKeys"></span></button>
+    <button class="tab" data-pane="edge">Edge<span class="n" id="nEdge"></span></button>
+    <button class="tab" data-pane="paths">Unlock paths<span class="n" id="nPaths"></span></button>
+    <button class="tab" data-pane="progress">Progression</button>
+    <button class="tab" data-pane="meta">Patch state<span class="n" id="nMeta"></span></button>
+    <button class="tab" data-pane="resources">Resources</button>
+  </nav>
+
+  <!-- MYTHS -->
+  <section class="pane on" id="pane-myths">
+    <p class="eyebrow">If you have played since 2022, read this first</p>
+    <h2 class="sec">Twenty things that changed under you</h2>
+    <p class="hint">Left column is what the game used to be, or what every guide still says. Right column is what the wiki says today. Each row tells you exactly where to check it, because you should not take my word for any of it.</p>
+    <div id="mythOut"></div>
+  </section>
+
+  <!-- ══ QUESTS ══ -->
+  <section class="pane" id="pane-quests">
+    <div class="stats" id="qStats"></div>
+
+    <div class="rcard" style="border-left-color:var(--orange);margin:0 0 18px">
+      <h4>Most quests are not gated by your level at all</h4>
+      <p style="color:var(--txt2);font-size:12.5px;margin:0">Every gate below was read straight off the wiki. Only <b>24 of 89</b> state a character level; <b>12</b> are gated by a <span class="tag loy" style="display:inline-block">trader loyalty level</span> instead, and <b>53</b> state no gate at all and simply follow chain progress. That is why patch 1.1.0.0 broke everyone's memorised quest route — pushing trader rep now matters more than levelling. Hover any gate tag for the detail.</p>
+    </div>
+
+    <div class="controls">
+      <div class="search"><input id="qSearch" type="search" placeholder="Search quests, objectives, tips… (press /)"></div>
+      <select id="fTrader"><option value="">All traders</option></select>
+      <select id="fMap"><option value="">All maps</option></select>
+      <select id="fDiff">
+        <option value="">Any difficulty</option>
+        <option value="1">1 — Trivial</option>
+        <option value="2">2 — Easy</option>
+        <option value="3">3 — Moderate</option>
+        <option value="4">4 — Hard</option>
+        <option value="5">5 — Brutal</option>
+      </select>
+      <select id="fSort">
+        <option value="trader">Group by trader</option>
+        <option value="level">Sort by level</option>
+        <option value="difficulty">Sort by difficulty</option>
+        <option value="map">Group by map</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="fAvail"> Only my level</label>
+      <label class="chk"><input type="checkbox" id="fKappa"> Kappa only</label>
+      <label class="chk"><input type="checkbox" id="fHide"> Hide completed</label>
+      <button class="btn" id="expandAll">Expand</button>
+    </div>
+
+    <div id="qOut"></div>
+  </section>
+
+  <!-- ══ MAPS ══ -->
+  <section class="pane" id="pane-maps">
+    <p class="eyebrow">Raid intel</p>
+    <h2 class="sec">Every live map, ranked for a fresh wipe</h2>
+    <p class="hint">Difficulty is judged for someone learning the map — spawn awareness, extract confusion and PvP pressure, not just loot value.</p>
+
+    <div class="controls">
+      <div class="search"><input id="mSearch" type="search" placeholder="Search maps, bosses, keys, loot areas…"></div>
+      <select id="mSort">
+        <option value="difficulty">Easiest first</option>
+        <option value="quests">Most quests first</option>
+        <option value="name">A–Z</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="mStarter"> Starter maps only</label>
+    </div>
+
+    <div class="mgrid" id="mOut"></div>
+  </section>
+
+  <!-- KEYS -->
+  <section class="pane" id="pane-keys">
+    <p class="eyebrow">Locked doors</p>
+    <h2 class="sec">Every key, what is behind it, and whether it pays for itself</h2>
+    <p class="hint">Tiered S to skip. Search by loot item to find which key opens the room holding it — try <b>LEDX</b>, <b>Bitcoin</b> or <b>GPU</b>.</p>
+
+    <div class="controls">
+      <div class="search"><input id="kSearch" type="search" placeholder="Search keys, rooms, loot items, spawn locations…"></div>
+      <select id="kMap"><option value="">All maps</option></select>
+      <select id="kTier">
+        <option value="">Any tier</option>
+        <option value="S">S — buy immediately</option>
+        <option value="A">A — strong</option>
+        <option value="B">B — situational</option>
+        <option value="C">C — marginal</option>
+        <option value="skip">Skip — do not buy</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="kHideSkip" checked> Hide dead keys</label>
+      <span id="kCount" style="font:700 10.5px/1 var(--mono);color:var(--txt3);letter-spacing:.1em;text-transform:uppercase"></span>
+    </div>
+
+    <div id="keysOut"></div>
+  </section>
+
+  <!-- EDGE -->
+  <section class="pane" id="pane-edge">
+    <p class="eyebrow">Computed, not copied</p>
+    <h2 class="sec">The numbers no wiki page contains</h2>
+    <p class="hint">Everything here is derived by cross-referencing all 254 keys against each other: cost per open, the trader-versus-flea gap, which keys hand you other keys, and which door is cheapest per LEDX. No single wiki page holds any of it.</p>
+    <div id="edgeOut"></div>
+  </section>
+
+  <!-- UNLOCK PATHS -->
+  <section class="pane" id="pane-paths">
+    <p class="eyebrow">The two long games</p>
+    <h2 class="sec">Everything standing between you and Kappa or Lightkeeper</h2>
+    <p class="hint">Tick items off here or in the Quests tab — it is the same saved progress. Requirements you cannot tick as a quest (loyalty levels, karma, hideout modules) are tracked too.</p>
+    <div class="pathwrap" id="pathsOut"></div>
+    <div id="extrasOut" style="margin-top:26px"></div>
+  </section>
+
+  <!-- ══ PROGRESSION ══ -->
+  <section class="pane" id="pane-progress">
+    <p class="eyebrow">Gates &amp; unlocks</p>
+    <h2 class="sec">What your level actually buys you</h2>
+    <p class="hint">The milestones that change how you play, plus trader loyalty thresholds.</p>
+    <div id="pOut"></div>
+  </section>
+
+  <!-- ══ PATCH STATE ══ -->
+  <section class="pane" id="pane-meta">
+    <p class="eyebrow">Read this before you commit a grind</p>
+    <h2 class="sec">What is actually live, and what changed under you</h2>
+    <p class="hint">Verified against the wiki and patch notes on the date in the footer. Anything not yet shipped is labelled.</p>
+    <div id="metaOut"></div>
+  </section>
+
+  <!-- ══ RESOURCES ══ -->
+  <section class="pane" id="pane-resources">
+    <p class="eyebrow">Second monitor</p>
+    <h2 class="sec">Tools veterans actually keep open</h2>
+    <p class="hint">Interactive maps, ammo charts, market prices and quest trackers.</p>
+    <div class="rgrid" id="rOut"></div>
+  </section>
+
+  <footer>
+    <span>Progress saved to this browser only (localStorage).</span>
+    <span><span class="kbd">/</span> search &nbsp; <span class="kbd">1-9</span> tabs &nbsp; <span class="kbd">esc</span> clear</span>
+    <span id="dataStamp"></span>
+  </footer>
+</div>
+
+<div id="lb">
+  <div class="lb-bar">
+    <span class="lb-t" id="lbTitle"></span>
+    <span class="lb-c" id="lbCap"></span>
+    <span class="sp">
+      <span id="lbNav" style="display:none;gap:8px">
+        <button class="btn" id="lbPrev">‹ Prev</button>
+        <button class="btn" id="lbNext">Next ›</button>
+      </span>
+      <button class="btn" id="lbZoom">Full res</button>
+      <a class="btn" id="lbSrc" target="_blank" rel="noopener">Image source ↗</a>
+      <a class="btn" id="lbWiki" target="_blank" rel="noopener">Wiki ↗</a>
+      <a class="btn" id="lbDev" target="_blank" rel="noopener">Interactive ↗</a>
+      <button class="btn danger" id="lbClose">Close ✕</button>
+    </span>
+  </div>
+  <div class="lb-stage" id="lbStage"><img id="lbImg" alt=""></div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

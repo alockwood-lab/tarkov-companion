@@ -1,0 +1,2640 @@
+[
+ {
+  "id": "debut",
+  "name": "Debut",
+  "trader": "Prapor",
+  "maps": [
+   "Woods",
+   "Ground Zero",
+   "Interchange",
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 1,
+  "objective": "Eliminate 5 Scavs on Woods, Ground Zero, Interchange or Customs.",
+  "unlocks": "Opens the Prapor chain and your first real rouble injection.",
+  "tip": "Do it on Ground Zero. Factory is NOT a valid location for this one despite what most starter guides say — the objective only counts Scavs on Woods, Ground Zero, Interchange or Customs. Ground Zero is the softest of the four: lower player count, gentler AI, short runs to extract.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Debut",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Prapor LL1",
+   "trader": "Prapor",
+   "ll": 1
+  },
+  "objectives": [
+   "Eliminate 5 Scavs on Woods, Ground Zero, Interchange, or Customs"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "shootout-picnic",
+  "name": "Shootout Picnic",
+  "trader": "Prapor",
+  "maps": [
+   "Woods",
+   "Ground Zero",
+   "Customs",
+   "Interchange"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Eliminate Scavs in the area around the sniper hill and roadblock on Customs.",
+  "unlocks": "Early XP and Prapor rep, which is now the currency that actually matters.",
+  "tip": "The Scav Sniper covers this whole area, so approach through the treeline rather than up the road. Kill from cover and let the AI walk to you — Scavs aggro loudly and then bunch up, which is free XP if you are patient.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Shootout_Picnic",
+  "kappa": false,
+  "req": [
+   "debut"
+  ],
+  "gate": {
+   "kind": "loyalty",
+   "label": "Prapor LL1",
+   "trader": "Prapor",
+   "ll": 1
+  },
+  "objectives": [
+   "Eliminate any 15 targets on Woods, Ground Zero, Customs, or Interchange"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "delivery-past",
+  "name": "Delivery From the Past",
+  "trader": "Prapor",
+  "maps": [
+   "Customs",
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Find the secure case in the Old Gas Station and hand it over.",
+  "unlocks": "A meaningful cash and rep bump early.",
+  "tip": "The gas station is a known hot spot and people camp the road between it and Dorms. Go in from the back, grab the case, and extract in the opposite direction from where you heard shooting. The item is found-in-raid gated, so you cannot buy your way past this one.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Delivery_From_the_Past",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Prapor LL2",
+   "trader": "Prapor",
+   "ll": 2
+  },
+  "objectives": [
+   "Locate and obtain the valuable folder in Tarcone director's office on Customs",
+   "Stash the package in the break room on the 2nd floor near Gate 3 on Factory"
+  ],
+  "rep": {
+   "Prapor": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "setup",
+  "name": "Setup",
+  "trader": "Skier",
+  "maps": [
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Kill PMCs while wearing a specific low-tier gear loadout.",
+  "unlocks": "Prapor rep, and a rite of passage most players remember.",
+  "tip": "You must be wearing the required rig and cap when the kill lands, which means fighting real players in gear that does not protect you. Do it on Customs near Dorms where PMC traffic is guaranteed, use cover aggressively, and bring good ammo — your gun is the only advantage you are allowed.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Setup",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Skier LL2",
+   "trader": "Skier",
+   "ll": 2
+  },
+  "objectives": [
+   "Eliminate 8 PMC operatives with Scav weapons while wearing the specified gear on Customs"
+  ],
+  "rep": {
+   "Skier": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-1",
+  "name": "The Punisher — Part 1",
+  "trader": "Prapor",
+  "maps": [
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Eliminate 25 Scavs with an AKS-74U on Customs.",
+  "unlocks": "The Punisher chain, which ends in the Epsilon container.",
+  "tip": "Very specific: 25 Scav kills, with an AKS-74U, on Customs only. Buy the AKS-74U straight from Prapor rather than hunting one, and note this whole chain is strictly solo — squadmates cannot complete it for you even under the new group-sharing system. Work the Dorms and gas station Scav spawns and expect two or three raids.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_1",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 25 Scavs with AKS-74U on Customs"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-2",
+  "name": "The Punisher — Part 2",
+  "trader": "Prapor",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Continue Prapor's vendetta under tighter restrictions.",
+  "unlocks": "Chain progress toward the Epsilon container.",
+  "tip": "Still strictly solo. Bank the weapon and ammo requirements for the next two parts while you are already shopping — the chain reuses similar restrictions and rebuying every raid is where the money goes.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_2",
+  "kappa": false,
+  "req": [
+   "punisher-1"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 15 Scavs with AKM series weapons on Shoreline"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-3",
+  "name": "The Punisher — Part 3",
+  "trader": "Prapor",
+  "maps": [
+   "Reserve"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Further restricted eliminations for Prapor.",
+  "unlocks": "Chain progress toward Epsilon.",
+  "tip": "Strictly solo. By this point the restrictions push you into weapon classes you would not normally run, so build the gun once and save it as a weapon build rather than reassembling it each raid.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_3",
+  "kappa": false,
+  "req": [
+   "punisher-2"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 12 Scavs with 9x39mm caliber weapons on Reserve",
+   "Find 7 Lower half-masks in raid",
+   "Hand over the items"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-4",
+  "name": "The Punisher — Part 4",
+  "trader": "Prapor",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Restricted eliminations plus item requirements.",
+  "unlocks": "Chain progress toward Epsilon.",
+  "tip": "Strictly solo. Check whether your objective counts only regular Scavs, Sniper Scavs and Player Scavs — since 1.1.0.0 bosses, Raiders and Rogues no longer count toward Scav kill objectives, which breaks a lot of old advice for this chain.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_4",
+  "kappa": false,
+  "req": [
+   "punisher-3"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 10 Scavs while using an SVDS or TKPD on Lighthouse",
+   "Eliminate 10 Scavs while wearing a Scav Vest on Lighthouse",
+   "Find 5 Bars A-2607 95Kh18 knives in raid",
+   "Hand over the items"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-5",
+  "name": "The Punisher — Part 5",
+  "trader": "Prapor",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "The penultimate Punisher objective set.",
+  "unlocks": "The last step before Epsilon.",
+  "tip": "Strictly solo, and the hardest of the middle parts. Budget several raids and treat failures as the cost of the container.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_5",
+  "kappa": false,
+  "req": [
+   "punisher-4"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Find any Kalashnikov AK-74 assault rifle in raid",
+   "Hand over the AK-74",
+   "Find a Colt M4A1 assault rifle in raid",
+   "Hand over the M4A1",
+   "Find any 2 Makarov PM pistols in raid",
+   "Hand over the pistols"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "punisher-6",
+  "name": "The Punisher — Part 6",
+  "trader": "Prapor",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "The final Punisher objective set.",
+  "unlocks": "The Epsilon secure container — 8 slots, a genuine quality-of-life jump.",
+  "tip": "Epsilon is the biggest container upgrade you can earn without Collector, so this chain is worth the pain. Still strictly solo.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Punisher_-_Part_6",
+  "kappa": false,
+  "req": [
+   "punisher-5"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 30 PMC operatives with the specified weapons on Lighthouse, Shoreline, Reserve, Ground Zero or The Lab",
+   "Hand over 10 BEAR or USEC Dogtags",
+   "Locate and neutralize any 5 Bosses"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "uninvited-guests-1",
+  "name": "Uninvited Guests — Part 1",
+  "trader": "Prapor",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "The opening task of the Season 1 KORD BREACH questline, dealing with the Black Division.",
+  "unlocks": "The seasonal questline and its time-limited rewards.",
+  "tip": "Seasonal content has a hard deadline: KORD BREACH ends 7 December 2026, and any reward you have not unlocked by then is permanently gone, while anything you do unlock persists across every mode forever. Black Division are organised and armoured — treat them like a Raider squad, not like Scavs. They roam Ground Zero only at level 21 and above.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Uninvited_Guests_-_Part_1",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Prapor LL2",
+   "trader": "Prapor",
+   "ll": 2
+  },
+  "objectives": [
+   "Locate and obtain the case with military equipment"
+  ],
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "shortage",
+  "name": "Shortage",
+  "trader": "Therapist",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 1,
+  "objective": "Find and hand over Salewa first aid kits.",
+  "unlocks": "Therapist rep and better medical stock.",
+  "tip": "Salewas spawn in medbags, medical crates and Scav pockets. Ground Zero and Customs medical spawns are the reliable farm. Don't buy them on the flea — hand-ins are found-in-raid gated.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Shortage",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Find 3 Salewa first aid kit in raid",
+   "Hand over the 3 first aid kits"
+  ],
+  "rep": {
+   "Therapist": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "sanitary-standards",
+  "name": "Sanitary Standards",
+  "trader": "Therapist",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Find 2 Gas analyzers in raid and hand them to Therapist, then stash a Gas analyzer in the med lab on daytime Factory.",
+  "unlocks": "The Shoreline resort chain, which carries Therapist most of the way to LL3.",
+  "tip": "Nothing to do with the Shoreline resort. You need three Gas analyzers total — two to hand over and one to plant — and the plant must happen on DAYTIME Factory specifically, so check the raid time before you queue. Gas analyzers are also a hideout and Network Provider material, so buy spares while they are cheap.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Therapist LL2",
+   "trader": "Therapist",
+   "ll": 2
+  },
+  "objectives": [
+   "Find 2 Gas analyzers in raid",
+   "Hand over the 2 Gas analyzers to Therapist",
+   "Stash a Gas analyzer in the med lab on Daytime Factory"
+  ],
+  "rep": {
+   "Therapist": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "sanitary-standards-2",
+  "name": "Sanitary Standards — Part 2",
+  "trader": "Therapist",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 8,
+  "difficulty": 3,
+  "objective": "The second stage of Therapist's resort investigation.",
+  "unlocks": "Therapist rep toward LL3.",
+  "tip": "Stack this with the Spa Tour and Operation Aquarius objectives — one well-keyed resort trip can bank three tasks, and the resort is dangerous enough that you want to minimise visits.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Sanitary_Standards_-_Part_2",
+  "kappa": false,
+  "req": [
+   "sanitary-standards"
+  ],
+  "gate": {
+   "kind": "level",
+   "label": "Lv 8"
+  },
+  "objectives": [
+   "Find 2 Gas analyzers in raid",
+   "Hand over the 2 Gas analyzers to Therapist"
+  ],
+  "rep": {
+   "Therapist": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "operation-aquarius",
+  "name": "Operation Aquarius",
+  "trader": "Therapist",
+  "maps": [
+   "Customs"
+  ],
+  "level": 6,
+  "difficulty": 3,
+  "objective": "Find water filters and hand them over.",
+  "unlocks": "Water filter supply, which your hideout also wants.",
+  "tip": "Filters are bulky, so bring a real backpack. They spawn around the resort and in technical rooms. Annoying overlap: your Water Collector hideout module wants the same item, so decide in advance whether the quest or the hideout gets the first ones you find.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Operation_Aquarius",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 6"
+  },
+  "objectives": [
+   "Locate the water hidden inside of the dorms on Customs",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Therapist": "+0.03",
+   "Skier": "-0.02"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "postman-pat-1",
+  "name": "Postman Pat — Part 1",
+  "trader": "Prapor",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Deliver a package to a dead letter drop on Customs.",
+  "unlocks": "The Postman chain and steady Therapist rep.",
+  "tip": "Classic mistake: the package must be placed at a specific spot and the marker is easy to walk past. Watch a thirty-second clip of the exact location before you spawn in — this quest is entirely knowledge, not skill.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_1",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Prapor LL2",
+   "trader": "Prapor",
+   "ll": 2
+  },
+  "objectives": [
+   "Locate the dead messenger and obtain his letter on Factory",
+   "Survive and extract from the location",
+   "Hand over the letter to Therapist"
+  ],
+  "rep": {
+   "Prapor": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "postman-pat-2",
+  "name": "Postman Pat — Part 2",
+  "trader": "Therapist",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Hand over the letter from Prapor's messenger.",
+  "unlocks": "Therapist rep.",
+  "tip": "This one is on Factory, not Woods. It is a hand-over rather than a dead-drop, so the difficulty is only surviving a twenty-minute Factory raid with the letter on you. Put it in your secure container the moment you have it.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Postman_Pat_-_Part_2",
+  "kappa": false,
+  "req": [
+   "postman-pat-1"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Hand over the letter from Prapor's messenger"
+  ],
+  "rep": {
+   "Therapist": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "supply-plans",
+  "name": "Supply Plans",
+  "trader": "Therapist",
+  "maps": [
+   "Woods"
+  ],
+  "level": 13,
+  "difficulty": 2,
+  "objective": "Obtain Secure Folder 0052 in the sawmill cabin on Woods and hand it over.",
+  "unlocks": "Skier's barter chains, the cheap route to decent gear.",
+  "tip": "A Therapist quest, not Skier's, and it is on Woods rather than Customs. The folder is in the sawmill cabin — which means walking into Shturman's ground, so either come when the red skull is off Woods or pull him from the log piles at the fence line first. The folder is a quest item, so you lose it if you die before extracting.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Supply_Plans",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 13"
+  },
+  "objectives": [
+   "Obtain the Secure Folder 0052 in the sawmill cabin on Woods",
+   "Hand over the folder"
+  ],
+  "rep": {
+   "Therapist": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "vitamins",
+  "name": "Vitamins",
+  "trader": "Skier",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Obtain the chemical container on Factory, then find and hand over 4 Respirators and 3 Medical bloodsets.",
+  "unlocks": "Skier rep toward LL3.",
+  "tip": "Two halves. The chemical container is a Factory pickup, so do that as a dedicated short raid. The 4 Respirators and 3 Medical bloodsets are found-in-raid hand-ins — respirators drop off Scavs constantly and bloodsets come out of medbags, so collect those passively rather than farming for them.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Vitamins",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Skier LL2",
+   "trader": "Skier",
+   "ll": 2
+  },
+  "objectives": [
+   "Locate and obtain the chemical container on Factory",
+   "Hand over the container",
+   "Find 4 Respirators in raid",
+   "Hand over 4 Respirators to Skier",
+   "Find 3 Medical bloodsets in raid",
+   "Hand over 3 Medical bloodsets to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "chemical-1",
+  "name": "Chemical — Part 1",
+  "trader": "Skier",
+  "maps": [
+   "Customs"
+  ],
+  "level": 10,
+  "difficulty": 3,
+  "objective": "Find Secure Folder 0013 in the train car on the western side of Customs, hand it over, then hand over a Dorm room 220 key.",
+  "unlocks": "Step 1 of 3 toward a named Kappa prerequisite.",
+  "tip": "Three spawns, all inside the same train car - northwest corner under a brick pallet, southeast corner under a pallet, northeast corner between the wall and a pallet. Check all three before you leave. The folder is a quest item so you lose it if you die. Buy the Dorm 220 key off the flea rather than farming it.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_1",
+  "kappa": false,
+  "path": "kappa",
+  "req": [
+   "golden-swag"
+  ],
+  "gate": {
+   "kind": "level",
+   "label": "Lv 10"
+  },
+  "objectives": [
+   "Obtain information about the Deputy Chief's past life on Customs",
+   "Hand over the information to Skier",
+   "Obtain items that can help the investigation",
+   "Hand over the items to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "chemical-2",
+  "name": "Chemical — Part 2",
+  "trader": "Skier",
+  "maps": [
+   "Customs"
+  ],
+  "level": 10,
+  "difficulty": 3,
+  "objective": "Recover the Sliderkey Secure Flash drive and the Sealed letter with a TG logo from dorm room 220 and hand both to Skier.",
+  "unlocks": "Step 2 of 3 toward the Kappa prerequisite.",
+  "tip": "Do NOT buy a 220 key for this one - Skier mails you one as initial equipment when you accept. Both items are in the same room: the flash drive is plugged into the laptop on the desk, the letter is tucked between the binders on the metal shelf. Both are quest items, so you have to extract.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_2",
+  "kappa": false,
+  "req": [
+   "chemical-1"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "level",
+   "label": "Lv 10"
+  },
+  "objectives": [
+   "Find any evidence on Customs that could help with the investigation",
+   "Hand over the evidence to Skier",
+   "Find any information on Customs that could help with the investigation",
+   "Hand over the info to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "chemical-3",
+  "name": "Chemical — Part 3",
+  "trader": "Skier",
+  "maps": [
+   "Factory"
+  ],
+  "level": 11,
+  "difficulty": 4,
+  "objective": "Obtain the Syringe with a chemical hidden on Factory and hand it to Skier.",
+  "unlocks": "One of only four named prerequisite quests for Collector, and therefore Kappa.",
+  "tip": "It sits on the 3rd floor of the Factory offices behind a door you must BREACH - that gate needs a breaching charge, not a key, so bring one. Three spawns in that one room: the bottom compartment of the shelf on the right, the floor by the stacked chairs, and the fallen filing cabinet on the left. Factory raids are short, so run it as a dedicated smash-and-grab. Note it also costs you Jaeger -0.01 rep, which is mildly perverse for a Kappa prerequisite.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Chemical_-_Part_3",
+  "kappa": true,
+  "req": [
+   "chemical-2"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "level",
+   "label": "Lv 11"
+  },
+  "objectives": [
+   "Obtain the chemical-filled syringe hidden in Factory",
+   "Hand over the chemical-filled syringe to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04",
+   "Jaeger": "-0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "easy-money-1",
+  "name": "Easy Money — Part 1",
+  "trader": "Skier",
+  "maps": [
+   "Customs"
+  ],
+  "level": 10,
+  "difficulty": 2,
+  "objective": "Skier's introduction to the Arena side of the economy.",
+  "unlocks": "Ref, the GP coin trader. This is the only way to unlock him.",
+  "tip": "Do this the moment it appears. Ref's reputation thresholds are far lower than any other trader, making his LL4 one of the cheapest in the game, and his plate carriers got cheaper in 1.1.0.0. Leaving him locked costs you gear you could be buying now.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 10"
+  },
+  "objectives": [
+   "Plant the Bison vs Undertaker poster in the living quarters at the Scav base on Customs"
+  ],
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "easy-money-2",
+  "name": "Easy Money — Part 2",
+  "trader": "Ref",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "The follow-up to Skier's Arena introduction.",
+  "unlocks": "Skier and Ref rep.",
+  "tip": "Cheap rep for both traders. Since Ref's LL4 only needs 1.20 rep, his tasks are the best rep-per-effort in the game — clear anything of his that appears.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
+  "kappa": false,
+  "req": [
+   "easy-money-1"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Hand over 5 found in raid items from the Drinks category",
+   "Hand over 5 found in raid items from the Food category"
+  ],
+  "rep": {
+   "Ref": "+0.02"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "fertilizers",
+  "name": "Fertilizers",
+  "trader": "Mechanic",
+  "maps": [
+   "Customs"
+  ],
+  "level": 30,
+  "difficulty": 3,
+  "objective": "Locate and mark the fertiliser storage.",
+  "unlocks": "Skier rep and chain progress.",
+  "tip": "Another pure knowledge quest — the location is unremarkable and easy to run past. Bring a spare marker, place it, and leave. Don't turn it into a loot raid.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Fertilizers",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 30"
+  },
+  "objectives": [
+   "Find 5 Bundle of wires in raid",
+   "Find 5 Capacitors in raid",
+   "Handover 5 Bundle of wires to Mechanic",
+   "Handover 5 Capacitors to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "fishing-gear",
+  "name": "Fishing Gear",
+  "trader": "Peacekeeper",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Retrieve the SSD drive from the Health Resort area on Shoreline.",
+  "unlocks": "Peacekeeper rep, and dollar-denominated stock.",
+  "tip": "Notorious for being a knowledge check rather than a fight — the drive sits in one specific spot and players spend whole raids in the wrong wing. Look it up, walk in with a key, be gone in five minutes.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Fishing_Gear",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate the boat hidden next to the breakwater on Shoreline",
+   "Stash the MF-UNTAR body armor in the boat",
+   "Stash the multitool in the boat"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "tigr-safari",
+  "name": "Tigr Safari",
+  "trader": "Peacekeeper",
+  "maps": [
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Locate and mark any UN Tigr vehicle with an MS2000 marker on Customs.",
+  "unlocks": "Peacekeeper rep toward LL3, where his real stock lives.",
+  "tip": "No explosives needed — this is a marker task, not a demolition one. Buy one MS2000 from Prapor (two if you are cautious), find any UN Tigr on Customs, mark it and leave. One of the fastest quests in the game if you know where the vehicles sit.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Tigr_Safari",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Peacekeeper LL1",
+   "trader": "Peacekeeper",
+   "ll": 1
+  },
+  "objectives": [
+   "Locate and mark any UN Tigr vehicle with an MS2000 Marker on Customs"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "spa-tour-2",
+  "name": "Spa Tour — Part 2",
+  "trader": "Peacekeeper",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 12,
+  "difficulty": 3,
+  "objective": "Part of the Shoreline resort infiltration chain.",
+  "unlocks": "A multi-part chain that carries Peacekeeper a long way up.",
+  "tip": "Spa Tour is the reason experienced players own a full set of resort keys. Read ahead in the chain and collect items for later stages while you are already inside the building — the walk in is the dangerous part, not the rooms.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_2",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 12"
+  },
+  "objectives": [
+   "Mark the helicopter at the Health Resort with an MS2000 Marker on Shoreline",
+   "Mark the safe road to the helicopter with an MS2000 Marker on Shoreline"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "spa-tour-6",
+  "name": "Spa Tour — Part 6",
+  "trader": "Peacekeeper",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 12,
+  "difficulty": 4,
+  "objective": "A late stage of the resort infiltration chain.",
+  "unlocks": "Major Peacekeeper rep toward his LL4 at 6.00.",
+  "tip": "By this point you should own the universal utility room key — it opens every resort utility room and gives you a second route into E328, which turns several Spa Tour stages into one trip.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_6",
+  "kappa": false,
+  "req": [
+   "spa-tour-2"
+  ],
+  "gate": {
+   "kind": "level",
+   "label": "Lv 12"
+  },
+  "objectives": [
+   "Hand over 8,000 USD to Peacekeeper"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.04"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "mechanic-intro",
+  "name": "Introduction",
+  "trader": "Mechanic",
+  "maps": [
+   "Woods"
+  ],
+  "level": 2,
+  "difficulty": 1,
+  "objective": "Find Jaeger's camp on Woods, obtain the encrypted message and hand it to Mechanic.",
+  "unlocks": "Jaeger as a trader. Nothing in the Jaeger tree - including the entire Tarkov Shooter chain - exists until this is done.",
+  "tip": "Clear this the moment you hit level 2. The camp is the hunting stand near the downed helicopter: 'where the hunter would wait for his prey, where the iron bird has fallen'. Locking yourself out of Jaeger for twenty levels is a classic new-player mistake, and Jaeger has the lowest LL4 gate in the game.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Introduction",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 2"
+  },
+  "objectives": [
+   "Find Jaeger's camp at the specified spot on Woods",
+   "Obtain Jaeger's encrypted message",
+   "Hand over the message to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-870",
+  "name": "Gunsmith — Model 870",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 10,
+  "difficulty": 1,
+  "objective": "Modify a Remington Model 870 to the required ergonomics and recoil values.",
+  "unlocks": "The Gunsmith series — the backbone of Mechanic's rep and your mod unlocks.",
+  "tip": "Gunsmith is no longer numbered Part 1 to 25 — since the rework the tasks are named by weapon. Copy the wiki's parts list item for item rather than guessing at stat targets, and note the Workbench is no longer required for the Weapon Build system, so you can save builds from the start.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Model_870",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 10"
+  },
+  "objectives": [
+   "Modify a Remington Model 870 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-p226r",
+  "name": "Gunsmith — P226R",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 1,
+  "objective": "Build a compliant SIG P226R.",
+  "unlocks": "Mechanic rep and early mod purchase unlocks.",
+  "tip": "Pistol builds are the cheapest Gunsmith tasks in the game — do them the moment they appear for essentially free rep. Buy the parts straight from Mechanic and Peacekeeper rather than the flea.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_P226R",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Modify a P226R to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-akm",
+  "name": "Gunsmith — AKM",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Build a compliant AKM to the required stat targets.",
+  "unlocks": "Mechanic rep and the AK mod catalogue.",
+  "tip": "Prapor sells most of what an AK build needs at low loyalty, so this is one of the cheaper mid-tier Gunsmiths. Build it, hand it in, and don't strip the gun for a later task — you will forget which part you took.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_AKM",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Modify an AKM to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-mp5",
+  "name": "Gunsmith — HK MP5",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 7,
+  "difficulty": 2,
+  "objective": "Build a compliant HK MP5.",
+  "unlocks": "Mechanic rep and SMG mods.",
+  "tip": "MP5 parts come mostly from Peacekeeper in dollars, so hoard USD before you accept this. A finished MP5 is also a genuinely good Factory and Labs gun, so the build is not wasted after hand-in.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_HK_MP5",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 7"
+  },
+  "objectives": [
+   "Modify an MP5 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-m4a1",
+  "name": "Gunsmith — M4A1",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 15,
+  "difficulty": 3,
+  "objective": "Build a compliant M4A1 to tight ergonomics and recoil requirements.",
+  "unlocks": "Mechanic rep and the Western mod catalogue.",
+  "tip": "This is where Gunsmith starts costing real money and needing parts locked behind other traders' loyalty levels. If a part is unbuyable, check whether a different trader sells the same item one loyalty level lower — 1.1.0.0 moved a lot of mods around.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_M4A1",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 15"
+  },
+  "objectives": [
+   "Modify an M4A1 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-master-1",
+  "name": "Gunsmith Master — Part 1",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 27,
+  "difficulty": 4,
+  "objective": "A high-tier build requiring expensive, loyalty-locked and flea-gated parts.",
+  "unlocks": "Large Mechanic rep payouts, feeding his level 40 / 7.60 rep LL4 Collector gate.",
+  "tip": "Late Gunsmith is a shopping problem, not a shooting problem. The blockers are usually flea category gates — top-tier optics and mods only open around level 35 to 40 — so parts you cannot buy at 25 become trivial at 40. Bank the parts as you find them rather than brute-forcing it early.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_Master_-_Part_1",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 27"
+  },
+  "objectives": [
+   "Modify an HK 416A5 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "gunsmith-special",
+  "name": "Gunsmith — Special Order",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "A bespoke high-end build order from Mechanic.",
+  "unlocks": "Mechanic rep at the top of his ladder.",
+  "tip": "Treat this as the final exam of the Gunsmith line. Check every part against the flea gates before you commit — if one item sits behind level 40, do the task after you cross 40 rather than paying a trader premium.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Gunsmith_-_Special_Order",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Modify an M4A1 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "farming",
+  "name": "Farming",
+  "trader": "Mechanic",
+  "maps": [
+   "Customs"
+  ],
+  "level": 14,
+  "difficulty": 2,
+  "objective": "Locate the warehouse of seized goods on Customs, obtain the package of graphics cards and hand it to Mechanic.",
+  "unlocks": "Mechanic rep and hideout-relevant crafting.",
+  "tip": "Not an Interchange electronics run. It is a single specific pickup — the package of graphics cards in the warehouse of seized goods on Customs. Go straight there, take it, put it in your secure container, and extract. The package is a quest item so death costs you the run.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Farming",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 14"
+  },
+  "objectives": [
+   "Locate the warehouse of seized goods on Customs",
+   "Obtain the package of graphics cards",
+   "Hand over the package of graphics cards to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "farming-2",
+  "name": "Farming — Part 2",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 12,
+  "difficulty": 2,
+  "objective": "More electronic components for Mechanic.",
+  "unlocks": "Mechanic rep.",
+  "tip": "Same route as the first one. If you are short, Reserve's RB-ST repair warehouse and the Black Bishop building carry the military-tech versions of these items in bulk.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Farming_-_Part_2",
+  "kappa": false,
+  "req": [
+   "farming"
+  ],
+  "gate": {
+   "kind": "level",
+   "label": "Lv 12"
+  },
+  "objectives": [
+   "Find 2 Power cords in raid",
+   "Find 4 T-Shaped Plugs in raid",
+   "Find 2 Printed circuit boards in raid",
+   "Hand over 2 Power cords to Mechanic",
+   "Hand over 4 T-Shaped Plugs to Mechanic",
+   "Hand over 2 Printed circuit boards to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "search-mission",
+  "name": "Search Mission",
+  "trader": "Prapor",
+  "maps": [
+   "Woods"
+  ],
+  "level": 5,
+  "difficulty": 3,
+  "objective": "Locate Mechanic's missing item.",
+  "unlocks": "Mechanic rep and chain progress.",
+  "tip": "Fetch tasks like this are best batched — check what else your target map owes you before you queue, because a single trip that banks three tasks is worth three trips that bank one.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Search_Mission",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 5"
+  },
+  "objectives": [
+   "Locate Prapor's missing convoy on Woods",
+   "Locate the temporary USEC camp on Woods"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "insider",
+  "name": "Insider",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 12,
+  "difficulty": 3,
+  "objective": "Mechanic's information-gathering task.",
+  "unlocks": "Mechanic rep.",
+  "tip": "Solid mid-game rep. Remember that since 1.1.0.0 side tasks arrive in batches of two to four tied to your loyalty level — if Mechanic looks empty, push his LL rather than assuming you have run out of content.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Insider",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 12"
+  },
+  "objectives": [
+   "Reach Loyalty Level 3 with Prapor"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "helping-hand",
+  "name": "A Helping Hand",
+  "trader": "Mechanic",
+  "maps": [
+   "Woods"
+  ],
+  "level": 20,
+  "difficulty": 3,
+  "objective": "Assist Mechanic's contact.",
+  "unlocks": "The BTR Driver's entire quest line. Accepting this task is the gate.",
+  "tip": "Just accepting it opens BTR Driver content, so accept it even if you are not ready to finish it. Keep your Scav karma above −5 or the driver refuses to serve you at all, and remember fares scale with karma and Charisma.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/A_Helping_Hand",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 20"
+  },
+  "objectives": [
+   "Locate and obtain Prapor's package on Woods",
+   "Survive and extract from the location",
+   "Complete the task Shipping Delay - Part 1"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "network-provider-1",
+  "name": "Network Provider — Part 1",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Hand over 4 Electronic components, 4 Military COFDM Wireless Signal Transmitters, 4 Gas analyzers and 4 Broken GPhone smartphones - all found in raid.",
+  "unlocks": "The entire Lightkeeper path. Gated behind Scav karma +2 and story-chapter progression, not a character level.",
+  "tip": "BLOCKED RIGHT NOW: the live wiki carries a Season 1 banner reading 'this task cannot currently be obtained in any game mode'. When it is available, all 16 items must be found in raid, and gas analyzers and COFDM transmitters are also hideout and other-quest materials, so hoard found-in-raid copies well in advance rather than farming sixteen items cold.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Network_Provider_-_Part_1",
+  "kappa": false,
+  "path": "lightkeeper",
+  "pending": "Season 1 banner says this task cannot currently be obtained in any game mode - confirm in game before planning around it",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate",
+   "karma": "+2"
+  },
+  "objectives": [
+   "Hand over the 4 found in raid Electronic components",
+   "Hand over the 4 found in raid Military COFDM Wireless Signal Transmitters",
+   "Hand over the 4 found in raid Gas analyzers",
+   "Hand over the 4 found in raid Broken GPhone smartphones"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "only-business",
+  "name": "Only Business",
+  "trader": "Ragman",
+  "maps": [
+   "Any"
+  ],
+  "level": 15,
+  "difficulty": 1,
+  "objective": "Ragman's opening trade task.",
+  "unlocks": "Ragman — armour, rigs, backpacks and clothing.",
+  "tip": "Ragman has the highest level gate in the game at LL4 / level 42, so his rep is a long project — start now. One genuine 1.1.0.0 win: his tactical clothing is permanently account-unlocked, so you never rebuy it after a reset, Prestige or a new seasonal character.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Only_Business",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 15"
+  },
+  "objectives": [
+   "Reach Loyalty Level 2 with Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "sew-it-good-1",
+  "name": "Sew it Good — Part 1",
+  "trader": "Ragman",
+  "maps": [
+   "Any"
+  ],
+  "level": 25,
+  "difficulty": 2,
+  "objective": "Find in raid and hand over 1 Ski hat with holes for eyes and 1 Pilgrim tourist backpack.",
+  "unlocks": "Step 1 of 2 toward a named Kappa prerequisite.",
+  "tip": "Both drop off Scavs constantly - the ski hat is standard Scav headwear and the purple Pilgrim is a common Scav backpack. Found-in-raid only, so a flea or trader copy will not tick it. Don't wear the hat into a raid while you are holding it for the handover.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_1",
+  "kappa": false,
+  "path": "kappa",
+  "gate": {
+   "kind": "level",
+   "label": "Lv 25"
+  },
+  "objectives": [
+   "Find 1 Ski hat with holes for eyes in raid",
+   "Hand over 1 Ski hat with holes for eyes to Ragman",
+   "Find 1 Pilgrim tourist backpack in raid",
+   "Hand over 1 Pilgrim tourist backpack to Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "sew-it-good-2",
+  "name": "Sew it Good — Part 2",
+  "trader": "Ragman",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Find in raid and hand over 2 WARTECH TV-109 + TV-106 chest rigs (A-TACS FG) and 2 BlackRock chest rigs (Gray).",
+  "unlocks": "One of only four named prerequisite quests for Collector, and therefore Kappa.",
+  "tip": "The colourway matters - it must be the GREY BlackRock and the A-TACS FG (green) TV-109/TV-106, not the other variants. Check the exact item name in your stash before handing in. Scavs on Customs and Woods wear both. All four must be found in raid.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Sew_it_Good_-_Part_2",
+  "kappa": true,
+  "req": [
+   "sew-it-good-1"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Find 2 WARTECH TV-109 + TV-106 chest rigs in raid",
+   "Hand over the chest rigs",
+   "Find 2 BlackRock chest rigs in raid",
+   "Hand over the chest rigs"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "scrap-metal",
+  "name": "Scrap Metal",
+  "trader": "Peacekeeper",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Hand over armour plates and scrap.",
+  "unlocks": "Ragman rep and armour stock.",
+  "tip": "Armour is a plate system now, so plates are everywhere on dead PMCs — loot the plate carriers you would previously have ignored. Class 5 and 6 plates are flea-banned, so found plates are worth keeping rather than listing.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Scrap_Metal",
+  "kappa": false,
+  "gate": {
+   "kind": "loyalty",
+   "label": "Peacekeeper LL2",
+   "trader": "Peacekeeper",
+   "ll": 2
+  },
+  "objectives": [
+   "Mark the first T-90 tank with an MS2000 Marker on Shoreline",
+   "Mark the second T-90 tank with an MS2000 Marker on Shoreline",
+   "Mark the third T-90 tank with an MS2000 Marker on Shoreline"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.25"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "no-fuss-needed",
+  "name": "No Fuss Needed",
+  "trader": "Ragman",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Ragman's discreet elimination task.",
+  "unlocks": "Ragman rep toward his level 42 LL4.",
+  "tip": "Check the exact conditions before you kit up — Ragman's kill tasks usually restrict weapon type or require silence, and a non-compliant kill simply does not count.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/No_Fuss_Needed",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Reach Loyalty Level 3 with Therapist"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "dressed-to-kill",
+  "name": "Dressed to Kill",
+  "trader": "Ragman",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate PMCs wearing specific gear.",
+  "unlocks": "Significant Ragman rep, the long pole to his level 42 LL4.",
+  "tip": "You cannot force what other players wear, so don't dedicate raids to it — accept it and let it complete while you play high-PMC-density maps like Streets or Customs. Gear-specific kill tasks are the most commonly misread in the game.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Dressed_to_Kill",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Find 2 Kinda Cowboy hats in raid",
+   "Find 2 Ushanka ear-flap caps in raid",
+   "Hand over 2 Ushanka ear-flap caps to Ragman",
+   "Hand over 2 Kinda Cowboy hats to Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "big-sale",
+  "name": "Big Sale",
+  "trader": "Ragman",
+  "maps": [
+   "Interchange"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Move a volume of goods for Ragman.",
+  "unlocks": "Ragman rep.",
+  "tip": "Volume tasks like this are best served by hoarding rather than hunting. Keep a dedicated stash row for Ragman hand-ins and it completes itself over a few days of normal play.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Big_Sale",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate the AVOKADO store on Interchange",
+   "Locate the KOSTIN store on Interchange",
+   "Locate the tRend store on Interchange",
+   "Locate the DINO CLOTHES store on Interchange",
+   "Locate the TOP BRAND store on Interchange",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "acquaintance",
+  "name": "Acquaintance",
+  "trader": "Jaeger",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 1,
+  "objective": "Hand over any 10 items from the Food category.",
+  "unlocks": "Jaeger rep, and the start of his line.",
+  "tip": "This does NOT require found-in-raid. Buy ten cheap food items off the flea or Therapist and hand them in the same minute - there is no reason to farm it. Free Jaeger rep.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Acquaintance",
+  "kappa": false,
+  "req": [
+   "mechanic-intro"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Hand over any 10 items from the Food Category"
+  ],
+  "rep": {
+   "Jaeger": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "tarkov-shooter-1",
+  "name": "The Tarkov Shooter — Part 1",
+  "trader": "Jaeger",
+  "maps": [
+   "Woods",
+   "Shoreline",
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Eliminate 5 Scavs from over 40 metres away using a bolt-action rifle with IRON SIGHTS.",
+  "unlocks": "Step 1 of 4 toward a named Kappa prerequisite.",
+  "tip": "Strip every optic and mount off a Mosin - any sight voids the kill. The MP-18 single-shot also counts as bolt-action for this chain. Scav kills only; PMCs do not count. Hunt the Sniper Scavs on Woods, Shoreline and Customs, which you can engage from well past 40 m. Skip Factory entirely, there are almost no 40 m lanes.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_1",
+  "kappa": false,
+  "path": "kappa",
+  "req": [
+   "acquaintance"
+  ],
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 5 Scavs from over 40 meters away while using a bolt-action rifle with iron sights"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "tarkov-shooter-2",
+  "name": "The Tarkov Shooter — Part 2",
+  "trader": "Jaeger",
+  "maps": [
+   "Woods",
+   "Shoreline",
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "With a bolt-action rifle from over 40 m: hit any target in the legs 3 times and in the head 2 times.",
+  "unlocks": "Step 2 of 4 toward the Kappa prerequisite.",
+  "tip": "The single best time-saver in the whole chain: this unlocks when you ACCEPT Part 1, not when you complete it, so run both simultaneously. These are HITS, not kills - you can leg the same Scav three times and let him live. Hits on your own group members do not count.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_2",
+  "kappa": false,
+  "req": [
+   "tarkov-shooter-1"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Shoot any target in the legs from over 40 meters away while using a bolt-action rifle 3 times",
+   "Shoot any target in the head from over 40 meters away while using a bolt-action rifle 2 times"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "tarkov-shooter-3",
+  "name": "The Tarkov Shooter — Part 3",
+  "trader": "Jaeger",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate 3 PMCs from less than 25 metres away using a bolt-action rifle.",
+  "unlocks": "Step 3 of 4 toward the Kappa prerequisite.",
+  "tip": "The map choice inverts here - go to Factory, which is nearly all sub-25 m engagements. Bring flashbangs (Model 7290, Zarya, or a KS-23M loaded with 23x75mm Zvezda) so a stunned PMC stands still long enough for your single bolt-action shot.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_3",
+  "kappa": false,
+  "req": [
+   "tarkov-shooter-2"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 3 PMCs from less than 25 meters away while using a bolt-action rifle"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "tarkov-shooter-4",
+  "name": "The Tarkov Shooter — Part 4",
+  "trader": "Jaeger",
+  "maps": [
+   "Lighthouse",
+   "Woods",
+   "Shoreline",
+   "Streets of Tarkov"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Eliminate 5 PMC operatives from over 80 metres away using a bolt-action rifle.",
+  "unlocks": "One of only four named prerequisite quests for Collector, and therefore Kappa.",
+  "tip": "Stack this with Shooter Born in Heaven. SBIH wants bolt-action PMC HEADSHOTS on specific map pairs, so every SBIH headshot you land past 80 m also ticks this one. Doing them separately doubles your work for nothing.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Shooter_-_Part_4",
+  "kappa": true,
+  "req": [
+   "tarkov-shooter-3"
+  ],
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 5 PMC operatives from over 80 meters away while using a bolt-action rifle"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "sbih",
+  "name": "Shooter Born in Heaven",
+  "trader": "Mechanic",
+  "maps": [
+   "Woods",
+   "Reserve",
+   "Shoreline",
+   "Customs",
+   "Lighthouse",
+   "Streets of Tarkov",
+   "Interchange",
+   "Ground Zero"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "20 bolt-action PMC headshots, as four objectives of 5: Customs OR Lighthouse; Streets OR Shoreline; Interchange OR Ground Zero; Woods OR Reserve.",
+  "unlocks": "A named Collector prerequisite, the largest single rep award in the game at Mechanic +1.5, a Weapon case, and the T H I C C Weapon case at LL4.",
+  "tip": "This is a MECHANIC quest, not Jaeger - and there is no prerequisite quest. The gate is purely Mechanic LL4, which itself needs character level 40 and 7.6 Mechanic rep, which is why it is almost always the LAST of the four Collector prerequisites you finish. Two consequences: start building Mechanic rep on day one, and note each objective is an OR of two maps, so pick the easier map in each pair and ignore the other entirely. Every headshot past 80 m also counts for The Tarkov Shooter - Part 4.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Shooter_Born_in_Heaven",
+  "kappa": true,
+  "path": "kappa",
+  "gate": {
+   "kind": "loyalty",
+   "label": "Mechanic LL4",
+   "trader": "Mechanic",
+   "ll": 4
+  },
+  "objectives": [
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Customs or Lighthouse",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Streets of Tarkov or Shoreline",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Interchange or Ground Zero",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Woods or Reserve"
+  ],
+  "rep": {
+   "Mechanic": "+1.5"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "huntsman-secured-perimeter",
+  "name": "The Huntsman Path — Secured Perimeter",
+  "trader": "Jaeger",
+  "maps": [
+   "Factory"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Eliminate Scavs within a defined area.",
+  "unlocks": "The Huntsman Path series and steady Jaeger rep.",
+  "tip": "Good news: 1.0.4.0 widened the elimination zone on this one, so the old pixel-perfect positioning is no longer required. Only regular Scavs, Sniper Scavs and Player Scavs count now — bosses, Raiders and Rogues do not, so old boss-farming routes are dead.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Secured_Perimeter",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 6 PMСs in the office area (any floor) on Factory"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "huntsman-sellout",
+  "name": "The Huntsman Path — Sellout",
+  "trader": "Jaeger",
+  "maps": [
+   "Interchange"
+  ],
+  "level": 32,
+  "difficulty": 4,
+  "objective": "Eliminate the designated targets under Jaeger's conditions.",
+  "unlocks": "Jaeger rep toward his level 33 LL4.",
+  "tip": "Jaeger's LL4 is the lowest in the game, so his Huntsman tasks are the highest-value rep grind available to a mid-level player. Clear every one that appears.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sellout",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 32"
+  },
+  "objectives": [
+   "Eliminate Killa",
+   "Find 1 Killa's Maska-1SCh bulletproof helmet in raid",
+   "Hand over 1 Killa's Maska-1SCh bulletproof helmet to Jaeger"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "huntsman-sadist",
+  "name": "The Huntsman Path — Sadist",
+  "trader": "Jaeger",
+  "maps": [
+   "Shoreline"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "A restricted elimination task for Jaeger.",
+  "unlocks": "Jaeger rep.",
+  "tip": "Read the restriction carefully — the Huntsman tasks each carry a different condition, and the failure mode is always the same: a kill that does not count because one condition was not met.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sadist",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate Sanitar"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "huntsman-woods-cleaning",
+  "name": "The Huntsman Path — Forest Cleaning",
+  "trader": "Jaeger",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Eliminate 50 Scavs anywhere in Tarkov.",
+  "unlocks": "Jaeger +0.75 reputation — one of his three big awards, and his LL4 gate is only character level 33.",
+  "tip": "The real name is Forest Cleaning; 'Woods Cleaning' is just a wiki redirect, so search the right term. Despite the name the objective counts Scavs ANYWHERE, not only on Woods, so it completes passively while you do everything else. At +0.75 Jaeger rep it is one of the best rep-per-effort tasks in the game, and Jaeger's LL4 sits at only character level 33 — the lowest of the seven Collector traders.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Forest_Cleaning",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "reqkappa_wiki": true,
+  "objectives": [
+   "Eliminate 50 Scavs all over the Tarkov territory"
+  ],
+  "rep": {
+   "Jaeger": "+0.75"
+  }
+ },
+ {
+  "id": "huntsman-trophy",
+  "name": "The Huntsman Path — Trophy",
+  "trader": "Jaeger",
+  "maps": [
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Collect the required trophies for Jaeger.",
+  "unlocks": "Jaeger rep.",
+  "tip": "Trophy tasks want boss or named-target items, so check whether the target is on a red-skull cycle before you queue — a guaranteed boss spawn turns a ten-raid grind into a two-raid one.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Trophy",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate Reshala",
+   "Find 1 Reshala's Golden TT in raid",
+   "Hand over 1 Reshala's Golden TT to Jaeger"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "hunting-trip",
+  "name": "Hunting Trip",
+  "trader": "Jaeger",
+  "maps": [
+   "Woods",
+   "Customs"
+  ],
+  "level": 33,
+  "difficulty": 3,
+  "objective": "Eliminate Scavs from a minimum distance.",
+  "unlocks": "Jaeger rep.",
+  "tip": "The minimum distance was cut from 75 m to 40 m in 1.0.2.0, which makes this dramatically easier than older guides suggest. Forty metres is a normal engagement range on Woods, so you barely have to change how you play.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Hunting_Trip",
+  "kappa": false,
+  "gate": {
+   "kind": "level",
+   "label": "Lv 33"
+  },
+  "objectives": [
+   "Locate and neutralize Shturman with a headshot from over 40 meters away while using an M700 sniper rifle with the specified scope"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "goals-and-means",
+  "name": "Goals and Means",
+  "trader": "Mechanic",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Eliminate targets from a minimum distance.",
+  "unlocks": "Trader rep.",
+  "tip": "Another softened task: the minimum distance dropped from 100 m to 50 m. If you tried and failed this in a previous wipe, it is worth revisiting — the numbers changed, not your aim.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Goals_and_Means",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 20 PMC operatives from over 50 meters away while using any 9x39 caliber weapon"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "connections-up-north",
+  "name": "Connections Up North",
+  "trader": "Skier",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate PMC operatives.",
+  "unlocks": "Trader rep.",
+  "tip": "The PMC kill requirement was cut from 50 to 20 in 1.0.2.0 — a huge reduction. This is now a task that completes over normal play instead of demanding a dedicated PvP grind.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Connections_Up_North",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 20 PMC operatives from over 40 meters away while using a bolt-action rifle with night or thermal scope"
+  ],
+  "rep": {
+   "Skier": "+0.03"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "hypotheses-testing",
+  "name": "Hypotheses Testing",
+  "trader": "Mechanic",
+  "maps": [
+   "The Labyrinth"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Collect five Labrys research notes inside The Labyrinth.",
+  "unlocks": "Labyrinth progression, and each note crafts a fresh access keycard.",
+  "tip": "The Labrys access keycard is consumed on entry, so the notes are what keep you solvent — five are needed, and each one crafts a replacement keycard at the Cultist Circle. Never insure anything you bring here, and solve your spawn chamber's trap before you think about loot.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Hypotheses_Testing",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate the lab area with the prototype weapon inside The Labyrinth",
+   "Hand over 5 found in raid Labrys research notes"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "stick-to-it",
+  "name": "Stick to It",
+  "trader": "BTR Driver",
+  "maps": [
+   "Lighthouse",
+   "Icebreaker"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate 30 Rogues.",
+  "unlocks": "Direct selection of Icebreaker instead of transiting from the Shoreline pier.",
+  "tip": "A BTR Driver quest, and it is a kill task rather than a map unlock. Thirty Rogues is a lot, but they are stationary and predictable at the Lighthouse water treatment plant, so it is a grind rather than a challenge. Two big caveats: 1.1.5.0 moves the Rogue base to the chalet area, and right now Rogues only warn USEC players while shooting BEAR on sight — so faction changes how painful this is.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
+  "kappa": false,
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 30 Rogues"
+  ],
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "collector",
+  "name": "Collector",
+  "trader": "Fence",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Hand over 44 collectable items after clearing the loyalty and karma requirements.",
+  "unlocks": "The Kappa container (12 slots), the DEADSKUL armband, and the 'Dawn of a New Era' achievement.",
+  "tip": "Reworked in 1.1.0.0 — the old checklist of dozens of Kappa-flagged quests is gone. It now wants 44 items, four named quests, Loyalty Level 4 with seven traders and Scav karma of at least +3. The real work is the loyalty grind: Ragman LL4 needs level 42, Mechanic LL4 needs level 40 at 7.60 rep, and Prapor wants 7.90 rep. Start hoarding the 44 collectables from your very first raids — the items are common, but throwing them away for months is what actually delays Kappa.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Collector",
+  "kappa": false,
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate",
+   "karma": "+3"
+  },
+  "objectives": [
+   "Hand over the found in raid item: 42 Signature Blend English Tea",
+   "Hand over the found in raid item: Antique axe",
+   "Hand over the found in raid item: Axel parrot figurine",
+   "Hand over the found in raid item: BEAR Buddy plush toy",
+   "Hand over the found in raid item: Baddie's red beard",
+   "Hand over the found in raid item: BakeEzy cook book"
+  ],
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "compensation-wager",
+  "name": "Compensation for Damage — Wager",
+  "trader": "Fence",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Fence's Scav karma introduction.",
+  "unlocks": "The Scav karma system, which gates Fence LL4 and Collector's karma requirement.",
+  "tip": "Karma is a slow-burn system worth understanding early: it drives Fence rep, unlocks his 30% discount sales tab at karma 6, and Collector needs +3. Don't shoot friendly Player Scavs for fun — that bill comes due at Kappa.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Compensation_for_Damage_-_Wager",
+  "kappa": false,
+  "path": "kappa",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate",
+   "karma": "-1"
+  },
+  "objectives": [
+   "Eliminate 7 PMC operatives while using any AK-series assault rifle"
+  ],
+  "rep": {
+   "Fence": "+1"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "network-provider-2",
+  "name": "Network Provider — Part 2",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Place 4 Radio repeaters on Lighthouse: in the MI-8 helicopter at the water treatment plant, in the abandoned USEC cottage, at high elevation overlooking the lighthouse, and on the roof of the sunken building at the shore.",
+  "unlocks": "Chain progress, plus the Radio repeater craft at Workbench level 1.",
+  "tip": "Radio repeaters cannot go in special item slots, so plan carriage: with an Epsilon or Theta container you can safely place two per raid, otherwise do one per raid. Craft them rather than buying. Mechanic explicitly warns you not to approach the lighthouse itself yet - Zryachiy will kill you.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Network_Provider_-_Part_2",
+  "kappa": false,
+  "req": [
+   "network-provider-1"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Set up the radio repeater inside the MI-8 helicopter at the water treatment plant on Lighthouse",
+   "Set up the radio repeater inside the abandoned USEC cottage on Lighthouse",
+   "Set up the radio repeater at a high elevation overlooking the lighthouse on Lighthouse",
+   "Set up the radio repeater on the roof of the sunken building at the shore on Lighthouse"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "knock-knock",
+  "name": "Knock-Knock",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Check whether the radio transmitter works near the Lighthouse peninsula, then survive and extract.",
+  "unlocks": "The Digital secure DSP radio transmitter, handed to you as initial equipment - in the DECODED state.",
+  "tip": "Critical misunderstanding to avoid: the transmitter you receive here is DECODED, so it does NOT protect you. The claymores are live and Zryachiy will still shoot. Do the check from a distance and extract. The quest is scripted to 'fail' narratively - 'What do you mean, it didn't work?!' - but you still get the rewards and keep the transmitter. Do not walk the bridge on this task.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Knock-Knock",
+  "kappa": false,
+  "req": [
+   "key-to-the-tower"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Check if the radio transmitter works near the Lighthouse peninsula",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Mechanic": "+0.01",
+   "Lightkeeper": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "getting-acquainted",
+  "name": "Getting Acquainted",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Obtain the Secure Flash drive V3 on Lighthouse, reflash the transmitter, hand the flash drive to Mechanic, then visit the lighthouse building.",
+  "unlocks": "Lightkeeper as a trader, and his whole task line.",
+  "tip": "This is where the transmitter gets ENCODED, and the encode is a HIDEOUT CRAFT you run yourself, not something a trader does. Accepting the quest unlocks an Intelligence Center level 2 craft: screwdriver + Secure Flash drive V3 + decoded transmitter + electronic components, 2 hours, electricity required throughout. So build Intelligence Center to level 2 BEFORE you get here or you will sit on a useless transmitter. The V3 flash drive is a quest item in the Rogue USEC barracks and you must extract with it. Hard rule: killing Zryachiy fails this quest and locks you out.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Getting_Acquainted",
+  "kappa": false,
+  "req": [
+   "knock-knock"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Obtain the V3 Flash drive on Lighthouse",
+   "Reflash the Radio transmitter",
+   "Hand over the flash drive to Mechanic",
+   "Visit the lighthouse building"
+  ],
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "make-amends",
+  "name": "Make Amends",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Obtain a new Secure Flash drive V3 on Lighthouse, reflash the transmitter, hand the drive to Mechanic, then visit the lighthouse building.",
+  "unlocks": "Recovery of a decoded transmitter.",
+  "tip": "This is the penance route, not a normal step - you only see it if you decoded your transmitter by harming Zryachiy, one of his followers, or a Lightkeeper-acquainted PMC on the premises while it was equipped. Nasty detail: in local PvE raids, unequipping the transmitter does NOT protect you from being decoded. Re-encoding needs Intelligence Center level 2 again. Simplest advice: never point a gun at anything near that bridge.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Make_Amends",
+  "kappa": false,
+  "req": [
+   "getting-acquainted"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Obtain the V3 Flash drive on Lighthouse",
+   "Reflash the Radio transmitter",
+   "Hand over the flash drive to Mechanic",
+   "Visit the lighthouse building"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "make-an-impression",
+  "name": "Make an Impression",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Any"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Reach Bolt-action Rifles skill level 10 and eliminate 10 Sniper Scavs from over 350 metres away.",
+  "unlocks": "The Zryachiy support service - 3 Military flash drives and $2,000 per raid.",
+  "tip": "Three hundred and fifty metres is a genuinely long shot and Sniper Scavs sit in fixed towers, so this is a map-knowledge task: learn which perches you can engage from beyond 350 m on Woods, Shoreline and Lighthouse. Levelling Bolt-action Rifles to 10 happens naturally while you grind the distance kills.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Make_an_Impression",
+  "kappa": false,
+  "req": [
+   "spotter"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Reach the required Bolt-action Rifles skill level of 10",
+   "Eliminate 10 Sniper Scavs from over 350 meters away"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "every-hunter-knows",
+  "name": "Every Hunter Knows This",
+  "trader": "Jaeger",
+  "maps": [
+   "Factory",
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Locate a good tripwire installation spot on Factory and on Customs.",
+  "unlocks": "Lightkeeper reputation.",
+  "tip": "A Jaeger quest, not Lightkeeper's, and it has nothing to do with a package on Woods. You are scouting two tripwire spots, one on Factory and one on Customs — pure knowledge, no combat required. Look up both locations first and you can bank it in two short raids.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Every_Hunter_Knows_This",
+  "kappa": false,
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate a good tripwire installation spot on Factory",
+   "Locate a good tripwire installation spot on Customs"
+  ],
+  "rep": {
+   "Jaeger": "+0.01"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "golden-swag",
+  "name": "Golden Swag",
+  "trader": "Skier",
+  "maps": [
+   "Customs"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Take the Golden Zibbo lighter from Dorm room 303, leave a regular Zibbo in its place, and hand the golden one to Skier.",
+  "unlocks": "The Chemical chain, which leads to a named Kappa prerequisite.",
+  "tip": "Two traps. Room 303 is in the three-storey dorms and needs the Dorm room 303 key, and 'stash a regular Zibbo' is its own separate objective - carry a plain Zibbo lighter in your secure container or you will do the whole run and only complete half the task.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Golden_Swag",
+  "kappa": false,
+  "path": "kappa",
+  "gate": {
+   "kind": "loyalty",
+   "label": "Skier LL1",
+   "trader": "Skier",
+   "ll": 1
+  },
+  "objectives": [
+   "Locate and obtain the Golden Zibbo lighter from Dorm room 303 on Customs",
+   "Stash a regular Zibbo at Dorm room 303 on Customs",
+   "Hand over the Golden Zibbo lighter"
+  ],
+  "rep": {
+   "Skier": "+0.1"
+  },
+  "reqkappa_wiki": true
+ },
+ {
+  "id": "assessment-1",
+  "name": "Assessment - Part 1",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate 15 PMC operatives near the Lighthouse peninsula.",
+  "unlocks": "Lightkeeper chain progress.",
+  "tip": "The kill zone is a defined area near the peninsula approach, not the whole map - check the map image before committing. Fifteen PMCs is several raids. The water treatment plant side funnels players, but the Rogues will be shooting at you too.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_1",
+  "kappa": false,
+  "req": [
+   "network-provider-2"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 15 PMC operatives near the Lighthouse peninsula"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "assessment-2",
+  "name": "Assessment - Part 2",
+  "trader": "Mechanic",
+  "maps": [
+   "Woods"
+  ],
+  "level": 1,
+  "difficulty": 2,
+  "objective": "Locate and mark all four bunkers on Woods with MS2000 markers.",
+  "unlocks": "Lightkeeper chain progress.",
+  "tip": "Bring five markers to be safe and do all four in one Woods run - they are all in the mountain area in the north-west. Cheap, fast, and no combat needed if you move quietly. One of the easiest steps in the whole chain.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_2",
+  "kappa": false,
+  "req": [
+   "assessment-1"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate and mark the first bunker with an MS2000 marker on Woods",
+   "Locate and mark the second bunker with an MS2000 marker on Woods",
+   "Locate and mark the third bunker with an MS2000 marker on Woods",
+   "Locate and mark the fourth bunker with an MS2000 marker on Woods"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "assessment-3",
+  "name": "Assessment - Part 3",
+  "trader": "Mechanic",
+  "maps": [
+   "The Lab"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Eliminate 7 Raiders in The Lab, then find and hand over 15 SJ1, 5 SJ6 and 1 SJ9 TGLabs combat stimulant injectors, all found in raid.",
+  "unlocks": "Lightkeeper chain progress. There is a 24-hour real-time gate after this.",
+  "tip": "The expensive step by a wide margin: it needs Labs access keycards for repeated runs plus 21 found-in-raid stimulant injectors, and trader or flea copies will not count. Never insure anything you take into Labs. One caveat - in Season 1 the Raiders on The Lab were replaced by Black Division, so whether the Raider kill objective can still be completed is unverified.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Assessment_-_Part_3",
+  "kappa": false,
+  "req": [
+   "assessment-2"
+  ],
+  "path": "lightkeeper",
+  "pending": "Season 1 replaced Labs Raiders with Black Division - whether the Raider kill objective still completes is unverified",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 7 Raiders in The Lab",
+   "Find 15 SJ1 TGLabs combat stimulant injector in raid",
+   "Find 5 SJ6 TGLabs combat stimulant injector in raid",
+   "Find 1 SJ9 TGLabs combat stimulant injector in raid",
+   "Hand over 15 SJ1 TGLabs combat stimulant injector to Mechanic",
+   "Hand over 5 SJ6 TGLabs combat stimulant injector to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "key-to-the-tower",
+  "name": "Key to the Tower",
+  "trader": "Mechanic",
+  "maps": [
+   "Lighthouse"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Hand over 2 Pieces of plexiglass, 1 Insulating tape, 2 Military circuit boards, 1 Military COFDM Wireless Signal Transmitter and 1 Working LCD (all found in raid), plus obtain the Radio transmitter body on Lighthouse.",
+  "unlocks": "The parts for the transmitter. This step does not yet give you the transmitter itself.",
+  "tip": "The Radio transmitter body is a Lighthouse-only pickup - Mechanic hints at 'where the USECs settled down', meaning the Rogue-held water treatment plant. Everything else is standard found-in-raid barter loot you should already be stockpiling. Note this is the SECOND COFDM transmitter the chain has asked for.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Key_to_the_Tower",
+  "kappa": false,
+  "req": [
+   "assessment-3"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Find 2 Pieces of plexiglass in raid",
+   "Find 1 Insulating tape in raid",
+   "Find 2 Military circuit boards in raid",
+   "Find 1 Military COFDM Wireless Signal Transmitter in raid",
+   "Find 1 Working LCD in raid",
+   "Obtain 1 Radio transmitter body on Lighthouse"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "information-source",
+  "name": "Information Source",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Customs",
+   "Woods",
+   "Interchange",
+   "Streets of Tarkov",
+   "Ground Zero"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Survive and extract via specific vehicle extracts on five maps, and mark two Patrol-A armoured vehicles on Streets with MS2000 markers.",
+  "unlocks": "Lightkeeper's line proper.",
+  "tip": "Genuine two-for-one: vehicle extracts also pay Scav karma, +0.2 the first time on each map. Since Collector needs karma +3 anyway, do this quest and your karma grind in the same raids. The five are Woods Bridge, Customs Dorms, Interchange Power Station, Streets Primorsky Ave Taxi and Ground Zero Police Cordon.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Information_Source",
+  "kappa": false,
+  "req": [
+   "getting-acquainted"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Survive and extract from Woods through Bridge V-Ex",
+   "Survive and extract from Customs through Dorms V-Ex",
+   "Survive and extract from Interchange through Power Station V-Ex",
+   "Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex",
+   "Survive and extract from Ground Zero through Police Cordon V-Ex",
+   "Locate and mark the first Patrol-A armored vehicle with an MS2000 Marker on Streets of Tarkov"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "missing-informant",
+  "name": "Missing Informant",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Streets of Tarkov"
+  ],
+  "level": 1,
+  "difficulty": 3,
+  "objective": "Locate the informant's hideout and backup hideout on Streets, obtain the informant's journal and bring it to Lightkeeper.",
+  "unlocks": "Chain progress. Unlocks 10 hours after Information Source.",
+  "tip": "Every Lightkeeper task has a 10-hour real-time gate after the previous one, so his line takes days of wall-clock time no matter how good you are. Accept early and often.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Missing_Informant",
+  "kappa": false,
+  "req": [
+   "information-source"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate the informant's hideout on Streets of Tarkov",
+   "Locate the informant's backup hideout",
+   "Obtain the informant's journal",
+   "Bring the information to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "snatch",
+  "name": "Snatch",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Lighthouse",
+   "Reserve"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Obtain the forged Lightkeeper intelligence at the Rogue base, obtain the original in the Reserve repair station, swap the forgery under the BMP-2, and bring the original to Lightkeeper.",
+  "unlocks": "The Sacred Amulet service - 3 Intelligence folders and $1,000.",
+  "tip": "Worth prioritising because the Sacred Amulet is genuinely useful twice over: Cultists ignore you unless provoked, and it raises Cultist Circle sacrifice value by 15%, which feeds directly into farming your 44 Collector items. It lasts 7 raids and you can unequip it to save uses.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Snatch",
+  "kappa": false,
+  "req": [
+   "missing-informant"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Extract from Lighthouse",
+   "Obtain the forged intelligence at the Rogue base on Lighthouse",
+   "Obtain the original intelligence in the repair station on Reserve",
+   "Stash the forged intelligence under the BMP-2 in place of the original",
+   "Bring the original intelligence to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "return-the-favor",
+  "name": "Return the Favor",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Woods"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate 15 PMCs around the mountain area on Woods and hide TerraGroup Blue Folders in the black SUV and in the crates by the satellite antenna at USEC camp.",
+  "unlocks": "Chain progress.",
+  "tip": "The mountain area is the northwest, which is also where the Goons like to camp the antenna and Scav Bunker. Fifteen PMCs in a defined zone means several raids - bring a rifle you can hold angles with rather than a loot loadout.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Return_the_Favor",
+  "kappa": false,
+  "req": [
+   "snatch"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 15 PMC operatives around the mountain area on Woods",
+   "Hide the TerraGroup \"Blue Folders\" materials inside the black SUV in the USEC camp on Woods",
+   "Hide the TerraGroup \"Blue Folders\" materials in the crates near the satellite antenna in the USEC camp on Woods"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "payback",
+  "name": "Payback",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Reserve"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Kill Glukhar and 6 of his guards, shoot a yellow signal flare at the radar station, and extract from Reserve via Cliff Descent.",
+  "unlocks": "Chain progress.",
+  "tip": "Brutal. Glukhar plus six guards is the heaviest boss fight in the game, and Cliff Descent needs a paracord and a Red Rebel ice pick - bring both or you cannot finish even after winning the fight. Queue Reserve when the red skull is on it so the boss is guaranteed rather than a coin flip.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Payback",
+  "kappa": false,
+  "req": [
+   "return-the-favor"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate and eliminate Glukhar",
+   "Eliminate 6 of Glukhar's guards",
+   "Shoot a yellow signal flare at the radar station",
+   "Survive and extract from Reserve through Cliff Descent"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "provocation",
+  "name": "Provocation",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Interchange"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Eliminate 20 enemies around Kiba Arms using an ASh-12, stash a Salty Dog beef sausage in Kiba, a Bottle of Fierce Hatchling moonshine in the secret secure hideout and Toilet paper in the secret container stash, then extract.",
+  "unlocks": "The Rogue support service - 2 Secure magnetic tape cassettes and 2,500 Euros.",
+  "tip": "The ASh-12 restriction is the whole difficulty: it is expensive, heavy and its ammo is dear, so budget for it before you queue. Twenty kills around Kiba Arms on Interchange means Killa will find you, which is either a problem or twenty percent of your kills depending on your loadout. The three stash items are cheap — bring all of them in one raid so you only have to survive once.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Provocation",
+  "kappa": false,
+  "req": [
+   "payback"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 20 enemies around the Kiba Arms store while using an ASh-12 on Interchange",
+   "Stash a Salty Dog beef sausage inside the Kiba Arms store",
+   "Stash a Bottle of Fierce Hatchling moonshine inside the secret secure hideout",
+   "Stash a Toilet paper inside the secret container stash",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "following-bread-crumbs",
+  "name": "Following the Bread Crumbs",
+  "trader": "Lightkeeper",
+  "maps": [
+   "The Lab",
+   "Reserve"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Eliminate 20 Raiders, search the weapon testing area and human experiment room in The Lab, obtain the secured tape in the manager's office and bring it to Lightkeeper.",
+  "unlocks": "Chain progress.",
+  "tip": "Twenty Raiders means many Labs runs and many consumed access keycards, so this is one of the most expensive quests in the game. Craft your keycards at the Intelligence Center rather than buying them. Same Season 1 caveat as Assessment - Part 3: Black Division replaced Raiders on The Lab this season.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Following_the_Bread_Crumbs",
+  "kappa": false,
+  "req": [
+   "provocation"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Eliminate 20 Raiders",
+   "Search the weapon testing area in The Lab",
+   "Search the human experiment room in The Lab",
+   "Obtain the secured tape inside the manager's office in The Lab",
+   "Bring the tape to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "spotter",
+  "name": "Spotter",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Streets of Tarkov"
+  ],
+  "level": 1,
+  "difficulty": 4,
+  "objective": "Hide an AI .338 LM sound moderator near the red table at a Concordia sniping position overlooking the construction site, and a Trijicon REAP-IR under Makhors' bed at a Primorsky position overlooking the movie theatre, then extract.",
+  "unlocks": "Chain progress.",
+  "tip": "Both stash items are expensive kit you have to carry in and give away, so buy them before you queue rather than hoping to loot them. Two placements in one raid is doable if you route Concordia first, but dying with either means rebuying.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Spotter",
+  "kappa": false,
+  "req": [
+   "following-bread-crumbs"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate a good sniping position in Concordia overlooking the construction site",
+   "Hide AI .338 LM Tactical Sound Moderator near the red table",
+   "Locate a good sniping position at Primorsky overlooking the movie theater",
+   "Hide Trijicon REAP-IR thermal scope under Makhors' bed",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "trouble-big-city",
+  "name": "Trouble in the Big City",
+  "trader": "Lightkeeper",
+  "maps": [
+   "Streets of Tarkov"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Locate the transport holding the cargo, secure the area from 50 hostile PMCs, mark the cargo area with an MS2000 and launch a yellow flare near the armoured convoy, then extract.",
+  "unlocks": "The end of Lightkeeper's main line.",
+  "tip": "Fifty PMCs on the most PvP-dense map in the game is a multi-week objective for most players. Treat it as something that completes in the background while you do everything else on Streets rather than a quest you sit down to finish.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Trouble_in_the_Big_City",
+  "kappa": false,
+  "req": [
+   "make-an-impression"
+  ],
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Locate the transport holding the cargo on Streets of Tarkov",
+   "Secure the area from 50 hostile PMC operatives",
+   "Mark the cargo area with an MS2000 Marker",
+   "Launch a yellow flare near the armored convoy to confirm that the job is done",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.05"
+  },
+  "reqkappa_wiki": false
+ },
+ {
+  "id": "keepers-word",
+  "name": "Keeper's Word",
+  "trader": "Lightkeeper",
+  "maps": [
+   "The Labyrinth"
+  ],
+  "level": 1,
+  "difficulty": 5,
+  "objective": "Stash a Cultist knife in each of three special places inside The Labyrinth.",
+  "unlocks": "A Sacred Amulet and an S I C C organizational pouch.",
+  "tip": "A second route to a Sacred Amulet, and the S I C C pouch is a real stash quality-of-life reward. Remember insurance returns nothing from The Labyrinth, and solve your spawn chamber's trap before you think about loot.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Keeper's_Word",
+  "kappa": false,
+  "path": "lightkeeper",
+  "gate": {
+   "kind": "chain",
+   "label": "chain / no stated gate"
+  },
+  "objectives": [
+   "Stash a Cultist knife in the first special place inside The Labyrinth",
+   "Stash a Cultist knife in the second special place inside The Labyrinth",
+   "Stash a Cultist knife in the third special place inside The Labyrinth"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "reqkappa_wiki": false
+ }
+]

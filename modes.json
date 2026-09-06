@@ -1,0 +1,833 @@
+{
+ "verified": "5 Sep 2026 · patch 1.1.0.1.46911 · all three modes adversarially checked",
+ "headline": "Keys are on the wiki's Uninsurable Items list, so a key is NEVER recoverable via insurance in any mode. The only thing that protects a key is your secure container - and nearly every ordinary key and keycard is secure-container eligible. So insurance is not the differentiator people assume; durability, room contest and access blocks are.",
+ "one_liners": [
+  {
+   "mode": "PvP Zone",
+   "advice": "Do Lightkeeper's Snatch to make the Lab access loop positive-yield, farm Reserve's three marked rooms instead of dorm 314 (same loot table, and the used keys barter into a 314 key at Jaeger LL3), and remember your insurance edge switches off entirely in The Lab, The Labyrinth and on Icebreaker — pouch the key, run a throwaway kit there, and save the insured loadout for Customs, Reserve, Interchange and Shoreline."
+  },
+  {
+   "mode": "PvE Zone",
+   "advice": "Stop buying anything with a guaranteed in-raid spawn (Knossos, Cardinal apartment key, the Terminal three, the Boreas cards, the residential unit keycard) and instead bring real gear, because an AI killer means a high chance of full insurance return everywhere except The Lab, The Labyrinth and Icebreaker — then run one map's whole key circuit per raid on the local client, with Object #11SR saved for last because entering it force-extracts you."
+  },
+  {
+   "mode": "PvP Season",
+   "advice": "Spend nothing: bootstrap off free mechanical keys (Dorm guard desk, Dorm 110, Factory emergency exit, room 301) on the four maps Black Division do not roam — Customs, Reserve, Interchange, Factory — take Safecracker for -5 points because durability is your real cost with no insurance, prefer private exfils over rich rooms, and never burn a UHF RFID Reader on an #11SR or Green keycard craft because Lightkeeper cannot rebuild it before 7 December."
+  }
+ ],
+ "divergences": [
+  {
+   "key": "Object #11SR keycard (Interchange)",
+   "mechanic": "The saferoom door \"will lock itself after closing, and extract any PMC inside\" — the extraction is forced, not optional — and the card is power-switch gated.",
+   "effect": "Best in PvP Season, where insurance is disabled and a forced bank-out with a Weapon box (4x4), (6x3), (5x5) and modded M4A1s is the only way to keep anything, on a map Black Division do not roam. Good in PvP Zone as a one-button bail-out of a lost mall fight. Poor in PvE Zone, where it terminates the multi-room circuit that is the mode's entire advantage, so it must be the last stop of a raid or not run at all. Never craft it in Season: the recipe eats a UHF RFID Reader and an Object #21WS keycard at Intelligence Center 2."
+  },
+  {
+   "key": "Kiba Arms outer door key (Interchange)",
+   "mechanic": "The whole cost is an audience cost — a map-wide power switch you must flip, a store-wide alarm 3 seconds after the door opens, and a second grate door to stand at afterwards.",
+   "effect": "Best in PvE Zone, where no official source credits AI PMCs with flipping the switch or reacting to the alarm, so a four-stage advertisement becomes a four-stage errand and nobody is inside the gun store first — the catch being that you pay the power detour yourself every single raid. Poor in PvP Zone (the alarm is a free location ping) and poor in PvP Season for the same reason with no insurance behind the death. Note neither KIBA key has a trader or a price on the wiki, so there is no shopping trip — flea or in-raid only."
+  },
+  {
+   "key": "The Lab chain: TerraGroup Labs access keycard, keycard (Black), Cardinal apartment key",
+   "mechanic": "Lightkeeper gates the UHF RFID Reader re-craft (task Snatch) and is inaccessible in Season; on seasonal characters Raiders on The Lab are replaced by Black Division and the transit out of The Lab is disabled.",
+   "effect": "Good to best in PvP Zone and PvE Zone, where the reader loop is positive-yield — net +2 access cards per cycle at the cost of a VPX Flash Storage Module, an Advanced Electronic Materials textbook, a Secure Flash drive and an Intelligence folder, so not free and not a 40-minute farm — and where the Lab-to-Streets transit turns one card into the Kruglov's-safe-to-Cardinal-apartment chain. Poor to unavailable in Season, where every card burns a reader you cannot rebuild, the Lab is occupied by Black Division, and the transit that carried the chain out is gone."
+  },
+  {
+   "key": "Factory emergency exit key (and the escape-key class generally)",
+   "mechanic": "Insurance is disabled only in PvP Season; in PvE the Insurance page states an AI killer gives \"a high chance you'll get everything back\". Keys themselves are uninsurable in every mode.",
+   "effect": "Best in PvP Season: with no insurer, surviving is the only way to keep a kit, and two private Factory extractions plus the Customs ZB-013 door on two Black-Division-free maps is the cheapest survival tool available, renewable at Jaeger LL2 for ration-pack junk. Good in PvP Zone, where the same escape saves an insured kit you would otherwise wait 1-20 hours for. Poor in PvE Zone, where every killer is AI and returns are near-certain, making route time spent on an exfil the worst trade in the mode."
+  },
+  {
+   "key": "The Terminal set: Pier door key, Black Division keycard, Armory key",
+   "mechanic": "Terminal returns your character state as it was before entering when you leave \"by either dying or extracting\" — nothing can be lost and nothing can be banked, in any mode. All three keys are guaranteed free in-raid spawns; the scarce item is the single-use access item, and the access routes are mutually exclusive story branches.",
+   "effect": "Good in PvP Zone, the only mode where Prestige is documented, so Terminal converts into the ladder (Kruglov's RFID keycard for Prestige 4 and 5 is a story payout of The Ticket, not a Terminal drop; Prestige 6 requires completing The Ticket). Fine in PvP Season, where Terminal stays open via Prapor's letter at LL1 or the Reprogrammed RFID crafts halved by Handyman, and is the one location where having no insurance costs literally nothing. Poor in PvE Zone: Terminal forces BSG servers, there is no Prestige to feed, and zero-risk carry is redundant. The Armory key drops in every mode because the confiscated equipment cannot be extracted at all."
+  }
+ ],
+ "agnostic": [
+  {
+   "key": "Dorm guard desk key",
+   "map": "Customs",
+   "why": "Costs nothing (dead Scav in the two-story dorm shower), is secure-container and Key tool storable, and is the documented spawn room for the Dorm 314 marked key plus 104, 105, 108, 118, 204, 218, 303, 308, 315, the Trailer park portable cabin key and the Tarcone Director's office key. Every mode wants the Customs key set and this is the only door that hands it to you. Caveat: the wiki does not describe its spawn as guaranteed per raid."
+  },
+  {
+   "key": "RB-VO / RB-BK / RB-PKPM marked keys (the Reserve set)",
+   "map": "Reserve",
+   "why": "One shared marked-room loot table, no mode-specific gating, and Reserve avoids the Season Black Division roam list. All three are mechanical (Safecracker-eligible in Season), all three are secure-container and Key tool storable so they ride together in any mode, and once used they barter at Jaeger LL3 into a Dorm 314 marked key. This is the marked-room money regardless of mode; dorm 314 is not."
+  },
+  {
+   "key": "Health Resort west wing room 301 key",
+   "map": "Shoreline",
+   "why": "Free spawn on a seat of the yellow bus by the collapsed tunnel, and one unlock plus one balcony hop reaches three graphics card spawns, multiple LEDX, a 5x5 weapon box and an SV-98 across rooms 301 and 304. Highest loot-per-unlock on Shoreline in every mode; Season only discounts it for the Black Division roam, and Handyman repays part of that by halving the crafts you feed with the haul."
+  },
+  {
+   "key": "Shatun's hideout key",
+   "map": "Woods",
+   "why": "Ref LL1 for 1x Lega Medal + 100x GP coin is the earliest hideout barter in any mode, and it is a guaranteed TerraGroup Labs keycard (Yellow) spawn behind one door in the eastern village. Woods carries no Black Division roam in Season, and Arena progression syncs one-way into all three profiles, so nothing about the barter is mode-locked."
+  },
+  {
+   "key": "Object #21WS keycard",
+   "map": "Interchange",
+   "why": "You cannot skip it in any mode: it is a required location for both Provocation and Irresistible. Behind it are a Weapon box (4x4), (6x3) and (5x2), a SIG MPX and a HighCom Trooper TFO. Acquire one from bosses, Cultists, The Goons, rare valuables crates or any marked room rather than the flea, and do not feed it to the Object #11SR craft, which consumes both a 21WS and a UHF RFID Reader."
+  }
+ ],
+ "table": [
+  {
+   "key": "Object #11SR keycard",
+   "map": "Interchange",
+   "pvp_zone": "good",
+   "pve_zone": "poor",
+   "pvp_season": "best here",
+   "why_it_moves": "Wiki verbatim: the door \"will lock itself after closing, and extract any PMC inside\" — so it is loot plus a forced raid end, which is a guaranteed bank-out when nothing is insured (Season, on a Black-Division-free map), a bail-out with your kit in PvP Zone, and a circuit-killer in PvE where the whole thesis is looting many rooms per raid."
+  },
+  {
+   "key": "Kiba Arms outer door key",
+   "map": "Interchange",
+   "pvp_zone": "poor",
+   "pve_zone": "best here",
+   "pvp_season": "poor",
+   "why_it_moves": "The cost is entirely an audience cost — you flip a map-wide power switch, then an alarm rings across the mall 3 seconds after the door opens, then you stand at a second grate door; PvE deletes the audience (no official source credits AI PMCs with flipping power or hearing alarms), while Season adds the worst possible pairing of an alarm-marked stand with zero insurance."
+  },
+  {
+   "key": "Factory emergency exit key",
+   "map": "Factory + Customs",
+   "pvp_zone": "good",
+   "pve_zone": "poor",
+   "pvp_season": "best here",
+   "why_it_moves": "Insurance is disabled only in PvP Season, so surviving is the only way to keep a kit and two private Factory exfils plus the Customs ZB-013 door become the cheapest survival insurance available; in PvE the Insurance page says an AI killer gives \"a high chance you'll get everything back\", so escape is worth least exactly where deaths are cheapest."
+  },
+  {
+   "key": "Cardinal apartment key",
+   "map": "Streets of Tarkov (key spawns in The Lab R22 safe)",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "unavailable",
+   "why_it_moves": "The chain needs you to pull the free guaranteed key from Kruglov's safe and get it to Streets; on seasonal characters Raiders on The Lab are replaced by Black Division and the transit out of The Lab is disabled, breaking the chain at step one. PvP Zone and PvE differ only in that Streets forces BSG servers in PvE, so PvE loses its local-client safety net here."
+  },
+  {
+   "key": "TerraGroup Labs access keycard",
+   "map": "The Lab (single-use entry)",
+   "pvp_zone": "good",
+   "pve_zone": "best here",
+   "pvp_season": "poor",
+   "why_it_moves": "The UHF RFID Reader re-craft is gated behind Lightkeeper's Snatch, and Lightkeeper is inaccessible in Season — so the card loop is positive-yield (net +2 cards per cycle, not free) in both Zone modes and strictly one-way in Season; PvE ranks highest because one consumed card covers a full multi-room Lab sweep instead of one contested room."
+  },
+  {
+   "key": "TerraGroup Labs keycard (Black)",
+   "map": "The Lab + Streets of Tarkov",
+   "pvp_zone": "good",
+   "pve_zone": "best here",
+   "pvp_season": "poor",
+   "why_it_moves": "In PvE R22 is a deterministic pull that yields the guaranteed Cardinal apartment key; in PvP Zone the value is the downstream Blue Folders to Lightkeeper barter that only the two Zone modes can reach; in Season the Lab is Black-Division-occupied with no transit out and the Lightkeeper leg is closed outright."
+  },
+  {
+   "key": "Dorm overseer key",
+   "map": "Customs (lock) / Shoreline (guaranteed key spawn)",
+   "pvp_zone": "fine",
+   "pve_zone": "fine",
+   "pvp_season": "best here",
+   "why_it_moves": "A seasonal change routes Against the Conscience - Part 1 straight after Create a Distraction - Part 1 without the Arena quest Hold the Lead, which cannot be obtained in season — so Season is the only mode reaching this room's chain (ending at Between Two Fires / Decisions, Decisions) without Arena, and the room drops the loose GP coins the Theta barter wants."
+  },
+  {
+   "key": "Pier door key",
+   "map": "Terminal",
+   "pvp_zone": "good",
+   "pve_zone": "poor",
+   "pvp_season": "fine",
+   "why_it_moves": "Terminal restores character state on death *and* on extraction in every mode, so no key or loot is ever at risk or ever bankable; the residual value is progression, and Prestige is documented only for the PvP game mode. PvE additionally loses the local client (Terminal forces BSG servers) and has no Prestige ladder to feed."
+  },
+  {
+   "key": "Black Division keycard",
+   "map": "Terminal",
+   "pvp_zone": "good",
+   "pve_zone": "poor",
+   "pvp_season": "fine",
+   "why_it_moves": "Same Terminal reset rule, and the keycard is a guaranteed free spawn every raid in the seaport weapon box in all modes — so it is never the scarce item. Season keeps Terminal open via Prapor's letter (LL1) or the Reprogrammed RFID crafts (halved by Handyman); only the Lightkeeper route is closed."
+  },
+  {
+   "key": "Armory key",
+   "map": "Terminal",
+   "pvp_zone": "fine",
+   "pve_zone": "poor",
+   "pvp_season": "fine",
+   "why_it_moves": "Demoted in every mode: because the state reset applies to extracting too, the confiscated equipment cannot be taken out at all, so it is not a gear room in any economic sense — only a leg of the Mr. Kerman access branch, which is worth least in PvE where there is no Prestige and Terminal forces servers."
+  },
+  {
+   "key": "Dorm room 314 marked key",
+   "map": "Customs",
+   "pvp_zone": "poor",
+   "pve_zone": "good",
+   "pvp_season": "good",
+   "why_it_moves": "Identical marked-room loot table to Reserve's three rooms but the most camped door in human lobbies, and the wiki calls the key \"completely rusted through, making it very fragile\" — so Season's opt-in Safecracker (25% chance of no durability loss) is the only mode that cushions that, on a map Black Division do not roam; PvE simply removes the stairwell camper."
+  },
+  {
+   "key": "Knossos LLC facility key",
+   "map": "Shoreline",
+   "pvp_zone": "poor",
+   "pve_zone": "best here",
+   "pvp_season": "poor",
+   "why_it_moves": "It is a guaranteed free spawn every raid, and a guarantee only becomes genuinely yours when nobody else is racing you; the lock sits in the west wing basement, the most contested building on Shoreline in both human modes, and Shoreline is a Black Division roam map in Season. Insurers return nothing from The Labyrinth in any mode."
+  },
+  {
+   "key": "RB-PSV1 key",
+   "map": "Reserve",
+   "pvp_zone": "poor",
+   "pve_zone": "best here",
+   "pvp_season": "fine",
+   "why_it_moves": "Six large supply crates is minutes of standing still, which is the single variable PvE changes most (and Reserve is local-client eligible); Season keeps the map safe from Black Division but bulk crate loot is the worst fit for -20% sell payouts, 5% commission and a 7 December deletion date."
+  },
+  {
+   "key": "Kiba Arms inner grate door key",
+   "map": "Interchange",
+   "pvp_zone": "poor",
+   "pve_zone": "good",
+   "pvp_season": "poor",
+   "why_it_moves": "Not an independent pick — it carries no power requirement and no alarm note of its own, so it is purely the outer door key's dependency; it inherits that key's mode profile and should never be bought first."
+  },
+  {
+   "key": "Dorm room 110 key",
+   "map": "Customs",
+   "pvp_zone": "fine",
+   "pve_zone": "fine",
+   "pvp_season": "good",
+   "why_it_moves": "Season makes the hideout the money engine (no Found-in-Raid for zones, craft times halved, Crafting starts at 51) while making the UHF RFID Reader non-renewable, so the Intelligence folder and generator fuel behind this ten-second ground-floor door are the half of the keycard craft you can still control; in both Zone modes the reader is re-craftable so folder supply does not bind."
+  },
+  {
+   "key": "Relaxation room key",
+   "map": "Streets of Tarkov",
+   "pvp_zone": "fine",
+   "pve_zone": "fine",
+   "pvp_season": "good",
+   "why_it_moves": "Armor Shortage is a confirmed Season 1 modifier and nothing is insured, so mannequins handing out Slicks and Trooper TFO are worth several times their Zone-mode value — and the key's Cultist Circle sacrifice is halved by Handyman; partly offset because Streets is one of the three Black Division roam maps."
+  },
+  {
+   "key": "Dorm room 303 key",
+   "map": "Customs",
+   "pvp_zone": "poor",
+   "pve_zone": "poor",
+   "pvp_season": "good",
+   "why_it_moves": "Pure insurance arbitrage: a door that can hand you a whole G28 or SCAR-H replaces the insurer you do not have in Season (at +25% trader prices), whereas in PvP Zone Jaeger returns the rifle in 1-2 hours and in PvE an AI killer returns it with high probability."
+  },
+  {
+   "key": "Object #21WS keycard",
+   "map": "Interchange",
+   "pvp_zone": "fine",
+   "pve_zone": "fine",
+   "pvp_season": "good",
+   "why_it_moves": "Unavoidable in all three modes (required for both Provocation and Irresistible), so the question is only when to spend it: Season gains most because it is an outdoor container with no building entry on a Black-Division-free map and the guaranteed HighCom Trooper TFO spawn lands during Armor Shortage. Never burn one in the #11SR craft in Season — that craft also eats a non-renewable reader."
+  },
+  {
+   "key": "Voron's hideout key",
+   "map": "Shoreline",
+   "pvp_zone": "good",
+   "pve_zone": "best here",
+   "pvp_season": "poor",
+   "why_it_moves": "Multiple LEDX, an ophthalmoscope and a GPU behind one door is a slow deliberate search that PvE can afford on a local client; Season puts the same door on a Black Division roam map with no insurance on the escort kit, only partly offset by Handyman halving the Cultist Circle route (1x Mastichin figurine) that bypasses Ref LL3 entirely."
+  },
+  {
+   "key": "Rusted bloody key",
+   "map": "Streets of Tarkov",
+   "pvp_zone": "poor",
+   "pve_zone": "fine",
+   "pvp_season": "poor",
+   "why_it_moves": "It cannot go in a secure container in any mode, so it is the one key whose loss is truly permanent — least irrational in PvE where the killer is AI, worst in Season where Streets is a Black Division roam map with no insurance behind it. Craftable at the Cultist Circle (1x Pointy guy figurine), so it is not find-in-raid-only."
+  },
+  {
+   "key": "Abandoned factory marked key",
+   "map": "Streets of Tarkov",
+   "pvp_zone": "good",
+   "pve_zone": "fine",
+   "pvp_season": "poor",
+   "why_it_moves": "Its documented max-uses field is blank where the three Reserve marked keys are capped at 25, and uncapped durability repays a permanent character far more than a 93-day one; PvE cannot claim a discount here because Streets forces BSG servers and the PvE flea is a separate, unreadable market."
+  },
+  {
+   "key": "Primorsky 46-48 skybridge key",
+   "map": "Streets of Tarkov",
+   "pvp_zone": "fine",
+   "pve_zone": "poor",
+   "pvp_season": "poor",
+   "why_it_moves": "Pure mobility, which is worth nothing against AI and negative in Season where Streets carries Black Division and no insurance; note a single key is guaranteed to spawn every raid behind the Brodion pub bar, so its flea restriction is irrelevant to acquiring it."
+  },
+  {
+   "key": "Health Resort east wing room 306 key",
+   "map": "Shoreline",
+   "pvp_zone": "fine",
+   "pve_zone": "good",
+   "pvp_season": "poor",
+   "why_it_moves": "Two rooms per unlock (306 chains to 308 via the balcony) is worth most where you can search both unhurried; the resort is the most contested building on Shoreline in both human modes and the map carries Black Division in Season. Acquire it via the Peacekeeper LL2 barter — the ₽5,780 infobox figure is a handbook base price with a blank trader field, not an offer."
+  },
+  {
+   "key": "Health Resort east wing room 328 key",
+   "map": "Shoreline",
+   "pvp_zone": "fine",
+   "pve_zone": "good",
+   "pvp_season": "poor",
+   "why_it_moves": "Same balcony-chain profile as 306 with a LEDX and a GPU; it moves only on how long you may stand in the east wing, which is why PvE ranks it and Season (Black Division roam plus uninsured escort gear) does not."
+  },
+  {
+   "key": "Health Resort west wing room 301 key",
+   "map": "Shoreline",
+   "pvp_zone": "good",
+   "pve_zone": "best here",
+   "pvp_season": "fine",
+   "why_it_moves": "The best loot-per-unlock on the map (301 plus 304 through the balcony: three GPU spawns, multiple LEDX, a 5x5 weapon box, an SV-98) with a free spawn on the yellow bus by the collapsed tunnel; Season holds a genuine counter-lever in Handyman converting that haul roughly twice as fast, which nearly offsets the Black Division risk."
+  },
+  {
+   "key": "Cottage back door key",
+   "map": "Shoreline",
+   "pvp_zone": "fine",
+   "pve_zone": "good",
+   "pvp_season": "fine",
+   "why_it_moves": "A guaranteed Yellow keycard and two safes seconds from the eastern spawns; PvE gains from working both safes unhurried on a local client, and it stays usable in Season precisely because it is a short low-exposure stop far from the resort on a Black Division map."
+  },
+  {
+   "key": "Portable bunkhouse key",
+   "map": "Customs",
+   "pvp_zone": "fine",
+   "pve_zone": "fine",
+   "pvp_season": "good",
+   "why_it_moves": "A Therapist LL1 junk barter (Vita juice, milk, toilet paper) for a repeatable weapon-box door is disproportionately valuable on a fresh seasonal profile starting at LL1 with no insurance rebate, +25% trader prices and -20% sell payouts."
+  },
+  {
+   "key": "Grumpy's hideout key",
+   "map": "Interchange",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "fine",
+   "why_it_moves": "Barely moves once the false \"only a permanent character banks Ref rep and GP coins\" claim is dropped — Arena syncs one-way into Season too. Its one real mover is that PvE must flip the Interchange power switch itself every raid, which turns the power-station hideout into a free bolt-on to a detour you already pay for."
+  },
+  {
+   "key": "RB-VO marked key",
+   "map": "Reserve",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "best here",
+   "why_it_moves": "Same loot table in all three modes, so only cost differs: Reserve is not on the Season Black Division roam list, the key is mechanical so opt-in Safecracker stretches its 25 uses, and three used Reserve marked keys barter at Jaeger LL3 into a Dorm 314 key — a rouble-free path that never touches the flea."
+  },
+  {
+   "key": "RB-BK marked key",
+   "map": "Reserve",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "good",
+   "why_it_moves": "Effectively mode-agnostic. Nothing stops you carrying all three Reserve marked keys in any mode (all are secure-container and Key tool storable, and the 5-per-raid cap is per key type), so the \"triple circuit is PvE-only\" premise does not hold."
+  },
+  {
+   "key": "RB-PKPM marked key",
+   "map": "Reserve",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "good",
+   "why_it_moves": "Same as RB-BK; the underground tunnel geometry changes your approach in a human lobby but not the key's worth, and three extra drawers is not a meaningful stationary window."
+  },
+  {
+   "key": "Shatun's hideout key",
+   "map": "Woods",
+   "pvp_zone": "fine",
+   "pve_zone": "good",
+   "pvp_season": "good",
+   "why_it_moves": "The cheapest hideout barter (Ref LL1) for a guaranteed Yellow keycard, on a map Black Division do not roam in Season and which +25% seasonal XP reaches quickly; PvE gains the unhurried search. No lever isolates it for PvP Zone."
+  },
+  {
+   "key": "Dorm guard desk key",
+   "map": "Customs",
+   "pvp_zone": "good",
+   "pve_zone": "good",
+   "pvp_season": "best here",
+   "why_it_moves": "Free from the dead Scav's hand in the two-story dorm shower, and it opens twelve dorm key spawn locations plus a weapon rack and a 6x3 box — the bootstrap key in every mode, and it matters most in Season where you start at trader LL1 with no roubles and no insurance rebate."
+  }
+ ],
+ "mechanics": [
+  {
+   "topic": "Insurance availability",
+   "pvp_zone": "Available. Prapor (12-20h return / 7-day collect), Therapist (6-10h / 10-day), Jaeger (1-2h / 24h). Higher trader LL gives a fee discount.",
+   "pve_zone": "Available, identical to PvP Zone. Patch 1.1.0.0 insurance rework is stated to apply to \"PvP Zone and PvE Zone\".",
+   "pvp_season": "NOT available. Global modifier \"No Insurance\" - \"Cannot insure items before raid\". Insurance wiki: \"the insurance service is not offered by any trader.\" Changelog 1.1.0.0: \"Applies only to PvP Zone and PvE Zone, as insurance is disabled in PvP Season.\"",
+   "why_it_matters_for_keys": "Sets the loss model for the GEAR you escort a key with, not the key itself. In PvP Season every rouble of the loadout is a real sunk cost per raid, so a key's required loot yield per run is strictly higher.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Are KEYS insurable at all",
+   "pvp_zone": "No. Keys are on the explicit Uninsurable Items list.",
+   "pve_zone": "No. Same list, no mode exception documented.",
+   "pvp_season": "No, and no insurance exists anyway.",
+   "why_it_matters_for_keys": "THE headline answer. The Insurance page's \"Uninsurable Items\" list names: Secure containers, Keys, Melee weapons, Armbands, Containers, thermals, and consumables (provisions, meds, ammo, grenades). So a key is NEVER recoverable via insurance in ANY mode. Insurance is therefore not a differentiator for key risk - only for escort-gear risk. The only protection for a key in all three modes is the secure container.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Keys in a secure container",
+   "pvp_zone": "Yes. Every ordinary key and keycard sampled has storage_securecont = Yes.",
+   "pve_zone": "Yes, same item flags - secure container behaviour is item-level, not mode-level.",
+   "pvp_season": "Yes, and explicitly whitelisted even under the harshest personal modifier (see \"Broken Secure Container\" row).",
+   "why_it_matters_for_keys": "Verified Yes on: Dorm room 206 key, Abandoned factory marked key, Kiba Arms outer door key, Knossos LLC facility key, TerraGroup Labs arsenal storage room key, Keycard with a blue marking, TerraGroup Labs keycard (Red), TerraGroup Labs access keycard, Labrys access keycard, Boreas crew quarters keycard, Compartment C-1 keycard. Practical rule for the guide: pouch the key, and a key is only lost if you forget to pouch it. NOTE a wiki data gap - the Dorm room 314 marked key infobox simply omits the storage_securecont field (Template:Infobox key renders the raw value, so blank means undocumented, not \"No\").",
+   "confidence": "verified"
+  },
+  {
+   "topic": "The keys that CANNOT go in a secure container",
+   "pvp_zone": "The Terminal/Ticket access items: RFID keycard with unknown name, Reprogrammed RFID keycard with Prapor's hash codes, Reprogrammed RFID keycard with Mr. Kerman's hash codes, Kruglov's RFID keycard, Prapor's letter for the port checkpoint. All have storage_securecont = No.",
+   "pve_zone": "Same - item-level flags.",
+   "pvp_season": "Same flags, but the Lightkeeper-issued variant is unobtainable (see Lightkeeper row).",
+   "why_it_matters_for_keys": "These are the ONLY key-class items that cannot be pouched - but they are also \"not lootable from players and can only be placed in a special item slot\", i.e. they survive death unconditionally and cannot be stolen. So zero risk, not high risk. Do not treat storage_securecont=No as a danger flag for these.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Secondary key containers (carry efficiency)",
+   "pvp_zone": "Key tool holds mechanical keys but not keycards. Wallet holds keycards but not mechanical keys. Documents case and S I C C pouch hold both. Keycard holder case exists and can also store money.",
+   "pve_zone": "Identical.",
+   "pvp_season": "Identical, and Key tool / Gingy keychain / Keycard holder case are all on the Broken Secure Container whitelist.",
+   "why_it_matters_for_keys": "Determines how many keys you can pouch per raid. A Key tool inside the secure container is the standard mechanical-key carry; a Wallet or Keycard holder case is the keycard carry. Containers are themselves uninsurable, which is moot once they are in the pouch.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Key durability",
+   "pvp_zone": "Keys and keycards show remaining durability. Baseline 100 uses since the change \"All keys now have durability (100 units, except for the keys that already had durability)\"; some keys have lower caps.",
+   "pve_zone": "Identical.",
+   "pvp_season": "Identical baseline, but the Safecracker personal modifier can be taken (see next row).",
+   "why_it_matters_for_keys": "Durability is the denominator of cost-per-use. Cost per use = purchase price / remaining uses, and a used flea key is priced by remaining durability (the flea can be filtered by key condition).",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Safecracker personal modifier",
+   "pvp_zone": "Does not exist.",
+   "pve_zone": "Does not exist.",
+   "pvp_season": "Available for -5 points: \"Mechanical keys have a 25% chance not to lose durability when used.\"",
+   "why_it_matters_for_keys": "A season-only ~33% increase in expected uses per mechanical key (1/0.75), i.e. cost-per-use falls ~25%. This is the single biggest mode-specific lever on key economics, and it is a build choice you must call out in the PvP Season section. Wording says MECHANICAL keys - keycards are presumably unaffected, which is an inference from the wording, not a stated exclusion.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Broken Secure Container personal modifier",
+   "pvp_zone": "Does not exist.",
+   "pve_zone": "Does not exist.",
+   "pvp_season": "Available for +6 points: secure container restricted to cash, keys, dogtags, special equipment, certain containers and BattlePass documents. Explicit whitelist includes \"Keys & Keycards\", Key tool, Gingy keychain, Keycard holder case, wallets, paper maps, currency, dogtag cases, Poster tube.",
+   "why_it_matters_for_keys": "Free points for a dedicated key-runner. A player whose pouch only ever carries keys, a key tool and cash loses nothing and gains +6 points to spend on Safecracker (-5) or most of Kappa Protocol. This is the strongest season-specific build argument in a key guide.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Secure container size / Kappa access",
+   "pvp_zone": "Alpha (4) on standard edition, Beta (6), Gamma (9) with Unheard/EoD, Epsilon (8) via The Punisher - Part 6, Theta (10) via the Arena questline, Kappa (12) via Collector. Gamma (Loui Peeton) at Prestige 6.",
+   "pve_zone": "Same ladder, but PvE is paywalled to Unheard/EoD owners or standalone PvE-expansion buyers, and Prestige is PvP-only so the Prestige-6 container is unreachable. Theta is reachable because Arena progress syncs one-way into PvE.",
+   "pvp_season": "Kappa Protocol personal modifier grants Secure container Kappa (12 slots) IMMEDIATELY for -12 points. Theta is changed: the Arena quests no longer award the container directly and instead unlock a barter for it at Ref LL3.",
+   "why_it_matters_for_keys": "Pouch slots are the hard cap on how many keys you can carry risk-free. A day-one seasonal character can have 12 protected slots; a fresh PvP Zone standard-edition character has 4. That flips the recommendation from \"one or two high-value keys\" to \"a full key tool plus keycards\".",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Flea Market existence",
+   "pvp_zone": "Available.",
+   "pve_zone": "Available, on its own separate market tied to the separate PvE profile. Corroborated by the changelog line removing the Found-in-Raid listing requirement \"for PvP and PvE modes\".",
+   "pvp_season": "Available by default. Evidenced by the existence of the season-only \"No Flea Market\" personal NEGATIVE modifier (+10 points, \"Trading with players on the Flea Market is disabled\") - it would be meaningless if the flea were already off.",
+   "why_it_matters_for_keys": "Keys are a flea category and most mechanical keys are not sold by any trader, so the flea is the primary buy channel in all three modes. Season players who took +10 No Flea Market have NO key buy channel at all beyond the handful of trader/barter keys, and must find every key in raid.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Flea Market level gating by category",
+   "pvp_zone": "Base flea access at level 15. Category tiers reportedly open progressively: bolt-action rifles / foregrips / muzzle devices ~20; assault rifles, marksman rifles, backpacks, light-and-laser ~25; barter items, gear components, injectors and KEYCARDS at 30; top ammo and scopes ~35-40, full access ~40.",
+   "pve_zone": "Assumed identical - no per-mode difference documented anywhere.",
+   "pvp_season": "Assumed identical - no per-mode difference documented anywhere.",
+   "why_it_matters_for_keys": "If real, this is decisive for the buy recommendations: you cannot buy keycards on the flea until level 30 in any mode, and \"most keys\" reportedly gate around 25. On a seasonal character with +25% XP that is a fast gate; on a fresh PvP Zone character it is not. BE CAREFUL IN THE GUIDE: BSG published no detailed 1.0 patch notes (the wiki records only an infographic), the Fandom Trading page does NOT document category tiers at all, and every source for the tier table is third-party. The level-15 base gate is the only part the wiki supports. Treat the Keys~25 / Keycards~30 numbers as unconfirmed and re-verify in client.",
+   "confidence": "unverified"
+  },
+  {
+   "topic": "Flea Market cost and trader economy (1.1.0.0)",
+   "pvp_zone": "Trader prices +25% on average, trader buyback of player items -20% on average, flea commission 3% -> 5%.",
+   "pve_zone": "Same - the changelog states \"The following changes apply to all game modes: PvP Season, PvP Zone, and PvE Zone.\"",
+   "pvp_season": "Same, plus the optional Personality Vacuum negative modifier (+2 points) makes ALL trader items cost 20% more, applying to both direct purchases and barter trades. Third Leg (+1) gives 5% cheaper Therapist purchases.",
+   "why_it_matters_for_keys": "Raises the loot value a key must return to break even in every mode, and specifically raises the cost of the trader-sold keys (TerraGroup Labs access keycard at Therapist LL3 / Ref LL3, the Mechanic LL3 barter, the Jaeger LL1 Labrys barter). Personality Vacuum makes those trader key routes materially worse and is a season-only consideration.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Lightkeeper access",
+   "pvp_zone": "Accessible. The gating questline Network Provider - Part 1 is obtainable; the encoded Digital secure DSP radio transmitter deactivates the claymores and stops Zryachiy shooting.",
+   "pve_zone": "Accessible - Lightkeeper is present in PvE (there are PvE-specific Lightkeeper reward bugfixes in the changelog).",
+   "pvp_season": "NOT accessible. Seasons page: \"Lightkeeper is not accessible.\" Independently confirmed on the quest page: Network Provider - Part 1 carries the seasonal note \"this task can currently not be obtained.\"",
+   "why_it_matters_for_keys": "Closes three key-adjacent routes in PvP Season: (1) the Lightkeeper-purchased RFID keycard with unknown name (Terminal access, 1x TerraGroup Blue Folders materials, once per raid); (2) the Sacred Amulet; (3) Lightkeeper's task Snatch, which is the gate on the UHF RFID Reader re-craft.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Terminal access - CORRECTION to the brief",
+   "pvp_zone": "Four documented access items, each single-use, presented at the port garrison intercom on Shoreline between 21:00-06:00: RFID keycard with unknown name (Lightkeeper), Reprogrammed RFID keycard with Prapor's hash codes (craft), Reprogrammed RFID keycard with Mr. Kerman's hash codes (craft), Prapor's letter for the port checkpoint (Prapor LL1).",
+   "pve_zone": "Same four routes. Terminal FORCES play on BSG servers in PvE - no local client.",
+   "pvp_season": "The LIGHTKEEPER route is closed, but Terminal itself is NOT locked out. The Prapor's letter route (Prapor LL1 after The Ticket, refusing to work with Mr. Kerman) and both Reprogrammed RFID keycard crafts (Intelligence Center level 1, 5h30 each - halved to ~2h45 in season) remain.",
+   "why_it_matters_for_keys": "The brief's framing that \"the Terminal RFID keycard route via Lightkeeper is closed\" is correct but should not be read as \"Terminal is closed in Season 1\". Also note there is no wiki page titled \"Terminal RFID keycard\" - the items are named above. Practical effect: Terminal keys (Armory key, Pier door key, Black Division keycard, SZ-1 charge) stay in scope in all three modes, only the cheapest access route changes.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Terminal loss rules - biggest single key-risk exception",
+   "pvp_zone": "\"When leaving this location by either dying or extracting, the state of the character is returned as it was before entering, besides the consumed access item.\"",
+   "pve_zone": "Same.",
+   "pvp_season": "Same - this is a location rule, not a mode rule, and the Seasons page lists no Terminal exception.",
+   "why_it_matters_for_keys": "On Terminal you cannot lose a key by dying, in any mode. Terminal keys are effectively risk-free to carry outside the pouch, and the no-insurance penalty of PvP Season does not bite here at all. This deserves its own callout in the guide.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Insurance blackout locations",
+   "pvp_zone": "Insurers never return anything from The Lab, The Labyrinth or Icebreaker. All three location pages carry the explicit note.",
+   "pve_zone": "Same.",
+   "pvp_season": "Same, trivially - no insurance anywhere.",
+   "why_it_matters_for_keys": "Irrelevant to the key (keys are uninsurable everywhere) but decisive for escort gear on exactly the three maps with the most valuable keycards. PvP Zone and PvE Zone lose their insurance edge precisely on Lab / Labyrinth / Icebreaker, so on those three maps all three modes have identical key-run risk economics.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "The Lab - access, enemies, transit",
+   "pvp_zone": "Entry requires a TerraGroup Labs access keycard, consumed on entry, max 5 in raid inventory, every group member needs their own. Enemies are Scav Raiders (count raised 20% in 1.0.x). Transit out to Streets of Tarkov, always available, 1 minute after raid start.",
+   "pve_zone": "Same keycard rule - the changelog contains explicit PvE bugfixes for the keycard \"not disappearing after a raid in The Lab in PvE mode\", so it IS consumed in PvE. A Blackout-event note reduced Black Division and increased PMC bot count on The Lab in PvE.",
+   "pvp_season": "Scav Raiders are REPLACED by Black Division on The Lab (Seasons page + The Lab page + Scav Raiders page all carry the note); Black Division \"permanently occupy The Lab\". Third-party guides also state \"The transit out of The Lab is not available\" for the seasonal character.",
+   "why_it_matters_for_keys": "The coloured Lab keycards (Black, Blue, Green, Red, Violet, Yellow, blue-marking, residential unit, arsenal storage room, manager's office, weapon testing area) are the highest-value key block in the game and their value is entirely a function of the Lab run's expected return. Losing the Streets transit in Season 1 removes the loot-chaining option that normally amortises the access-keycard cost across two maps. IMPORTANT: the transit-disabled claim is NOT on the Fandom wiki - the Lab Transits table still shows the Streets transit as always available with no seasonal template. Verify in client before printing it.",
+   "confidence": "likely"
+  },
+  {
+   "topic": "Sustainable supply of TerraGroup Labs access keycards",
+   "pvp_zone": "Trader: Therapist LL3 and Ref LL3 direct, plus a Mechanic LL3 barter (Bulbex cable cutter + Pipe grip wrench). Craft: UHF RFID Reader x1 + Intelligence folder x1 at Intelligence Center 2 -> 3 keycards in 40 minutes. The reader can be regenerated by a second craft (AEM textbook + Secure Flash drive + 1 keycard + VPX module, 12h) but only AFTER Lightkeeper's task Snatch.",
+   "pve_zone": "Identical, and Lightkeeper/Snatch is available, so the reader loop is closed and keycards are effectively renewable.",
+   "pvp_season": "The 3-for-1 craft IS available and its time halves to ~20 minutes. But the reader-regeneration craft is Snatch-gated and Lightkeeper is inaccessible, so the reader cannot be recycled - every 3 keycards consumes one looted UHF RFID Reader (found on Lab, Interchange, Streets, The Labyrinth, sport bags, ground caches).",
+   "why_it_matters_for_keys": "This is the sharpest, least-known mode delta for keycard value. In PvP/PvE Zone, Labs access is a renewable ~free resource once Snatch is done. In PvP Season it is consumable and reader-limited, so Labs access keycards hold real value and looted UHF RFID Readers become a key-adjacent buy. Same Snatch dependency does not apply to the Green keycard craft (Intelligence Center 3, 25h, halved in season), which is available in all three modes.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "The Labyrinth / Labrys access keycard",
+   "pvp_zone": "Labrys access keycard consumed on entry, max 2 in raid inventory, everyone in a group needs one. Sources: Jaeger LL1 barter (2x Salty Dog sausage + 2x Tarkovskaya vodka + 1x Fierce Hatchling moonshine) after the Labyrinth story chapter; Cultist Circle craft from Labrys research notes (1h06); on Tagilla (Factory), Shadow of Tagilla and Vengeful Killa (Labyrinth); 2 as starting kit in the Labyrinth story chapter, 1 in Hypotheses Testing. Cannot be flea-listed. Entry door is in the Shoreline health resort west wing basement, behind the Knossos LLC facility key.",
+   "pve_zone": "Fully obtainable and consumed - the changelog has an explicit PvE bugfix, \"Fixed the cause of Labrys access keycards not disappearing after entering The Labyrinth in PvE mode\".",
+   "pvp_season": "No seasonal exception documented on the Labrys, Labyrinth or Knossos pages. The Jaeger LL1 barter and the Cultist Circle craft both survive; the craft time halves.",
+   "why_it_matters_for_keys": "Labrys is obtainable in all three modes, so the Knossos LLC facility key (the door key to the transit) keeps its value everywhere. It is not flea-tradeable in any mode, so its price is a barter-input price, not a market price - and the barter inputs got 25% more expensive in 1.1.0.0 across all modes.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Icebreaker keycards",
+   "pvp_zone": "Boreas crew quarters keycard, Boreas engine room keycard, Compartment C-1 keycard, Compartment C-3 keycard. These are found IN RAID on Icebreaker, one guaranteed spawn per raid each (crew quarters on level 3 in one of five spots; C-1 in the left hand of a body on level 9). Access to the map is a 700,000 rouble transit from Shoreline unlocked in the Boreas story chapter, direct access after the Stick to It questline; enemy count scales with player count.",
+   "pve_zone": "Same, but Icebreaker FORCES play on BSG servers in PvE - no local client.",
+   "pvp_season": "No seasonal exception documented on the Icebreaker page or the Boreas keycard pages. Black Division are listed among the standard Icebreaker enemies, not as a seasonal substitution.",
+   "why_it_matters_for_keys": "These are found-in-raid keycards, not purchasable, so they carry zero buy recommendation in any mode - the guide item is \"where they spawn\", not \"what to pay\". The 700,000 rouble transit fee, not the keycards, is the cost driver, and a 4-month seasonal character has to run the Boreas story chapter from scratch to unlock it at all.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Seasonal economy - craft times, Found in Raid, and the 7 Dec reset",
+   "pvp_zone": "Normal craft times. Some (not all) Level 1-3 hideout construction materials had their Found-in-Raid requirement removed in 1.1.0.0, and some construction times were reduced. No profile deadline.",
+   "pve_zone": "Identical to PvP Zone on both counts.",
+   "pvp_season": "ALL hideout craft times halved (Handyman global modifier); Crafting skill starts at level 51; hideout zones need NO Found-in-Raid items at all; XP +25% (Seasoned PMCs). Season 1 KORD BREACH runs 3 Aug - 7 Dec 2026 and the character auto-resets. Any seasonal reward not unlocked by 7 Dec becomes permanently unobtainable.",
+   "why_it_matters_for_keys": "Directly answers the payback question. Today is 5 Sep 2026, so a seasonal character has roughly 93 days left. A key whose payback needs many raids is worth LESS in PvP Season on horizon grounds, but the horizon effect is partly offset because the key-supporting infrastructure arrives much faster: Intelligence Center 2 (the Labs-keycard craft bench) is cheaper to build with no FiR requirement, and the 3x keycard craft runs in ~20 minutes instead of 40. Net guidance: in PvP Season favour keys with high per-run yield and short time-to-first-use; in PvP/PvE Zone long-amortisation keys are fine because there is no deadline (PvE wipes are compartmentalised and PvP wipes are player-chosen via Prestige).",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Can you buy keys from traders in PvP Season / does Armor Shortage touch keys",
+   "pvp_zone": "Yes. Documented trader key routes include TerraGroup Labs access keycard (Therapist LL3, Ref LL3, Mechanic LL3 barter), Labrys access keycard (Jaeger LL1 barter), the Ragman LL2 barter consuming Dorm 314 + Resort 112 + Paracord, a Jaeger LL4 Silver Badge barter for Dorm 314, Ref's Arena gladiator room keys, and some resort keys carry trader prices (e.g. Health Resort east wing room 226 key at 5,780 roubles).",
+   "pve_zone": "Same routes. Ref is present in PvE (added with the Arena sync patch, reversing his original PvE exclusion) but requires Arena progression, which syncs one-way Arena -> PvE.",
+   "pvp_season": "Yes, traders still sell keys. The Armor Shortage global modifier is armour-scoped only - the evidence for what it actually does is the removal of the Rys-T bulletproof helmet (Black) barter and the Fresh Stock quest awarding 2x Rys-T directly instead of the barter. No key or keycard trade offer carries a seasonal-change note anywhere on the wiki.",
+   "why_it_matters_for_keys": "Do NOT tell readers Armor Shortage restricts key buying - it does not, on the evidence available. The real season-specific constraints on buying keys are (a) trader Loyalty Level progression from scratch on a fresh character, (b) the +25% economy-wide trader price rise, (c) optional Personality Vacuum +20%, and (d) the optional No Flea Market modifier removing the player market entirely. The \"no key impact from Armor Shortage\" conclusion is an argument from documented absence, so hedge it.",
+   "confidence": "likely"
+  },
+  {
+   "topic": "AI PMC competition for keyed rooms",
+   "pvp_zone": "Human PMCs, who hold keys and open locked rooms. Keyed rooms are genuinely contested.",
+   "pve_zone": "AI PMCs. Officially documented behaviour: they pick up items, loot crates and bodies \"trying to choose more valuable loot\", swap into better gear they find, build routes to \"points of possible loot concentration\", move in tactical formation, set up ambushes at destination points, and extract once they have collected enough loot or enough time has passed. Later notes: \"Improved the AI looting patterns\", \"Improved the AI behavior during looting\", \"Improved the AI PMC behavior while searching for loot in PVE ZONE\", and a rework so AI PMCs spawn remotely and \"travel to loot POIs and compete with the player\". NOTHING in any official note says AI open locked doors or use keys.",
+   "pvp_season": "Human PMCs, plus Black Division roaming Ground Zero (21+), Shoreline and Streets of Tarkov with no fixed spawn, and permanently occupying The Lab. Black Division on the three roaming maps have 880 total health (70 head, 120 per arm, 130 per leg).",
+   "why_it_matters_for_keys": "This is the core PvE key thesis. Open-world loot POIs ARE contested by AI PMCs in PvE (verified). Locked and marked rooms appear NOT to be, because no official source credits AI with key use and the community consistently reports AI PMCs cannot open locked doors - but that specific claim is COMMUNITY ONLY, and community threads on PvE AI feature-requests explicitly ask for \"a small chance of opening locked doors\", implying it does not happen today. Practical guide effect: in PvE Zone a key converts into a near-guaranteed uncontested loot pull with a first-mover advantage, so keys with a slow walk-up are safe to buy; in PvP Zone and PvP Season the same key needs a fast route and a contest plan.",
+   "confidence": "likely"
+  },
+  {
+   "topic": "Loot spawn rates and rare-item chance, PvE vs PvP",
+   "pvp_zone": "Baseline. Recent global loot changes to locked and marked rooms: \"Increased the quantity and quality of loot in locked and marked rooms\", \"Increased the chance of rare loot spawning in locked rooms\", \"Added various container spawns in marked rooms\", \"Increased the colored keycard spawn chances in The Lab\", \"Increased the amount of loot in locked rooms on The Lab\".",
+   "pve_zone": "No verified per-mode loot-rate multiplier. The 1.1.0.0 balancing block is explicitly headed \"The following changes apply to all game modes: PvP Season, PvP Zone, and PvE Zone.\" There is one documented historical direction-of-travel note: the pre-1.0 Hardcore Wipe explicitly did NOT apply to PvE, and the PvP wipe-start settings were later transferred INTO PvE - i.e. BSG converges the two rather than boosting PvE.",
+   "pvp_season": "Same loot tables. Document spawns are the one genuinely mode-differentiated drop: daily document transfer limits are PvP Season 30, PvP Zone 20, PvE Zone 15, and each player gets personal document spawns that other players cannot pre-loot.",
+   "why_it_matters_for_keys": "A key's value is the expected value behind its door. There is NO verified mode multiplier on that expected value, so key ROI rankings should be built from one shared loot table and differ across modes only by contest, risk and time horizon. The frequently repeated claim that PvE loot was quietly nerfed toward PvP levels in mid-2024 is a community observation from an undocumented change and should be labelled as such if you mention it at all.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Karma (PMC) - PvP only",
+   "pvp_zone": "Exists. Hidden parameter. Karma page: \"only exists in the PvP game mode\". Raised by killing bush campers, killing team-killers, using co-op extracts; lowered by bush camping, team-killing, disconnecting. Only documented consequence is Partisan being more likely to appear in raids with low-karma PMCs and hunting them.",
+   "pve_zone": "Does not exist.",
+   "pvp_season": "Not documented either way. The Karma page says \"the PvP game mode\", which predates the PvP Zone / PvP Season split, so whether seasonal characters have karma is genuinely unclear.",
+   "why_it_matters_for_keys": "Answer to the question asked: PMC karma gates NO key and NO key-room. Its only effect is Partisan spawn pressure. So its PvE absence blocks nothing in a key guide. This is an argument from absence across the Karma page and all key pages, so treat it as strong but not formally proven.",
+   "confidence": "likely"
+  },
+  {
+   "topic": "Scav karma / Fence reputation - the karma that DOES matter",
+   "pvp_zone": "Exists (separate system from PMC karma). Scales the transit item-delivery inventory: 3x4 at -0.99 to 0.99, 4x4 at 1-2.99, 4x5 at 3-4.99, 5x5 at 5+. Fence rep 6+ changes AI behaviour toward player Scavs.",
+   "pve_zone": "EXISTS in PvE - the changelog contains \"Fixed the incorrect behavior of PMC bots toward player Scavs with Fence reputation 6 or higher in PvE Zone\" and PvE-specific Fence operational-task fixes.",
+   "pvp_season": "Not documented as changed on the Seasons page. Note the season-only Street Tax modifier (-1 point) has Fence send 150,000 roubles + 1,000 dollars + 1,000 euros weekly.",
+   "why_it_matters_for_keys": "This is the karma system that touches key runs, and it is NOT PvP-only. High Scav karma gives a 5x5 transit delivery grid, which is the one way to bank a keyed-room haul mid-raid without extracting - the closest thing to an insurance substitute, and therefore most valuable in PvP Season where there is no insurance. Worth a line in each mode section. Note the transit EXP multiplier table is stated for the PvP game mode only.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Prestige - PvP only",
+   "pvp_zone": "Exists. Prestige 4 requires obtaining Kruglov's RFID keycard (\"Ticket from Tarkov\"); Prestige 5 requires Collector and They Are Already Here; Prestige 6 requires The Ticket and grants Secure container Gamma (Loui Peeton), 9 slots.",
+   "pve_zone": "Does not exist as a system, but \"Unlocked rewards are also available in the PvE game mode\" - so a PvP-earned Prestige container carries into PvE even though you cannot earn Prestige there.",
+   "pvp_season": "Not documented. Seasonal characters auto-reset on a schedule, which is a different reset mechanism from Prestige.",
+   "why_it_matters_for_keys": "No key or keyed room is Prestige-gated, so Prestige's PvE absence blocks nothing. The only key-relevant consequence is the secure container ladder (see that row): the 9-slot Prestige-6 container is earnable only in PvP Zone, though it is then usable in PvE. Conversely a key item - Kruglov's RFID keycard - is a Prestige REQUIREMENT, not a Prestige reward, which is worth noting for PvP Zone readers.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Local client vs BSG servers (PvE only)",
+   "pvp_zone": "Always BSG servers.",
+   "pve_zone": "Player choice via the \"Play on BSG servers\" checkbox, EXCEPT Streets of Tarkov, Icebreaker and Terminal, and any group play, which force server play. There is also a documented protection system: \"in local PvE Zone raids... If the game closes unexpectedly, task progress will now revert to the state at the start of the raid.\"",
+   "pvp_season": "Always dedicated seasonal servers.",
+   "why_it_matters_for_keys": "A local PvE raid is the lowest-risk environment in the game for a key run - no server-side contest, and you can solo Scav locally to cut queue time. But the exemption list bites exactly where the scarce keycards are: Streets marked rooms, all four Boreas keycards, and every Terminal key are server-only. Whether the unexpected-shutdown revert also restores key durability or an un-consumed access keycard is NOT documented - do not claim it.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Practice mode as a free key test bed",
+   "pvp_zone": "n/a - Practice is a separate mode with no progression saved.",
+   "pve_zone": "n/a - same.",
+   "pvp_season": "n/a - same.",
+   "why_it_matters_for_keys": "Worth one line in the guide regardless of mode: both single-use access keycards are explicitly \"not consumed in the practice and practice co-op game modes\" (TerraGroup Labs access keycard and Labrys access keycard). Practice Co-op requires Unheard/EoD or the discontinued Co-op expansion. Useful for learning a Lab or Labyrinth key route at zero cost before spending a real keycard in any of the three modes.",
+   "confidence": "verified"
+  },
+  {
+   "topic": "Whether keyed rooms have been permanently unlocked in 1.x",
+   "pvp_zone": "Not corroborated on the current wiki. Spot-check: Health Resort east wing room 226 key still documents an active Lock Location (second floor east wing, room 226) and still carries a trader price of 5,780 roubles.",
+   "pve_zone": "Same - lock state is location data, not mode data.",
+   "pvp_season": "Same - no seasonal note on any resort key page.",
+   "why_it_matters_for_keys": "FLAG. The working brief says \"many keyed rooms were PERMANENTLY UNLOCKED in 1.x (e.g. numerous Shoreline resort rooms), making those keys worthless to buy.\" I could not corroborate this: the Fandom changelog has no entry matching \"no longer requires a key\" / \"now unlocked\" / \"removed the lock\", and the Shoreline resort key pages still document live locks. Either the wiki is stale on this point or the claim is overstated. Do not print a \"do not buy these keys\" list on this basis without an in-client check of the specific doors.",
+   "confidence": "unverified"
+  }
+ ],
+ "corrections": [
+  "Dropped every \"the competition is human\" argument as a PvP Zone justification. PvP Season is also human-versus-human on the same maps, so crowd-avoidance, door noise, escape value and mobility separate PvP Zone only from PvE Zone. Keys with no other reason (Factory emergency exit, Primorsky skybridge, rooms 306 and 328, Cottage back door, Shatun's, RB-VO, Grumpy's, Voron's) were re-justified on insurance, Safecracker, Black Division geography, Lightkeeper or permanence, or demoted.",
+  "Dropped every \"Lightkeeper is open here\" argument as a PvP Zone justification — Lightkeeper is equally accessible in PvE Zone, so it separates the two Zone modes from Season only.",
+  "Corrected the UHF RFID Reader loop. The reader is consumed by the craft; the Snatch-gated re-craft is 12 hours at Intelligence Center 2 and costs 1x Advanced Electronic Materials textbook + 1x Secure Flash drive + 1x TerraGroup Labs access keycard + 1x VPX Flash Storage Module. The loop nets +2 cards per cycle at real cost — not free, not regenerating, not an indefinite 40-minute farm. Both \"buy access twice then craft it forever\" (PvP Zone) and \"turns The Lab into a farm\" (PvE) were removed.",
+  "Corrected Object #11SR: the door force-extracts any PMC inside, so \"buy it for the loot, not the exfil\" is impossible and the PvE Interchange circuit that placed it mid-route was internally broken. Verified directly, along with the fact that the #11SR craft consumes both a UHF RFID Reader and an Object #21WS keycard — which is what makes crafting it actively harmful in Season.",
+  "Corrected the Armory key and the Terminal set. The state reset applies to extracting as well as dying, in all three modes, so Terminal gear cannot be banked and \"a zero-downside contested gear room\" is wrong; the Terminal keys' zero-risk carry is not a PvP Zone property, and their three access routes are mutually exclusive story branches rather than a farmable loop.",
+  "Corrected Object #21WS. The red container in the south-west lot is the lock, not the card's spawn (it spawns on bosses, Cultists, The Goons, rare valuables crates and five marked rooms); behind it are a Weapon box (4x4), (6x3), (5x2), a SIG MPX and a HighCom Trooper TFO; and it is a required location for both Provocation and Irresistible, so it cannot sit in an avoid list. Verified on the wiki.",
+  "Corrected Dorm 314 acquisition. The guard-desk key cabinet is a spawn location, not a guaranteed spawn, and it sits behind the separate Dorm guard desk key — so the PvE claim of a free 314 key does not follow. Added the real rouble-free route: Jaeger LL3 for 1x used RB-VO + 1x used RB-PKPM + 1x used RB-BK. Verified.",
+  "Corrected the Reserve triple-circuit premise. All three Reserve marked keys are secure-container and Key tool storable and the 5-per-raid cap is per key type, so carrying and running all three is possible in every mode — it is not a PvE multiplier.",
+  "Corrected the secure-container ceiling claims. Prestige 6's Gamma (Loui Peeton) is 9 slots, the same as the edition Gamma, and Kappa (12, via Collector) is reachable in PvE — so PvE's pouch ceiling is not lower than PvP Zone's, and Season can simply take Kappa Protocol for -12 points.",
+  "Dropped \"keys survive death because you pouch them\" as a PvP Zone edge. The season Broken Secure Container modifier still permits Keys & Keycards, wallets, Key tool, Gingy keychain and Keycard holder case, so key survival is mode-agnostic. Verified on the Seasons page.",
+  "Corrected the Arena and Ref exclusivity claims. 1.1.0.0 added one-way Arena-to-PvP-Season synchronisation of experience, trader reputation, currency, GP coins and Lega Medals, and Ref has a seasonal transfer service — so \"only a permanent character banks Ref loyalty and GP coins\" is false and cannot justify the hideout keys for PvP Zone.",
+  "Corrected insurance framing in both directions. Insurance is a two-mode lever (PvP Zone and PvE Zone), not a PvP Zone exclusive. And PvE's edge is larger than its own ranking allowed: the Insurance page reads \"If an AI (Scavs, Scav Raiders or Bosses) kills you, there's a high chance you'll get everything back\", which in PvE means near-certain gear return everywhere except The Lab, The Labyrinth and Icebreaker. Verified verbatim, along with the seasonal note that the insurance service is not offered by any trader.",
+  "Corrected max-uses claims. Only RB-VO, RB-BK, RB-PKPM (25) and the Mysterious room marked key (10) have documented caps, and the current infobox template renders the field blank even for those; \"everything else defaults to 100\" is invented, and \"marked keys are capped at 25\" is false as a class statement (Dorm 314, Abandoned factory and Shared bedroom marked keys are all blank).",
+  "Corrected Voron's hideout key acquisition — it is not Ref LL3 only. The same page carries a Cultist Circle Unique Sacrifice from 1x Mastichin figurine (1h 6min, also yielding a Note with code word Voron and a Raven figurine), and Handyman halves that in Season. Verified.",
+  "Corrected Rusted bloody key acquisition — craftable at the Cultist Circle from 1x Pointy guy figurine, so not find-in-raid-only; and it is not \"the only\" unpouchable key (Admin's key, the Boreas engine room keycard and the three Terminal keys are also secure-container = No).",
+  "Corrected rouble figures that are handbook base prices with a blank trader field rather than purchase offers: room 306 and room 301 at ₽5,780, RB-PSV1 at ₽55,000, Dorm 206 at ₽1,000. Neither KIBA key has any trader or price at all. The PvE buy order's first four items were therefore rebuilt around free and barter routes; room 306's real route is the Peacekeeper LL2 barter (1x SAS drive + 3x Morphine injector + 1x Diary).",
+  "Corrected the Prestige chain detail. Kruglov's RFID keycard is acquired by unpacking the Armored case after progressing the story chapter The Ticket, does not open any lock, and is required for Prestige 4 and 5; Prestige 6 requires completing The Ticket. It is not a Terminal drop.",
+  "Corrected the marked-room loot-parity citation. The 1.1.0.0 three-mode balancing block covers economy, traders, hideout, insurance, experience, containers, weapons and clothing — not loot tables. The marked-room and locked-room loot increases are from 1.0.4.0.43980 and 1.0.6.5.46221. The parity conclusion still holds observationally but is not sourced to that block.",
+  "Corrected \"Health Resort office key with a blue tape\" — its tick on the Keys & Intel Shoreline table is in the Used in Quest column, not Always unlocked. The verified always-unlocked Shoreline set is east 108, 209, 213, 216, 322, west 207, 303, 309, 323, 325, plus the Gas station safe key and Weather station safe key.",
+  "Corrected the \"RFID keycard with unknown name is the cheapest repeatable Terminal access item\" claim. It is a Lightkeeper barter requiring you to side with Lightkeeper after progressing The Ticket, whereas Prapor's letter for the port checkpoint is Prapor LL1. Neither is repeatable.",
+  "Corrected two guaranteed-spawn omissions that changed acquisition advice: the Primorsky 46-48 skybridge key is guaranteed every raid on the shelf behind the Brodion pub bar, and the Knossos LLC facility key is guaranteed every Shoreline raid across five documented spots — so their flea restrictions are irrelevant to obtaining them.",
+  "Added a durability fact the Season ranking omitted while ranking the key second: the Dorm overseer key's own description reads \"Appears to be extremely fragile, one-two uses and the key will break apart\", and its max-uses field is blank. That makes Safecracker close to mandatory for that chain and makes the guaranteed Shoreline smugglers'-base spawn a per-attempt cost on a Black Division map. Verified.",
+  "Fixed minor slips carried into the final table: The Lab raid is 30 minutes and lists 8-10 players (so PvE Lab is not empty — 7-9 AI PMCs plus AI opposition), there is no \"Red door\" on the Lab (the Red keycard opens the security arsenal), the 5-in-raid cap is documented for the Blue, Red, Violet and Yellow Lab keycards but not Black or Green, and Uninsurable Items is a section of the Insurance page rather than its own page. For citations, the wiki article titles are \"Object 11SR keycard\" and \"Object 21WS keycard\" without the \"#\"."
+ ],
+ "unresolved": [
+  "Whether a seasonal character can Prestige is undocumented. I fetched the Seasons page and it does not mention Prestige at all; the Prestige page says only that the system exists in the PvP game mode. Four of the original PvP Zone entries asserted this as fact. I use it as the reason the Terminal set ranks highest in PvP Zone, but it is an inference — if seasonal characters can Prestige, that PvP Zone advantage over Season disappears.",
+  "Whether AI PMCs can open locked doors or flip the Interchange power switch is a community claim with no official source either way, and everything PvE-specific about power-gated Interchange keys rests on it. Officially documented AI PMC behaviour is looting containers and bodies, gearing up, routing to loot concentrations, ambushing at destination points and extracting once loaded.",
+  "The Insurance page's \"high chance you'll get everything back\" line names Scavs, Scav Raiders and Bosses as the AI killers — it does not name AI PMCs. In PvE Zone most player deaths are to AI PMCs, so the near-certain-return edge I lean on for PvE is strongly implied but not verbatim. Confirm in client before bringing expensive escort kit on PvE key circuits.",
+  "Max-uses data is no longer rendered by the current infobox template — I confirmed the field is blank on RB-VO, Dorm 314, Dorm overseer, room 301, Object 11SR and Object 21WS. The 25-use and 10-use figures are legacy wikitext. Since durability is the real cost function in every mode, and the whole Safecracker argument for Season depends on it, treat all use counts as unverified.",
+  "No PvE flea prices could be read (api.tarkov.dev is Cloudflare-blocked and PvE is a separate market), and the two conflicting third-party figures in the source material — the same ~6.8M given to both RB-BK and the Abandoned factory marked key, with the latter also called the most expensive marked key in the game — cannot be reconciled. All cost-per-use arithmetic in the source rankings is unusable.",
+  "The brief's claim that numerous Shoreline resort rooms were permanently unlocked in 1.x is only partly supported. A specific always-unlocked list is documented, but rooms 226, 301, 306 and 328 all still document live locks, and room 301 still renders a ₽5,780 base price. Check the specific door in client before buying any resort key.",
+  "The seasonal disabling of the transit out of The Lab comes from the briefing context, not the wiki. I confirmed on the Seasons page that Raiders on The Lab are substituted with Black Division, but the Lab Transits table carries no seasonal note. My \"unavailable\" rating for the Cardinal apartment key in Season depends on that transit really being off.",
+  "No adversarial check was supplied for the PvP Season ranking, and its list was truncated at rank 13 (the Object #21WS entry cuts off mid-sentence). I spot-verified its highest-impact claims directly — Safecracker, Handyman, Armor Shortage, the Black Division roam list, insurance unavailability, the Dorm overseer key, the Dorm guard desk key and Object #11SR all check out — but anything that list would have said below rank 13 is absent from this reconciliation.",
+  "Route feasibility against raid timers was never validated by any of the three analysts and I did not test it. Interchange and Reserve are 40 minutes, Customs 35, Shoreline 45, The Lab 30. The multi-stop PvE circuits are asserted rather than demonstrated, and the Interchange one is impossible as originally ordered because Object #11SR ends the raid.",
+  "The Season claim that Between Two Fires / Decisions, Decisions unlock a Secure container Theta barter at Ref LL3 for 5x Lega Medal + 100x GP coin instead of awarding the container outright is the load-bearing reason the Dorm overseer key ranks first for Season. I confirmed the key is required for those quests and that the room drops loose GP coins, but not the seasonal substitution of the Theta reward with a barter."
+ ],
+ "season_ranking": {
+  "mode": "PvP Season (Season 1: KORD BREACH, 3 Aug – 7 Dec 2026)",
+  "headline": "In PvP Season the best key is not the richest door but the cheapest door you can find for free on a map Black Division do not roam, opened with a mechanical key that Safecracker keeps alive — because with no insurance the kit you escort the key with is the real cost of the run, and the whole profile deletes itself on 7 December.",
+  "top_keys": [
+   {
+    "rank": 1,
+    "key": "Dorm guard desk key",
+    "map": "Customs",
+    "opens": "Guard desk room, first floor of the two-story dorms. Documented spawn locations for Dorm room 314 marked key, 303, 104, 105, 108, 118, 204, 218, 308, 315, Trailer park portable cabin key and Tarcone Director's office key, plus a weapon rack, a Weapon box (6x3) and 2x Wooden ammo box.",
+    "why_this_mode": "A seasonal character starts at trader LL1 with zero roubles, and 1.1.0.0 raised trader prices ~25%, cut player sell payouts ~20% and raised flea commission to 5% — and unlike PvP/PvE Zone there is no insurance rebate softening any of that. This one door converts a free static spawn (in the hand of the dead Scav in the two-story dorm shower) into most of the Customs key set without spending a rouble, which is worth far more on a 93-day profile than on a persistent one. It is also mechanical, so Safecracker (-5 pts, season-only) applies.",
+    "risk_note": "storage_securecont = Yes, so pouch it. Wiki does not state the shower spawn is guaranteed per raid (unlike Machinery/Unknown key, which it does), so treat 'free every raid' as unverified."
+   },
+   {
+    "rank": 2,
+    "key": "Dorm overseer key",
+    "map": "Customs (lock) / Shoreline (key spawn)",
+    "opens": "The 'old champion's room' between 209 and 211, second floor of the three-story dorms. Loose GP coins, valuables, provisions, weapon mods, a PMC body, high-tier rifle spawns (TX-15 D-WARRIOR, P90 DEVGRU, Vector Gen.2, SCAR-H, MDR, AKMN, AS VAL) and headset/armour spawns.",
+    "why_this_mode": "This is the sharpest season-only key in the game and it is not on any generic list. Against the Conscience - Part 1 requires this room, and its wiki page carries an explicit {{Seasonal change}}: in Season 1 it 'follows directly after Create a Distraction - Part 1 without completing Hold the Lead'. Hold the Lead is an Arena quest whose page states 'this quest cannot be obtained' in season — so PvP Season is the only mode where this chain is reachable without Arena. That chain ends at Decisions, Decisions / Between Two Fires, which in season unlock the Secure container Theta barter at Ref LL3 (5x Lega Medal + 100x GP coin) instead of awarding the container. And the room itself drops loose GP coins, the exact currency that barter needs. A 10-slot pouch is the single highest-value thing a key can buy you in a no-insurance mode.",
+    "risk_note": "The key has a guaranteed spawn every raid in one of four spots at the smugglers' base on Shoreline — a map Black Division roam this season, so the key acquisition run costs escort gear. The lock itself is on Customs, which is Black-Division-free."
+   },
+   {
+    "rank": 3,
+    "key": "Factory emergency exit key",
+    "map": "Factory + Customs",
+    "opens": "Factory: Med Tent Gate extraction, Cellars extraction, and a locked third-floor office room (Portable bunkhouse key spawn, 1x Jacket). Customs: ZB-013 extraction, and the crane yard guard building (TerraGroup Labs arsenal storage room key spawn, drawer, wooden crate, weapon mods).",
+    "why_this_mode": "In PvP Zone and PvE Zone a death is partially reimbursed — Prapor 12-20h/7-day, Therapist 6-10h/10-day, Jaeger 1-2h/24h all return your kit. In PvP Season the Insurance page states 'the insurance service is not offered by any trader' and the 1.1.0.0 changelog confirms 'insurance is disabled in PvP Season'. That inverts the value of key types: a key that guarantees you a private exfil is worth more than a key that guarantees loot, because surviving is the only way to keep the kit. This is the cheapest such key and it works on two maps. It also renews from a used copy at Jaeger LL2 for 3x Iskra ration pack + 1x MRE ration pack — trivial junk barter, reachable fast at +25% XP.",
+    "risk_note": "Mechanical, storage_securecont = Yes, Safecracker-eligible, max 5 per raid inventory. Factory and Customs both have no Black Division roam this season."
+   },
+   {
+    "rank": 4,
+    "key": "Dorm room 314 marked key",
+    "map": "Customs",
+    "opens": "The marked room, third floor of the three-story dorms. Loose loot listed as multiple very rare Valuables, Weapons, Containers, Currency and Keycards — including TerraGroup Labs access keycard, coloured Lab keycards (Red, Green), Object 11SR and Object 21WS keycard spawns.",
+    "why_this_mode": "The three marked-room loot pools (Customs 314, Streets abandoned factory, Streets Chekannaya 13, Reserve RB-*) are the same table, so in a generic ranking they are interchangeable. In PvP Season they are not: Black Division roam Streets and Shoreline but not Customs or Reserve, so the identical loot pool costs materially less escort gear here — and escort gear is now unreimbursed. It is also mechanical (Safecracker) whereas its keycard payouts are not, and it spawns free in the Dorm guard desk key cabinet, so you can run it on a fresh profile with no flea spend. Ranked below the extract keys only because with no insurance a marked-room run needs a survival plan, not just a route.",
+    "risk_note": "storage_securecont field is blank on the wiki (Template:Infobox key does not render it in that page's data) — this is a documentation gap, not a 'No'; every other mechanical key sampled is Yes. Legacy wikitext lists 25 max uses; the template no longer renders max uses, so treat durability as unverified — which is precisely why Safecracker matters here."
+   },
+   {
+    "rank": 5,
+    "key": "Relaxation room key",
+    "map": "Streets of Tarkov",
+    "opens": "The 'Hive' hookah lounge in Malevicha street no. 5. Multiple sports bags, valuables, drinks, and mannequins that can carry LBT-6094A Slick Plate Carrier (Black / Olive Drab / Coyote Tan), HighCom Trooper TFO (MultiCam), BNTI Zhuk (EMR) or Interceptor OTV (UCP).",
+    "why_this_mode": "Armor Shortage is a confirmed Season 1 global modifier ('Traders across Tarkov are experiencing an armor shortage' — its documented effect being the removal of the Rys-T bulletproof helmet (Black) barter). Combine that with no insurance, where you re-buy your armour after every single death, and a door that hands out free Slicks is worth several times what it is worth in PvP/PvE Zone. Second season-only angle: the key itself is a Cultist Circle Unique Sacrifice for 1x Bottle of Fierce Hatchling moonshine (1h06 base), and Handyman halves that to ~33 min — and Fierce Hatchling moonshine is an input to the Jaeger LL1 Labrys access keycard barter. So the key is both armour income and Labyrinth access currency.",
+    "risk_note": "The key has a guaranteed spawn every raid inside Zmeisky 6. Streets is a Black Division roaming map this season, so run it light and short. Mechanical, pouchable, Safecracker-eligible."
+   },
+   {
+    "rank": 6,
+    "key": "Object 11SR keycard",
+    "map": "Interchange",
+    "opens": "The Saferoom Exfil extraction door on Interchange (self-locking, extracts the PMC inside).",
+    "why_this_mode": "Same no-insurance logic as the Factory key but stronger: it is simultaneously a loot room and a private extraction on a map with no Black Division roam this season. The season-specific instruction is a negative one though — do NOT craft it. Its only craft (Intelligence Center 2, 65h33m base, ~32h45 halved) consumes 1x UHF RFID Reader, and in PvP Season readers cannot be regenerated because the reader re-craft is gated behind Lightkeeper's task Snatch and 'Lightkeeper is not accessible'. Every reader you burn on an 11SR is three TerraGroup Labs access keycards you cannot make. In PvP/PvE Zone that trade-off does not exist. Loot it (bosses, Cultists, Goons, marked rooms, rare valuables crates) rather than craft it.",
+    "risk_note": "Keycard, so no Safecracker benefit and it rides in a Wallet or Keycard holder case rather than a Key tool. storage_securecont = Yes. Needs the Interchange power switch on, and other PMCs can steal the loot and use the extract."
+   },
+   {
+    "rank": 7,
+    "key": "Health Resort west wing room 301 key",
+    "map": "Shoreline",
+    "opens": "Room 301 (loose loot, 1x Graphics card, 1x LEDX on the white crates) plus room 304 via the balcony (Weapon box 5x5, 2x PC block, 2x Graphics card, multiple LEDX, SV-98, meds and currency).",
+    "why_this_mode": "Two rooms off one door and one balcony hop is the highest loot-per-second-of-exposure pull on Shoreline, and exposure time — not loot density — is the binding constraint in the only mode where a death costs the whole kit with no return. The GPU/LEDX pull is also disproportionately useful in season because Handyman halves all craft times and Crafting starts at level 51, so the hideout converts that loot into roubles roughly twice as fast as in PvP or PvE Zone. Third-floor west wing keeps you off the contested central stairs.",
+    "risk_note": "Shoreline is a Black Division roaming map this season. Wiki-listed price field ₽5,780 is legacy data (Template:Infobox key no longer renders price), so treat as unverified. The parent brief's claim that numerous resort rooms were permanently unlocked in 1.x is NOT corroborated — this page still documents a live lock — but verify the specific door in client before buying."
+   },
+   {
+    "rank": 8,
+    "key": "RB-VO marked key",
+    "map": "Reserve",
+    "opens": "The marked room in the security barrack building. Same marked-room pool: multiple very rare Valuables, Weapons, Containers, Currency and Keycards, including TerraGroup Labs access keycard, Green/Red Lab keycards, Object 11SR and 21WS.",
+    "why_this_mode": "Reserve is not on the Season 1 Black Division roaming list (only Ground Zero 21+, Shoreline and Streets), which makes this the lowest-escort-risk marked room in the mode for an identical loot table. Second, it is the key that benefits most from Safecracker: legacy wikitext gives it 25 max uses rather than the 100 baseline, so a 25% chance of no durability loss is roughly +33% expected opens on a key with only a quarter of the normal budget. Third, RB-VO + RB-PKPM + RB-BK (all used) barter at Jaeger LL3 into a Dorm room 314 marked key — a rouble-free path to the best marked key on a fresh seasonal profile that never has to touch the flea.",
+    "risk_note": "Max 5 per raid inventory, mechanical, storage_securecont = Yes. 25 max uses is legacy unrendered wiki data — unverified."
+   },
+   {
+    "rank": 9,
+    "key": "Dorm room 110 key",
+    "map": "Customs",
+    "opens": "Ground-floor room in the two-story dorms: 1x Safe, possible Fuel conditioner, Metal fuel tank, Secure Flash drive and Diary on the bed, possible Car battery on the bedside table, possible Intelligence folder in the bedside cabinet, possible loose valuable in the closet.",
+    "why_this_mode": "In PvP Season the hideout is the money engine, not the raids: hideout zones need no Found-in-Raid items at all, all craft times are halved, and Crafting starts at 51. That changes what this room is worth. Specifically the Intelligence folder is the second input to the TerraGroup Labs access keycard craft (UHF RFID Reader + Intelligence folder → 3 keycards, 40 min base, ~20 min halved) — and since the reader side of that craft is now non-renewable, folder supply is what you actually control. Fuel conditioner and Metal fuel tank feed the generator that keeps the halved crafts running. Ground floor means a ten-second in-and-out, which is exactly the exposure profile you want with no insurance.",
+    "risk_note": "Guaranteed spawn every raid in a locker in warehouse #17 changing room, plus a warehouse #6 locker — so free, no flea spend. Mechanical, pouchable, Safecracker-eligible."
+   },
+   {
+    "rank": 10,
+    "key": "Portable bunkhouse key",
+    "map": "Customs",
+    "opens": "The second-storey mobile trailer between the bus depot and the construction area: 1-2x Weapon box (5x2) plus loose ammo packs.",
+    "why_this_mode": "Therapist LL1 barter for 1x Pack of Vita juice + 1x Pack of milk + 1x Toilet paper — the cheapest repeatable weapon-box door in the game, obtainable on day one of a fresh seasonal profile. That matters here and almost nowhere else: with no insurance you are buying a replacement weapon every death, trader prices are up ~25%, and your sell payouts are down ~20%, so early rouble velocity is tighter in PvP Season than in either Zone. It is also right next to a common Customs spawn side, so it is a bolt-on to a quest run rather than a dedicated trip.",
+    "risk_note": "Mechanical, storage_securecont = Yes. Also has a low-chance spawn in the Factory locked room behind the Factory emergency exit key, so the two keys chain."
+   },
+   {
+    "rank": 11,
+    "key": "Dorm room 303 key",
+    "map": "Customs",
+    "opens": "Third floor of the three-story dorms: 1x Wooden crate, loose weapon loot, and a possible rare weapon spawn (HK G28 7.62x51 marksman rifle or FN SCAR-H 7.62x51 assault rifle).",
+    "why_this_mode": "This is the cheapest rifle-vending door on the map you are already running for early Prapor and Therapist tasks. In PvP Zone or PvE Zone a lost rifle largely comes back through Prapor or Jaeger; in PvP Season it never does, so doors that hand you a whole rifle are the practical replacement for the insurance you do not have. It also spawns free in the Dorm guard desk key cabinet and in the Tigr at Scav Checkpoint and in warehouse #6, and renews at Therapist LL2 for 7x T-Shaped plug + 3x Insulating tape. Quest-relevant too (Golden Swag, and 1 needs to be found for Aid Stations), which compresses payback on a 93-day profile.",
+    "risk_note": "Mechanical, storage_securecont = Yes. Wiki price field ₽5,780 is legacy unrendered data — unverified. Third floor of dorms is the most contested stairwell on Customs, so run it after the 314 room, not before."
+   },
+   {
+    "rank": 12,
+    "key": "Black Division keycard",
+    "map": "Terminal",
+    "opens": "A passageway in the administration building (D3) leading to the pumping station building.",
+    "why_this_mode": "This key reads as maximum risk on paper — storage_securecont = No and 'Cannot be discarded' — and in a mode with no insurance that looks fatal. It is the opposite. Terminal's rule is that 'when leaving this location by either dying or extracting, the state of the character is returned as it was before entering, besides the consumed access item', so you cannot lose it, or anything else, by dying there. Terminal is therefore the one location where PvP Season's no-insurance penalty has literally zero bite, and the only place you can bring a full kit for free. Crucially, Terminal is NOT closed in Season 1: only the Lightkeeper-issued RFID keycard with unknown name route is closed. Prapor's letter for the port checkpoint (Prapor LL1) and both Reprogrammed RFID keycard crafts (Intelligence Center 1, 5h30 → ~2h45 halved) all survive.",
+    "risk_note": "Guaranteed spawn every raid in a Weapon box (5x2) in the seaport terminal building (MS). Access items are presented at the port garrison intercom on Shoreline between 21:00 and 06:00, so the approach run is on a Black Division map."
+   },
+   {
+    "rank": 13,
+    "key": "Object 21WS keycard",
+    "map": "Interchange",
+    "opens": "The red TerraGroup container in the container lot south-west of the mall.",
+    "why_this_mode": "Risk-adjusted, this is the best short key run in the mode: one outdoor container in the container lot, no building entry, on a map with no Black Division roam this season, and because it is a keycard it rides in the Kappa/Wallet with zero loss risk. With no insurance, 'walk a short distance from spawn, open one container, leave' beats a richer door that requires crossing the mall. Quest-relevant for Provocation and Irresistible, so it pays back inside the seasonal window. Same season-only warning as 11SR: it is an input to the 11SR craft, which burns a UHF RFID Reader you cannot regenerate without Lightkeeper — so keep the 21WS, do not feed it to the craft.",
+    "risk_note": "Needs the Interchange power switch on. Max 5 per raid inventory. Keycard, so no Safecracker benefit."
+   },
+   {
+    "rank": 14,
+    "key": "Knossos LLC facility key",
+    "map": "Shoreline",
+    "opens": "The door in the health resort west wing basement that gives the transit to The Labyrinth.",
+    "why_this_mode": "The Labyrinth is one of exactly three locations (with The Lab and Icebreaker) where insurers never return anything in ANY mode. That means PvP Season gives up nothing relative to PvP Zone or PvE Zone by going there — the modes converge on risk economics at that door, which is unusual and worth exploiting. And the Labyrinth access side is cheaper to sustain in season than anywhere else: the Labrys access keycard comes from a Jaeger LL1 barter (2x Salty Dog sausage + 2x Tarkovskaya vodka + 1x Fierce Hatchling moonshine) and from a Cultist Circle craft off Labrys research notes whose 1h06 halves to ~33 min under Handyman. Neither route touches Lightkeeper.",
+    "risk_note": "Guaranteed spawn every raid somewhere at the health resort, and cannot be listed on the flea in any mode, so it is a farm-not-buy key. The resort approach is on a Black Division roaming map. Labrys is consumed on entry, max 2 per raid, everyone in a group needs one; it is not consumed in Practice or Practice Co-op, so learn the route free first."
+   },
+   {
+    "rank": 15,
+    "key": "Dorm room 206 key",
+    "map": "Customs",
+    "opens": "Second floor of the two-story dorms: Bottle of water (0.6L), Aquamari water bottle with filter, Water filter, Canister with purified water, Bottle of YMXC water, Emergency Water Ration, tucked in and on the wooden crates.",
+    "why_this_mode": "Cheapest key on the list (wiki price field ₽1,000, or a Therapist LL1 barter for 7x Pile of meds) and the payback logic is season-specific. No FiR for Hideout removes the reason to loot hideout CONSTRUCTION materials — you can just buy those. But Water filters are consumed by the Water collector, not used for construction, and with Handyman halving every craft and Crafting starting at 51 you burn through filter resource roughly twice as fast as in PvP or PvE Zone. This is the cheapest filter source in the game, on the map you are already on, and it clears Operation Aquarius. It pays back inside the seasonal window in single-digit raids, which is the whole test in a mode that resets on 7 December.",
+    "risk_note": "Mechanical, storage_securecont = Yes, Safecracker-eligible. Low absolute value per run — this is a bolt-on stop, not a reason to raid."
+   }
+  ],
+  "avoid_keys": [
+   {
+    "key": "Shared bedroom marked key",
+    "map": "Lighthouse (peninsula)",
+    "why_worse": "Completely dead in this mode, verified from two wiki pages. The room is on the lighthouse peninsula, and the wiki states the bridge is guarded by Zryachiy and full of claymores, with an encoded Digital secure DSP radio transmitter required to pass safely. The DSPT is obtained as initial equipment from Knock-Knock, and 'the related questline starts with Network Provider - Part 1' — whose Requirements section carries an explicit {{Seasonal change}}: 'this task can currently not be obtained'. No DSPT means no peninsula, so a marked room that is a fine buy in PvP Zone and an excellent one in PvE Zone (uncontested by AI PMCs) is worth exactly zero on a seasonal character. This is the single clearest mode-specific 'do not buy'."
+   },
+   {
+    "key": "TerraGroup Labs access keycard",
+    "map": "The Lab",
+    "why_worse": "In PvP Zone and PvE Zone Lab access is effectively renewable: UHF RFID Reader + Intelligence folder crafts 3 keycards at Intelligence Center 2, and the reader itself is re-craftable (AEM textbook + Secure Flash drive + 1 keycard + VPX module, 12h). But that reader re-craft is gated behind Lightkeeper's task Snatch, and the Seasons page states plainly 'Lightkeeper is not accessible'. So in PvP Season every 3 keycards permanently consumes one looted reader. On top of that, the 1.1.0.0 economy raised the Therapist LL3 / Ref LL3 / Mechanic LL3 barter costs ~25% (worse again if you took Personality Vacuum for +2 points, which adds another 20% to all trader items and barters). The card gets more expensive and less renewable in the one mode where it is also most dangerous to use."
+   },
+   {
+    "key": "TerraGroup Labs keycard (Red), (Black), (Green), (Violet), (Yellow), Keycard with a blue marking, TerraGroup Labs arsenal storage room key, manager's office and weapon testing area keys",
+    "map": "The Lab",
+    "why_worse": "The whole coloured-keycard block is a derivative of Lab access, so it inherits the scarcity above. Three further season-specific hits: Scav Raiders on The Lab have been replaced by Black Division, who 'permanently occupy The Lab'; the transit out to Streets of Tarkov is reported disabled for seasonal characters, which removes the two-map loot chain that normally amortises the access card (flagged: this is NOT on the Fandom wiki — the Lab Transits table still shows the Streets transit as always available with no seasonal template, so verify in client); and the Red/Green re-craft chain needs both a UHF RFID Reader per craft and progress through the story chapter The Unheard. In a 93-day mode with no insurance and a non-renewable access token, this is the worst payback profile of any key block in the game."
+   },
+   {
+    "key": "Rusted bloody key",
+    "map": "Streets of Tarkov",
+    "why_worse": "The worst key in the game for this specific mode, and the reason is on the item page in black and white: 'Cannot be listed for sale on the flea market' AND 'Cannot be put inside secure containers' (storage_securecont = No). It is one of only a handful of key-class items that cannot be pouched, and unlike the Terminal RFID items it does NOT survive death — Terminal's state-restore rule does not apply on Streets. So one death is a permanent loss with no buy-back channel, on a map Black Division roam this season, in the one mode where the escort gear is also a total loss. Its Cultist Circle craft (1x Pointy guy figurine, 1h06, halved to ~33 min) is the only replacement route. Fine to use if you find one; never a purchase decision, and never worth a real kit."
+   },
+   {
+    "key": "Kiba Arms outer door key (and Kiba Arms inner grate door key)",
+    "map": "Interchange",
+    "why_worse": "Needs Therapist LL4 (60x Can of condensed milk + 10x Pack of oat flakes), a second key for the inner grate, the power switch on, and it triggers a store-wide alarm three seconds after the door opens. On a persistent PvP Zone profile that is fine — LL4 arrives eventually and the store pays for itself many times over. On a seasonal profile that auto-resets on 7 December, with fresh loyalty levels and roughly 93 days left as of 5 September, LL4 plus a two-key double-buy is a payback period the character may not live to see; and broadcasting your position across the mall is a different proposition when a death costs you the entire kit with no reimbursement."
+   },
+   {
+    "key": "Grumpy's hideout key",
+    "map": "Interchange",
+    "why_worse": "Ref LL2 barter for 1x Lega Medal + 100x GP coin, and it cannot be flea-listed. In PvP Season that price tag is a direct competitor to the best thing you can buy: the Secure container Theta barter at Ref LL3 costs 5x Lega Medal + 100x GP coin. Arena-sourced currency is also scarcer this season — Hold the Lead, To Great Heights! Parts 1-6 and Professional Fitness Parts 1-2 all carry the seasonal note 'this quest cannot be obtained'. Spending 100 GP coins on a loot room instead of banking them toward a 10-slot secure container is a bad trade that only exists in this mode."
+   },
+   {
+    "key": "Mysterious room marked key",
+    "map": "Streets of Tarkov",
+    "why_worse": "Purely a mode-relative downgrade. The loot pool is the standard marked-room table, identical to Dorm 314 on Customs and RB-VO on Reserve — but Streets is one of the three maps Black Division roam this season, so you pay more escort gear for the same expected return, and that gear is now unreimbursed. It also carries the lowest legacy durability of any marked key (10 max uses in the wikitext vs 25 for the RB keys), which means the fewest opens to amortise a purchase inside a 93-day window. Take the same loot table on a Black-Division-free map instead."
+   },
+   {
+    "key": "Abandoned factory marked key",
+    "map": "Streets of Tarkov",
+    "why_worse": "Same loot table again, but the worst approach of the four marked rooms: third floor of the northern abandoned factory building, a long exposed walk-up, on a Black Division roaming map. This key inverts across modes more sharply than almost any other — in PvE Zone it is superb because AI PMCs are not credited by any official source with opening locked doors, so a slow walk-up to an uncontested room is free money. In PvP Season the slow walk-up is the whole problem, because you are carrying gear you cannot get back past both human PMCs and Black Division operatives with 880 total health."
+   },
+   {
+    "key": "EMERCOM medical unit key",
+    "map": "Interchange",
+    "why_worse": "Therapist LL3 barter (5x Disposable syringe + 3x Iskra ration pack + 1x Ophthalmoscope) for what is essentially a medical- and hideout-material door — and its lock location has three separate doors, each of which burns a point of durability, so it drains three times faster than the icon suggests. The season delta is that 'Hideout zones do not require items to be found in raid', so the hideout-materials rationale for hoovering up med supplies largely evaporates: you can buy the non-FiR inputs on the flea instead. Its relative value drops specifically in PvP Season while the LL3 gate and the +25% trader price rise both make it more expensive to get."
+   },
+   {
+    "key": "Cottage back door key",
+    "map": "Shoreline",
+    "why_worse": "Ragman LL3 barter (1x Golden rooster figurine + 5x Chainlet) — a mid-loyalty gate on a fresh 93-day profile — for a door on the far eastern side of a Black Division roaming map. And its headline prize is a TerraGroup Labs keycard (Yellow) spawn, i.e. Lab loot, which is precisely the block PvP Season devalues because Lab access is now reader-limited and Black Division occupy the map. Good key in PvP Zone, better key in PvE Zone; poor value per unreimbursed kit in PvP Season."
+   }
+  ],
+  "strategy": [
+   "Build the character around keys before you buy any. Broken Secure Container (+6 points) is functionally free for a key runner: its whitelist explicitly includes 'Keys & Keycards', Key tool, Gingy keychain, Keycard holder case, wallets, paper maps and Currency — which is everything a key runner puts in a pouch anyway. Spend the +6 on Safecracker (-5 points, 'Mechanical keys have a 25% chance not to lose durability when used'), which is roughly +33% expected opens and ~25% lower cost per use. That combo does not exist in PvP Zone or PvE Zone at all.",
+   "If you can find 12 more points, take Kappa Protocol (-12) for a 12-slot Kappa container on day one. A fresh standard-edition PvP Zone character has a 4-slot Alpha. That is a 3x difference in protected key-carrying capacity, and it flips the carry doctrine from 'one or two keys' to 'a Key tool of mechanical keys plus a Wallet or Keycard holder case of keycards'. Note also that in season the Theta container is no longer awarded directly by Decisions, Decisions or Between Two Fires — it is a Ref LL3 barter for 5x Lega Medal + 100x GP coin.",
+   "Every ordinary key and keycard has storage_securecont = Yes, verified item-by-item. Keys have never been insurable in ANY mode (the Insurance page's Uninsurable Items list names Keys explicitly), so the pouch is your only key protection here exactly as it is everywhere else. The practical rule is unchanged and absolute: pouch the key on the loading screen, and the only way to lose a key is to forget.",
+   "Bias the whole key programme toward Customs, Interchange, Reserve, Woods and Factory. The Seasons page lists Black Division roaming on Ground Zero (level 21+), Shoreline and Streets of Tarkov only, plus permanently occupying The Lab. With no insurance, escort gear is the dominant cost of a key run, so the map's threat profile matters more than the loot behind the door. This is the single biggest structural difference from a generic best-keys list.",
+   "Prefer doors that are close to a spawn or an extract over doors that are rich. Exposure time is the binding constraint when a death is a total loss. Ground-floor rooms (Dorm 110), outdoor containers (Object 21WS), balcony-linked pairs (Health Resort west wing 301 into 304) and trailer doors (Portable bunkhouse) all beat their raw loot value in this mode.",
+   "Farm keys instead of buying them wherever the wiki documents a guaranteed per-raid spawn. Verified guaranteed spawns: Dorm overseer key (smugglers' base, Shoreline), Knossos LLC facility key (health resort, Shoreline), Relaxation room key (Zmeisky 6, Streets), Black Division keycard (seaport terminal building, Terminal), Machinery key (blue jackets in dorm 205, Customs), Unknown key (dead Scav in a bush behind garages, Customs), Dorm room 110 key (warehouse #17 locker, Customs). The Dorm guard desk key then converts into most of the rest of the Customs set for free.",
+   "Do not buy quest-only keys. Machinery key and Unknown key both have 'Nothing unless the quest is active' behind the lock, and both have guaranteed static spawns. Pick them up on the way through; never pay flea prices for them, and never carry them on a raid where the quest is not active.",
+   "Let the hideout carry the rouble curve, not the keys. All craft times are halved, Crafting starts at level 51, and hideout zones need no Found-in-Raid items — so build Intelligence Center early and cheap. The TerraGroup Labs access keycard craft drops from 40 minutes to ~20, the Green keycard chain from 25h to ~12.5h, and the Reprogrammed RFID keycard crafts for Terminal from 5h30 to ~2h45. Keys in this mode are for gear replacement and quest progress; crafting is the income.",
+   "Protect UHF RFID Readers like a currency. In PvP/PvE Zone the reader is re-craftable once you have done Lightkeeper's Snatch. In PvP Season Lightkeeper is inaccessible, so every reader is terminal. Do not spend one on the Object 11SR craft (65h33m, halved to ~32h45) or on the Red/Green re-craft chain — loot 11SR from bosses, Cultists, Goons, marked rooms and rare valuables crates instead, and reserve readers for the 3x Labs access keycard craft if you use Lab at all.",
+   "Grind Scav karma / Fence reputation early. It scales the transit item-delivery inventory from 3x4 up to 5x5 at karma 5+, and that is the only way to bank a keyed-room haul mid-raid without extracting. It is the nearest thing to an insurance substitute that exists, which makes it worth more in PvP Season than in either Zone. The season-only Street Tax modifier (-1 point) also has Fence send 150,000 roubles + 1,000 dollars + 1,000 euros weekly, which is real early key money.",
+   "Treat Terminal as a free-fire zone. 'When leaving this location by either dying or extracting, the state of the character is returned as it was before entering, besides the consumed access item.' So Terminal keys carry zero loss risk, the no-insurance rule has no effect there, and you should run your best kit. Terminal is NOT closed in Season 1 — only the Lightkeeper RFID keycard with unknown name route is. Prapor's letter for the port checkpoint (Prapor LL1) and both Reprogrammed RFID keycard crafts survive.",
+   "Learn expensive routes in Practice first. Both single-use access keycards — the TerraGroup Labs access keycard and the Labrys access keycard — are explicitly not consumed in the practice and practice co-op game modes. In a mode where you cannot regenerate Labs keycards, walking the route for free before spending a real card is worth more than it is anywhere else.",
+   "Count backwards from 7 December 2026. As of 5 September that is roughly 93 days, the character auto-resets, and any seasonal reward not unlocked by then becomes permanently unobtainable. Unspent key durability is destroyed, not banked. My working rule: if you cannot see yourself using a key ten or more times before the reset, loot it rather than buy it."
+  ],
+  "buy_order": [
+   "Dorm guard desk key — the bootstrap. On a broke fresh profile with +25% trader prices and no insurance rebate, one door converts into documented spawn locations for the Dorm 314 marked key, 303, 104, 105, 108, 118, 204, 218, 308, 315, Trailer park portable cabin and Tarcone Director's office keys. Buy this before you buy any of the keys it gives you.",
+   "Factory emergency exit key — the extract you no longer get reimbursed for missing. Two extra Factory extracts (Med Tent Gate, Cellars) plus ZB-013 on Customs, and it renews at Jaeger LL2 from a used copy for 3x Iskra ration pack + 1x MRE ration pack. In a no-insurance mode, buy survival before you buy loot.",
+   "Portable bunkhouse key — first repeatable income. Therapist LL1 barter for 1x Pack of Vita juice + 1x Pack of milk + 1x Toilet paper, and it opens 1-2x Weapon box (5x2). Cheapest kit-replacement door in the game, available on day one of a fresh seasonal profile.",
+   "Dorm room 314 marked key — the EV engine, and take it free from the guard desk if it spawns. Best mechanical-key loot pool in the game, on Customs, which Black Division do not roam this season, unlike the two Streets marked rooms with the identical table. Buy on the flea only if the guard desk keeps failing you.",
+   "Dorm overseer key — the season-only play. Its room is required for Against the Conscience - Part 1, which in Season 1 follows straight on from Create a Distraction - Part 1 without the Arena quest Hold the Lead (which 'cannot be obtained' in season), and that chain ends at the Secure container Theta barter at Ref LL3. The room also drops loose GP coins, the currency that barter needs. Guaranteed spawn at the Shoreline smugglers' base, so ideally farm rather than buy."
+  ],
+  "mode_specific_traps": [
+   "Thinking 'no insurance' makes keys riskier. It does not. Keys appear on the Insurance page's Uninsurable Items list in every mode, so insurance never returned a key anywhere. What the season actually changes is your ESCORT GEAR, which is now a 100% sunk cost per raid. The correct adjustment is to raise the loot-per-run bar a key must clear, and to run cheaper kits — not to leave keys at home.",
+   "Believing Terminal is closed in Season 1. It is not. Only the Lightkeeper-issued RFID keycard with unknown name is gone. Prapor's letter for the port checkpoint (Prapor LL1, after The Ticket, refusing to work with Mr. Kerman) and both Reprogrammed RFID keycard crafts (Intelligence Center 1, 5h30 → ~2h45) still work. There is no wiki item called 'Terminal RFID keycard'.",
+   "Reading storage_securecont = No as a danger flag on the Terminal and Ticket access items (RFID keycard with unknown name, Reprogrammed RFID keycard with Prapor's or Mr. Kerman's hash codes, Kruglov's RFID keycard, Prapor's letter for the port checkpoint). Those items are 'not lootable from players and can only be placed in a special item slot' — they survive death unconditionally. Zero risk, not high risk. The Rusted bloody key is the genuinely dangerous unpouchable key.",
+   "Taking Safecracker and then building a keycard route. The wording is 'Mechanical keys have a 25% chance not to lose durability when used'. Lab coloured cards, Object 11SR/21WS, Labrys, Boreas and Compartment cards are all keycards and are presumably unaffected — that exclusion is an inference from the wording, not a stated rule, but plan around it. Build a mechanical-key route: Key tool in the pouch, marked keys and dorm keys, not colour cards.",
+   "Taking No Flea Market (+10 points) and then planning a bought-key strategy. Most mechanical keys are not sold by any trader, so that modifier removes your only buy channel. If you took it, the entire plan above collapses to guaranteed in-raid spawns plus the handful of Therapist/Jaeger/Ragman barter keys — decide this at character creation, not after.",
+   "Taking Personality Vacuum (+2 points) and then relying on trader key routes. It makes all trader items cost 20% more and the note confirms it applies to barter trades too — on top of the 1.1.0.0 economy-wide +25%. That directly taxes the TerraGroup Labs access keycard (Therapist LL3 / Ref LL3 / Mechanic LL3 barter), the Labrys access keycard (Jaeger LL1 barter) and every cheap Therapist key barter in the buy order.",
+   "Buying Lab access keycards on the assumption they are renewable. The reader-regeneration craft is gated behind Lightkeeper's task Snatch, and the Seasons page states 'Lightkeeper is not accessible'. Every 3 keycards consumes one looted UHF RFID Reader. Budget readers, not keycards.",
+   "Planning any Lighthouse peninsula key run. Network Provider - Part 1 carries the seasonal note 'this task can currently not be obtained', so the Knock-Knock questline never starts, so you never get a Digital secure DSP radio transmitter, so the claymore bridge is live and Zryachiy shoots. The Shared bedroom marked key is unusable on a seasonal character.",
+   "Buying keys to progress the KORD BREACH questline. Verified across the seasonal quest pages: Uninvited Guests - Part 1 (Case with military equipment on Shoreline), Reverse Gear (six WI-FI Cameras on Shoreline / Streets / Ground Zero), Forbidden Knowledge (3x 14-4 KORD SSD off Black Division), Sheep in Wolf's Clothing (Black Division kills while wearing a Black Division plate carrier) and Digital Puzzle (Black Division rugged laptop decrypted at Intelligence Center 1) require no keys at all. Historical Perspectives is not yet obtainable. The season questline is a kill-and-fetch chain, not a key chain.",
+   "Assuming Ground Zero stays a safe low-level key map. Black Division roam it from level 21 only, so the map's risk profile flips underneath you mid-season, and with +25% XP you cross level 21 faster than you would in PvP Zone.",
+   "Trusting the wiki's rouble prices and durability caps. Template:Infobox key no longer renders the 'price' or 'max uses' parameters at all — the ₽1,000 on Dorm 206, ₽5,780 on Dorm 303 and the resort keys, and the 25/10 max-uses figures on the RB and Mysterious room keys are legacy unrendered wikitext. Treat all of them as unverified and re-check in client, especially since 1.1.0.0 moved trader prices +25% and flea commission 3% → 5%.",
+   "Believing the flea keycard level gate is a season-specific problem. Base flea access at level 15 is the only part the wiki supports; the widely circulated tier table (most keys ~25, keycards ~30, full access ~40) is third-party only and BSG published no detailed 1.0 notes. No per-mode difference is documented. If it is real, +25% XP clears it faster on a seasonal character than on a fresh PvP Zone one — so it is a smaller problem here, not a bigger one. Verify in client.",
+   "Writing off the Shoreline resort keys on the strength of the 'permanently unlocked in 1.x' claim. I could not corroborate it: there is no changelog entry matching 'no longer requires a key' or 'now unlocked', and the resort key pages still document live Lock Locations with intact loot tables. Do not skip Health Resort west wing 301 or east wing 306 on that basis without checking the specific door in client.",
+   "Ignoring the Season 1 loot-banking edge. Daily document transfer limits are PvP Season 30, PvP Zone 20, PvE Zone 15, and each player gets personal document spawns other players cannot pre-loot. Combined with a 5x5 transit delivery grid at Fence rep 5+, PvP Season actually has the best mid-raid banking in the game — use it on marked-room runs rather than gambling the extract."
+  ]
+ }
+}

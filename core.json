@@ -1,0 +1,750 @@
+{
+ "STAMP": "5 Sep 2026",
+ "PATCH": {
+  "tag": "v1.1.0.1 · Season 1 KORD BREACH",
+  "version": "1.1.0.1.46911",
+  "released": "21 Aug 2026",
+  "release_1_0": "1.0 launched 15 Nov 2025",
+  "season": "Season 1 — KORD BREACH · 3 Aug – 7 Dec 2026",
+  "wipe_note": "There has been no traditional full wipe since the 1.0 launch on 15 Nov 2025. Patch 1.1.0.0 replaced wipes with Seasons: an opt-in Seasonal Character on separate servers that auto-resets every 4–6 months. Your PvP Zone and PvE Zone characters were NOT wiped — trader rep was only recalculated against the new loyalty thresholds."
+ },
+ "MILESTONES": [
+  {
+   "level": 5,
+   "what": "Therapist LL2",
+   "why": "First real medkit and painkiller access. Grizzly and IFAKs stop being a flea gamble."
+  },
+  {
+   "level": 6,
+   "what": "Prapor LL2",
+   "why": "Cheap 5.45 and 7.62 ammo in bulk. This is where budget kitting starts working."
+  },
+  {
+   "level": 12,
+   "what": "Mechanic + Ragman LL2",
+   "why": "Mechanic LL2 is the gateway to real weapon mods; Ragman LL2 for rigs and backpacks."
+  },
+  {
+   "level": 15,
+   "what": "Flea Market opens",
+   "why": "You can list your own offers. Base access only — item categories stay gated above this."
+  },
+  {
+   "level": 20,
+   "what": "Flea tier 2",
+   "why": "Bolt-actions and muzzle devices open up. Roughly where Ground Zero stops being your matchmaking pool."
+  },
+  {
+   "level": 25,
+   "what": "Flea tier 3 · Prestige 1 eligible",
+   "why": "Assault rifles, marksman rifles and most keys become buyable instead of farm-only."
+  },
+  {
+   "level": 30,
+   "what": "Flea tier 4",
+   "why": "Barter items, meds, gear components and keycards. Hideout building gets much cheaper in time."
+  },
+  {
+   "level": 33,
+   "what": "Jaeger LL4",
+   "why": "The lowest LL4 gate of any trader — the first of the seven Collector loyalty requirements you can clear."
+  },
+  {
+   "level": 35,
+   "what": "Flea tier 5",
+   "why": "Mid-tier ammo (M80 and similar) plus better optics stop being a trader-lock problem."
+  },
+  {
+   "level": 40,
+   "what": "Flea tier 6 — full access · Mechanic LL4",
+   "why": "Top-tier ammo and optics unlock. This is the real end of the economic grind."
+  },
+  {
+   "level": 42,
+   "what": "Ragman LL4",
+   "why": "The highest level gate in the game and the last Collector loyalty wall for most players."
+  },
+  {
+   "level": 47,
+   "what": "Prestige 5 / 6 eligible",
+   "why": "Requires Collector done. Prestige 6 hands you the Gamma (Loui Peeton) container."
+  }
+ ],
+ "TRADERS": [
+  {
+   "name": "Prapor",
+   "role": "Russian ammo and guns · RUB",
+   "currency": "Roubles",
+   "why": "Your ammo pipeline all wipe. Also an insurance provider: 12–20h return, 7 days to collect. His quest access is gated behind the story chapter 'Tour'.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 6 · 0.70 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 21 · 2.70 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 36 · 7.90 rep — the highest rep requirement of any trader"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Prapor"
+  },
+  {
+   "name": "Therapist",
+   "role": "Meds and food · RUB",
+   "currency": "Roubles",
+   "why": "Meds, and the cheapest insurance with the most forgiving window: 6–10h return, 10 days to collect. Healing costs dropped in 1.1.0.0 and higher LL now discounts healing.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 5 · 0.60 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 18 · 2.10 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 37 · 5.80 rep"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Therapist"
+  },
+  {
+   "name": "Skier",
+   "role": "Western guns and barters · RUB",
+   "currency": "Roubles",
+   "why": "Barter chains and the 'Easy Money — Part 1' task that unlocks Ref. Chemical — Part 3 is one of only four named Collector prerequisites.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 7 · 0.60 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 22 · 2.10 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 38 · 5.80 rep"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Skier"
+  },
+  {
+   "name": "Peacekeeper",
+   "role": "NATO gear · USD only",
+   "currency": "US Dollars",
+   "why": "Sells in dollars, so hoard USD. LL2 sells or barters the Alpha and Beta secure containers — the cheapest real container upgrade in the game.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 8 · 0.50 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 19 · 2.20 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 37 · 6.00 rep"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper"
+  },
+  {
+   "name": "Mechanic",
+   "role": "Weapon mods and the Gunsmith series · RUB",
+   "currency": "Roubles",
+   "why": "The biggest quest pool in the game (~83) and every Gunsmith part. 'A Helping Hand' unlocks the BTR Driver's tasks. His LL4 at level 40 with 7.60 rep is a hard Collector wall.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 12 · 0.60 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 26 · 2.30 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 40 · 7.60 rep"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Mechanic"
+  },
+  {
+   "name": "Ragman",
+   "role": "Armour, rigs, backpacks, clothing · RUB",
+   "currency": "Roubles",
+   "why": "Highest level gate in the game at LL4 / level 42. Since 1.1.0.0 his tactical clothing is permanently account-unlocked — you never rebuy it after a reset, Prestige or seasonal character. Sew it Good — Part 2 is a Collector prerequisite.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 12 · 0.50 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 27 · 2.00 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 42 · 6.50 rep — the highest level gate of any trader"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Ragman"
+  },
+  {
+   "name": "Jaeger",
+   "role": "Woods survivalist, ammo and rifles · RUB",
+   "currency": "Roubles",
+   "why": "Lowest LL4 gate at level 33, so he is usually your first Collector loyalty tick. New in 1.1.0.0 he is a third insurance provider: 1–2h return, but only 24h to collect and the priciest. Owns both classic skill walls — Shooter Born in Heaven and The Tarkov Shooter — Part 4.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 9 · 0.60 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 17 · 2.10 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 33 · 7.30 rep — lowest level gate"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Jaeger"
+  },
+  {
+   "name": "Ref",
+   "role": "Arena broker · GP coin",
+   "currency": "GP coin",
+   "why": "Locked until Skier's 'Easy Money — Part 1'. Rep thresholds are far lower than any other trader, so his LL4 is cheap. Handles Arena ↔ main-game transfers. In 1.1.0.0 his stock became mostly plate carriers with no plates installed, at reduced prices.",
+   "ll": [
+    {
+     "tier": "LL2",
+     "req": "Level 15 · 0.25 rep"
+    },
+    {
+     "tier": "LL3",
+     "req": "Level 25 · 0.50 rep"
+    },
+    {
+     "tier": "LL4",
+     "req": "Level 35 · 1.20 rep"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Ref"
+  },
+  {
+   "name": "Fence",
+   "role": "Scav karma and the Collector · RUB",
+   "currency": "Roubles",
+   "why": "No normal loyalty ladder — only LL4 exists, at 6.00 rep, and it is driven entirely by Scav karma rather than PMC tasks. Scav karma 6 opens an extra sales tab at a 30% discount. He gives you Collector, and daily Scav tasks once your Intelligence Center is built.",
+   "ll": [
+    {
+     "tier": "LL4",
+     "req": "6.00 Fence rep · driven by Scav karma, not quests"
+    }
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Fence"
+  },
+  {
+   "name": "Lightkeeper",
+   "role": "In-raid trader · no stock",
+   "currency": "—",
+   "why": "Sits on floor 3 of the lighthouse. Reaching him needs an encoded DSP transmitter from the 'Network Provider — Part 1' chain, which switches off the claymores and stops Zryachiy shooting you. You get 10 minutes per raid — the conversation cuts at 9 minutes and lingering means MIA. Not available at all on Season 1 seasonal characters, and his whole chain is being reworked in 1.1.5.0.",
+   "ll": [],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper"
+  },
+  {
+   "name": "BTR Driver",
+   "role": "In-raid taxi · no stock",
+   "currency": "—",
+   "why": "Rolls on Streets of Tarkov and Woods, with Lighthouse becoming a third route in 1.1.5.0. Tasks are gated behind accepting Mechanic's 'A Helping Hand'. He refuses service at Scav karma −5, and fares scale with faction, karma, Charisma and distance. Four passengers max.",
+   "ll": [],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/BTR_Driver"
+  }
+ ],
+ "KAPPA": {
+  "title": "Collector → Secure container Kappa",
+  "note": "Reworked in 1.1.0.0. The old fixed checklist of dozens of Kappa-flagged quests is gone.",
+  "req": [
+   "Hand over 44 collectable items",
+   "Only 4 named prerequisite quests: Chemical — Part 3, Sew it Good — Part 2, Shooter Born in Heaven, The Tarkov Shooter — Part 4",
+   "Loyalty Level 4 with seven traders: Therapist, Prapor, Peacekeeper, Mechanic, Jaeger, Skier, Ragman",
+   "Scav karma of at least +3"
+  ],
+  "reward": "Kappa container (12 slots, 3×4, 2.0 kg), DEADSKUL armband, and the 'Dawn of a New Era' achievement",
+  "reality": "The wall is no longer a quest list — it is grinding LL4 rep with seven traders. Ragman LL4 needs level 42, Mechanic LL4 needs level 40 at 7.60 rep, and Prapor LL4 wants 7.90 rep. Of the four named quests, Shooter Born in Heaven and The Tarkov Shooter — Part 4 cannot be group-assisted.",
+  "caveat": "Several guide sites still claim 'Fence rep 3.0', 'level 40', and Chemical/Sew it Good Part 4. The live wiki says Scav karma +3 and Parts 3 and 2. Trust the wiki and re-verify before you commit a long grind.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Collector"
+ },
+ "CHANGES": [
+  {
+   "topic": "Side tasks are now handed out in small batches per loyalty level",
+   "detail": "1.1.0.0 tied most side tasks to a specific trader LL and hands them out 2–4 at a time. To see the next batch you either finish several at the current LL or reach the next one. Rewards are now mostly money, XP and rep. Your memorised optimal quest route from previous wipes is dead — spread effort and push trader rep instead of tunnelling one chain.",
+   "tag": "biggest returning-player trap"
+  },
+  {
+   "topic": "Unlocked offers and hideout recipes got reshuffled — and some were taken back",
+   "detail": "Many task-locked trader offers are now free at the required LL. But some offers and some hideout crafting recipes moved to different task rewards, and if you had already unlocked them you LOSE access until you finish the new required task. Recipes you 'already earned' can be gone.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Scav kill objectives narrowed",
+   "detail": "For side tasks needing Scav eliminations, only regular Scavs, Sniper Scavs and Player Scavs count now. Scav Bosses, Raiders and Rogues no longer count — which silently kills the old Labs Raider and Rogue farming routes.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Squadmates can complete some objectives for you",
+   "detail": "Objectives marked with a special icon can be done by any squadmate regardless of level or faction, even if they don't hold the task — they still have to meet every condition (distance, weapon, status effect). Explicitly excluded and still strictly solo: The Tarkov Shooter and The Punisher chains.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Quest numbers got softened",
+   "detail": "Goals and Means min distance 100m → 50m; Hunting Trip 75m → 40m; Connections Up North PMC kills 50 → 20. Elimination zones were widened on roughly 15 tasks including The Huntsman Path — Secured Perimeter, Capturing Outposts, Claustrophobia and Rite of Passage. Story trader wait timers were cut 40%.",
+   "tag": "1.0.2.0 – 1.0.4.0"
+  },
+  {
+   "topic": "Economy tightened",
+   "detail": "Trader buy prices up ~25% on average, trader payouts for your items down ~20%, flea commission 3% → 5%. Hideout levels 1–3 got easier (some found-in-raid requirements dropped, shorter builds) but cost more money. The Workbench is no longer needed for the Weapon Build system.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Three insurance providers now",
+   "detail": "Prapor 12–20h return with 7 days to collect. Therapist 6–10h with 10 days. Jaeger is new: 1–2h return but only 24h to collect, and the most expensive. Higher LL gives a small discount. Insurance is disabled entirely in PvP Season, and never insure on The Lab, The Labyrinth or Icebreaker.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Armour is a plate system, not a vest class",
+   "detail": "Classes run 1–6, no class 7. Vests themselves top out around class 3 for built-in armour; all high-end protection comes from removable plates in classes 1, 3, 4, 5 and 6. Class 5 and 6 plates are flea-banned. Penetration is rolled from armour class, remaining durability and pen power — impact angle does not matter. Guaranteed pen if pen power exceeds effective durability by 15+, where intact effective durability is roughly class × 10.",
+   "tag": "current model"
+  },
+  {
+   "topic": "Ammo economy",
+   "detail": "Loose ammo at 42+ penetration is flea-banned with a few exceptions, found-in-raid status is gone from all ammo, and incomplete stacks can't be listed. 1.1.0.0 moved several popular ammo types and magazines down one loyalty level and cut prices on 5.45 FMJ, 5.56 FMJ, 7.62x39 FMJ, 9x19 Green Tracer and .45 Lasermatch.",
+   "tag": "1.1.0.0"
+  },
+  {
+   "topic": "Season 1 rules differ from the main game",
+   "detail": "KORD BREACH runs 3 Aug – 7 Dec 2026. No insurance. Hideout zones skip found-in-raid and all craft times are halved with Crafting starting at level 51. XP +25%. Lightkeeper is inaccessible. Black Division can RARELY be encountered roaming on Ground Zero (21+), Shoreline and Streets — the wiki qualifies it as rare, so do not plan around it — but they have fully replaced Raiders on The Lab. The seasonal questline starts at Prapor's 'Uninvited Guests — Part 1'. Rewards you don't unlock before 7 Dec are gone permanently; ones you do unlock persist across every mode forever.",
+   "tag": "seasonal"
+  },
+  {
+   "topic": "Battle Pass runs on TerraGroup documents",
+   "detail": "Free, and progress is shared across PvP Season, PvP Zone and PvE Zone. You unlock tiers by holding a number of TerraGroup documents in any mode's inventory. Document spawns are personal — nobody can steal yours or loot them off your corpse — but Black Division drops are shared. 14 documents per location (10 on Factory), with daily transfer caps of 30 in Season, 20 in PvP and 15 in PvE. The counter starts the moment you extract with one.",
+   "tag": "Season 1"
+  },
+  {
+   "topic": "Lighthouse is about to change",
+   "detail": "1.1.5.0 (September 2026, not live yet) moves the Rogue base from the water treatment plant to the chalet area, removes landmines except at the playable-area and Lightkeeper-peninsula boundaries, makes Lighthouse the third BTR route, and makes Rogues shoot USEC on sight — the old USEC free pass is gone. The Lightkeeper task chain is being rerouted through the main story chapters.",
+   "tag": "upcoming — not live"
+  },
+  {
+   "topic": "There is a beginner safety net now",
+   "detail": "If you die while in severe gear and financial hardship, 1.1.0.0 sends you a container with enough gear for a fully-kitted raid. Once per 18 hours, and you have 18 hours to claim it.",
+   "tag": "1.1.0.0"
+  }
+ ],
+ "PATHS": [
+  {
+   "id": "kappa",
+   "title": "Kappa — Secure container",
+   "subtitle": "Fence · Collector · 12 slots (3×4), 2.0 kg",
+   "reward": "Secure container Kappa, the DEADSKUL armband, and the 'Dawn of a New Era' achievement",
+   "headline": "Reworked in 1.1.0.0. The old checklist of dozens of Kappa-flagged quests is gone — it is now four named quests, 44 items, seven trader loyalty levels and Scav karma +3. The effective character-level floor is 42, set by Ragman.",
+   "steps": [
+    {
+     "kind": "chain",
+     "label": "Skier's chemical chain",
+     "note": "Golden Swag gates the chain. Part 3 is on Factory and needs a breaching charge, not a key.",
+     "quests": [
+      "golden-swag",
+      "chemical-1",
+      "chemical-2",
+      "chemical-3"
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "Ragman's tailoring chain",
+     "note": "Colourways matter on the Part 2 hand-in — grey BlackRock and A-TACS FG TV-109/TV-106. All found in raid.",
+     "quests": [
+      "sew-it-good-1",
+      "sew-it-good-2"
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "Jaeger's marksmanship chain",
+     "note": "Unlock Jaeger via Mechanic's Introduction first. Part 2 unlocks when you ACCEPT Part 1, so run them together. Strictly solo throughout.",
+     "quests": [
+      "mechanic-intro",
+      "acquaintance",
+      "tarkov-shooter-1",
+      "tarkov-shooter-2",
+      "tarkov-shooter-3",
+      "tarkov-shooter-4"
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "The skill wall — a Mechanic quest, not Jaeger",
+     "note": "No prerequisite quest. The gate is purely Mechanic LL4, which is why this is almost always the last of the four you finish.",
+     "quests": [
+      "sbih"
+     ]
+    },
+    {
+     "kind": "req",
+     "label": "Loyalty Level 4 with seven traders",
+     "note": "This, not the quest list, is the real Kappa wall. Ragman's level 42 gate sets the floor for the whole thing.",
+     "items": [
+      {
+       "id": "ll4-jaeger",
+       "label": "Jaeger LL4",
+       "detail": "Level 33 · 7.30 rep — lowest level gate, so usually your first tick"
+      },
+      {
+       "id": "ll4-prapor",
+       "label": "Prapor LL4",
+       "detail": "Level 36 · 7.90 rep — the highest rep requirement of any trader"
+      },
+      {
+       "id": "ll4-therapist",
+       "label": "Therapist LL4",
+       "detail": "Level 37 · 5.80 rep"
+      },
+      {
+       "id": "ll4-peacekeeper",
+       "label": "Peacekeeper LL4",
+       "detail": "Level 37 · 6.00 rep — the most headroom, effectively free"
+      },
+      {
+       "id": "ll4-skier",
+       "label": "Skier LL4",
+       "detail": "Level 38 · 5.80 rep"
+      },
+      {
+       "id": "ll4-mechanic",
+       "label": "Mechanic LL4",
+       "detail": "Level 40 · 7.60 rep — and SBIH needs it, so you cannot use SBIH to reach it"
+      },
+      {
+       "id": "ll4-ragman",
+       "label": "Ragman LL4",
+       "detail": "Level 42 · 6.50 rep — highest level gate in the game, and he has no +1.5 quest"
+      }
+     ]
+    },
+    {
+     "kind": "req",
+     "label": "Karma and collectables",
+     "items": [
+      {
+       "id": "karma-3",
+       "label": "Scav karma of at least +3",
+       "detail": "Rotate first-time vehicle and co-op extracts across different maps — the bonus resets per map"
+      },
+      {
+       "id": "items-44",
+       "label": "All 44 collectables, found in raid",
+       "detail": "Common items. The delay comes from selling, eating, wearing or crafting them away — see the trap list"
+      }
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "Turn it in",
+     "note": "Fence gives the task. Everything above must be done first.",
+     "quests": [
+      "compensation-wager",
+      "collector"
+     ]
+    }
+   ],
+   "gotchas": [
+    "Shooter Born in Heaven is a MECHANIC quest, not Jaeger's, and it wants 20 bolt-action PMC headshots as four objectives of five on map PAIRS — Customs or Lighthouse, Streets or Shoreline, Interchange or Ground Zero, Woods or Reserve. Pick the easier map in each pair and ignore the other.",
+    "Stack The Tarkov Shooter — Part 4 with SBIH. Part 4 wants five bolt-action PMC kills past 80 m; SBIH wants bolt-action PMC headshots. Every SBIH headshot past 80 m ticks both.",
+    "Chemical — Part 3 costs you Jaeger −0.01 reputation, which is perverse given Jaeger LL4 is also a Collector requirement.",
+    "The 'Kappa Path' achievement can no longer be earned as of Season 1. Collector now grants 'Dawn of a New Era'.",
+    "On a Season 1 seasonal character the 'Kappa Protocol' personal modifier hands you the container immediately for −12 modifier points.",
+    "Guide sites still claim 'Fence rep 3.0', 'character level 40' and Chemical / Sew it Good Part 4. The live wiki says Scav karma +3 and Parts 3 and 2."
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Collector"
+  },
+  {
+   "id": "lightkeeper",
+   "title": "Lightkeeper — In-raid trader",
+   "subtitle": "Floor 3 of the lighthouse · no stock, services only",
+   "reward": "The Sacred Amulet, Rogue support, Zryachiy support, and the RFID keycard that gets you into Terminal",
+   "headline": "BLOCKED IN SEASON 1. The live wiki puts a banner on Network Provider — Part 1 stating the task 'cannot currently be obtained in any game mode', and the Seasons page lists Lightkeeper as inaccessible. The route below is mechanically correct and is what 1.1.5.0 will replace, but a character who has not already started it probably cannot begin today.",
+   "steps": [
+    {
+     "kind": "req",
+     "label": "The entry gates",
+     "note": "The old checklist of other traders' quests is confirmed gone. This replaced it.",
+     "items": [
+      {
+       "id": "lk-karma2",
+       "label": "Scav karma of at least +2",
+       "detail": "Get this BEFORE you arrive or you stall at the gate"
+      },
+      {
+       "id": "lk-story",
+       "label": "Story chapter progress — Batya or The Ticket",
+       "detail": "Batya is better documented: Mechanic hands out Network Provider — Part 1 once you clear the objective before 'Gain access to Lightkeeper'. Batya also needs Intelligence Center level 3"
+      },
+      {
+       "id": "lk-intel3",
+       "label": "Intelligence Center level 3 (Batya route)",
+       "detail": "A long hideout build — start it early. The Ticket route only needs level 1 to begin"
+      }
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "Mechanic's transmitter chain",
+     "note": "Eight quests, with real-time gates: 1–9 hours after Part 1, and 24 hours after Assessment — Part 3.",
+     "quests": [
+      "network-provider-1",
+      "network-provider-2",
+      "assessment-1",
+      "assessment-2",
+      "assessment-3",
+      "key-to-the-tower",
+      "knock-knock",
+      "getting-acquainted"
+     ]
+    },
+    {
+     "kind": "req",
+     "label": "Obtaining vs encoding — the bit everyone gets wrong",
+     "note": "Knock-Knock gives you the transmitter DECODED. It does not protect you. You encode it yourself, as a hideout craft.",
+     "items": [
+      {
+       "id": "lk-intel2",
+       "label": "Intelligence Center level 2 built BEFORE Getting Acquainted",
+       "detail": "The encode is a 2-hour craft: screwdriver + Secure Flash drive V3 + decoded transmitter + electronic components, electricity required throughout. No trader does it for you"
+      },
+      {
+       "id": "lk-encoded",
+       "label": "Transmitter reads Encoded (green)",
+       "detail": "Only then are the claymores off and Zryachiy holding fire"
+      },
+      {
+       "id": "lk-group",
+       "label": "Every squadmate has their own encoded transmitter",
+       "detail": "If any member of a lobby-made group lacks one, yours reads Blocked and nobody crosses"
+      }
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "His own line — 10-hour gate between each",
+     "note": "Snatch unlocks the Sacred Amulet; Provocation unlocks Rogue support; Make an Impression unlocks Zryachiy support.",
+     "quests": [
+      "information-source",
+      "missing-informant",
+      "snatch",
+      "return-the-favor",
+      "payback",
+      "provocation",
+      "following-bread-crumbs",
+      "spotter",
+      "make-an-impression",
+      "trouble-big-city"
+     ]
+    },
+    {
+     "kind": "chain",
+     "label": "Side routes and recovery",
+     "note": "Make Amends only appears if you decoded your transmitter. Keeper's Word is a second route to a Sacred Amulet.",
+     "quests": [
+      "make-amends",
+      "keepers-word",
+      "every-hunter-knows"
+     ]
+    }
+   ],
+   "gotchas": [
+    "Ten minutes in his area per raid. The conversation cuts at NINE minutes, and if you have not left within the following minute you go MIA and lose everything outside your secure container. Treat it as a nine-minute clock.",
+    "Arrive with your rig and backpack largely EMPTY — you cannot hand in quests if you lack the inventory space for the rewards.",
+    "If Zryachiy dies while you are in the area, killed by anyone, Lightkeeper breaks off trying to raise him and you are sent out.",
+    "Killing Zryachiy fails Getting Acquainted outright and locks you out. He has 1,655 HP with a 175 head, and each of his two followers respawns up to three times while he lives — up to eight followers. Do not pick that fight.",
+    "Getting too close to Zryachiy or his followers counts as provocation even with an encoded transmitter, and they will engage.",
+    "Other PMCs who ARE acquainted with Lightkeeper can kill unacquainted intruders on the premises with no penalty, so the bridge is a real ambush spot.",
+    "In local PvE raids, unequipping the transmitter does NOT protect you from being decoded.",
+    "1.1.5.0 reworks both Lighthouse and this chain, and several steps are pinned to geometry that is changing — the MI-8 at the water treatment plant, the USEC cottage, the Rogue barracks. If you have anything completable now, turn it in before the patch."
+   ],
+   "wiki": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper"
+  }
+ ],
+ "COLLECTABLES": {
+  "count": 44,
+  "note": "All 44 must be found in raid. They are common items — the reason Kappa gets delayed is people selling, eating, wearing or crafting them away for months before Collector is even available. Start a dedicated stash row on day one.",
+  "items": [
+   "42 Signature Blend English Tea",
+   "Antique axe",
+   "Axel parrot figurine",
+   "BEAR Buddy plush toy",
+   "Baddie's red beard",
+   "BakeEzy cook book",
+   "Battered antique book",
+   "Bottle of YMXC water",
+   "Can of Dr. Lupo's coffee beans",
+   "Can of GigaBeef meat",
+   "Can of RatCola soda",
+   "Deadlyslob's beard oil",
+   "DesmondPilak CD",
+   "Domontovich ushanka hat",
+   "DRD body armor",
+   "Dunduk floppy disk",
+   "Fake mustache",
+   "FireKlean gun lube",
+   "French bakery baguette",
+   "Gingy keychain",
+   "Glorious E lightweight armored mask",
+   "Golden 1GPhone smartphone",
+   "Golden egg",
+   "Inseq gas pipe wrench",
+   "JohnB Liquid DNB glasses",
+   "LM KC-130 model aircraft",
+   "Loot Lord plushie",
+   "LVNDMARK's rat poison",
+   "Mazoni golden dumbbell",
+   "Missam forklift key",
+   "Nut Sack balaclava",
+   "Pestily plague mask",
+   "Press pass (issued for NoiceGuy)",
+   "Raven figurine",
+   "SheefGG piggy bank",
+   "Shroud half-mask",
+   "Silver Badge",
+   "Smoke balaclava",
+   "Tamatthi kunai knife replica",
+   "Tigzresq splint",
+   "Veritas guitar pick",
+   "Video cassette with the Cyborg Killer movie",
+   "Viibiin sneaker",
+   "WZ Wallet"
+  ],
+  "traps": [
+   {
+    "item": "FireKlean gun lube",
+    "why": "The worst offender. You need found-in-raid copies for Workbench level 3 AND Weapon Rack level 3 as well as Collector — three FiR copies total. Almost everyone burns the first one into the hideout."
+   },
+   {
+    "item": "Golden egg",
+    "why": "Two more are needed found-in-raid for Living High is Not a Crime, and it also barters to Prapor LL3. It is classed as a Valuable, so it looks like pure sell-loot."
+   },
+   {
+    "item": "Axel parrot figurine / Raven figurine",
+    "why": "Both are also required for Antique Enthusiast, so they get handed to the wrong task."
+   },
+   {
+    "item": "DRD body armor",
+    "why": "Also required for Balancing — Part 2, and it is a wearable vest, so players equip it and lose it in a raid."
+   },
+   {
+    "item": "Tigzresq splint",
+    "why": "Double trap. It treats fractures so you can use it in raid, and it is the Cultist Circle sacrifice that produces a Golden egg — so people trade one Collector item for another."
+   },
+   {
+    "item": "Domontovich ushanka hat / Nut Sack balaclava",
+    "why": "Both are unique Cultist Circle sacrifice inputs. Performing that ritual destroys a Collector item for some headwear."
+   },
+   {
+    "item": "42 Signature Blend English Tea / BakeEzy cook book / Can of Dr. Lupo's coffee beans",
+    "why": "All three are Nutrition unit crafting inputs. The tea also barters from Therapist LL2, but a bartered copy is not found-in-raid so it will not count."
+   },
+   {
+    "item": "Gingy keychain / SheefGG piggy bank / WZ Wallet",
+    "why": "All containers. Put anything inside and you cannot hand them over — empty every container collectable before handing in."
+   },
+   {
+    "item": "Bottle of YMXC water / Can of RatCola soda / Can of GigaBeef meat / French bakery baguette",
+    "why": "Food and drink. Consumable, destroyed on use, and easy to eat by reflex when your energy is low."
+   },
+   {
+    "item": "Missam forklift key",
+    "why": "It unlocks literally nothing — the wiki lock location is 'None'. It looks like a junk key so players sell it. Spawns in jackets, drawers, sport bags and Scav pockets."
+   },
+   {
+    "item": "Every mask, beard, balaclava and pair of glasses",
+    "why": "Baddie's red beard, Pestily plague mask, Shroud half-mask, Smoke balaclava, Fake mustache, JohnB Liquid DNB glasses and the Glorious E mask are all equippable. The generic failure is wearing a streamer item as cosmetic gear and dying in it. Keep them unequipped in the stash."
+   }
+  ],
+  "cultist_circle": "The most useful non-obvious tool for the 44-item grind. The Cultist Circle takes up to 5 sacrificed items and pays out on their summed base rouble value. At 400,000 roubles or more of sacrifice there is a 25% chance to return items needed for ACTIVE quests and unfinished hideout modules — which includes Collector items while Collector is active. If it triggers the ritual takes 6 hours, otherwise 14. A Sacred Amulet in the amulet slot raises sacrifice value by 15%, and the amulet comes from Lightkeeper — the one place the two endgame paths actually feed each other. Six unique sacrifices PRODUCE collectables (Den, Mastichin, Prapor and Petya Crooker figurines, Dundukk sport sunglasses, Tigzresq splint) and three DESTROY them. Most unique sacrifices only work once; the Mazoni golden dumbbell is repeatable and returns itself.",
+  "cultist_caveat": "Unverified: whether Cultist Circle output carries found-in-raid status is not stated on the live Hideout page, and Collector requires found-in-raid. Confirm in game before relying on the circle for a handover.",
+  "wiki": "https://escapefromtarkov.fandom.com/wiki/Collector"
+ },
+ "KARMA": {
+  "title": "Scav karma — the +3 Collector gate",
+  "what": "Scav karma is stored as your Fence reputation. Collector needs at least +3, and other quests need more: Network Provider — Part 1 needs +2, Establish Contact and the Savior story ending need +4. Most players end up pushing past +3 anyway.",
+  "gain": [
+   "Vehicle extraction as PMC: +0.2 the first time on that map, then 0.2 divided by total uses — so the fourth is only +0.05",
+   "Co-op extraction as Scav or PMC: +0.25 the first time on that map, then it decays the same way",
+   "Extract or transit as a Scav: +0.01",
+   "Complete a Fence Scav task: +0.01 to +0.05",
+   "Kill a PMC as a Scav who has already killed a Scav: +0.02, or +0.03 if he killed two or more",
+   "Help a Scav +0.01 to +0.02, a boss guard +0.02, a Scav Boss +0.05, kill a traitor Scav +0.03",
+   "Killing Raiders, Rogues, Cultists or their bosses as a Scav is karma-neutral — no gain, no loss"
+  ],
+  "loss": [
+   "Kill an AI Scav as a Scav: −0.03 to −0.05",
+   "Kill a PLAYER Scav as a Scav: −0.1 — one of these undoes ten Scav extracts",
+   "Kill a boss guard as a Scav: −0.05. Kill a Scav Boss as a Scav: −0.2",
+   "The trap: Raiders, Scav Bosses and their followers attack you on sight if you get too close, and if you shoot back in self-defence you STILL eat the penalty",
+   "Rerolling a Fence Scav task can be paid for with a karma penalty instead of Euros — don't, if you are chasing LL4",
+   "Penalty scaling: between +6 and +8 penalties are calculated as though you were at +6, and above +8 an extra −2 is applied on top"
+  ],
+  "fastest": "Vehicle and co-op extractions, rotated across DIFFERENT maps. Each location tracks its own use count, so the first-time bonuses reset per map — farming one map decays fast (0.2, 0.1, 0.066, 0.05…) while rotating maps keeps paying full price. Take the first co-op extract on every map that has one (+0.25 each) and the first vehicle extract on every map that has one (+0.2 each) and you are most of the way to +3 for the cost of the extract fee. Fill the rest with Scav raids, where simply extracting pays +0.01. Neat overlap: Lightkeeper's 'Information Source' quest requires five specific vehicle extracts, so it pays your karma grind at the same time. The safe part matters more than the fast part — as a Scav, never shoot anything wearing Scav clothing, and never fire at a boss or his guards even when they open up on you first."
+ },
+ "REP": [
+  {
+   "trader": "Prapor",
+   "gate": "Level 36 · 7.90 rep",
+   "advice": "The highest rep bar of the seven, but also the most rep-generous trader with roughly +8.87 available. The three +1.5 awards are Special Order, Regulated Materials and Best Job in the World, then +0.75 each from The Tarkov Import and The Bunker — those five alone are about 5.25 of the 7.90. You have almost no slack, so don't skip his small tasks."
+  },
+  {
+   "trader": "Peacekeeper",
+   "gate": "Level 37 · 6.00 rep",
+   "advice": "The most headroom of any trader at about +8.81 available, so his LL4 is effectively free once you can do the big kill tasks. Special Equipment and Peacekeeping Mission pay +1.5 each; Tracker, The Cleaner, Revision — Reserve and Demonstration Model pay +0.75 each. Those six are roughly 6.0 on their own. Do them and stop worrying about him."
+  },
+  {
+   "trader": "Skier",
+   "gate": "Level 38 · 5.80 rep",
+   "advice": "Tight but achievable from quests alone against about +6.85 available. Night Sweep and Bullshit are +1.5 each and Classified Technologies is +0.75 — 3.75 from three tasks. Convenient overlap: the Chemical chain you need for Collector is Skier's, so it pays into this bar as you go."
+  },
+  {
+   "trader": "Jaeger",
+   "gate": "Level 33 · 7.30 rep",
+   "advice": "Lowest character level of the seven but the second-highest rep bar. The Huntsman Path line is the whole answer: Control pays +1.5, Forest Cleaning and Administrator +0.75 each. His low level gate means you can start early — do so."
+  },
+  {
+   "trader": "Therapist",
+   "gate": "Level 37 · 5.80 rep",
+   "advice": "Decontamination Service is a single +1.5, by far her biggest. Then four separate +0.25 awards: Sanitary Standards, Aid Stations, Pets Won't Need It and Paramedic. Everything else is +0.01 to +0.10, so it is volume. Her tasks are mostly item handovers, so you can buy your way through most of them."
+  },
+  {
+   "trader": "Mechanic",
+   "gate": "Level 40 · 7.60 rep",
+   "advice": "A circular trap: Shooter Born in Heaven is his single +1.5 award but it REQUIRES LL4, so you cannot use it to get there. The only other award above +0.3 is The Door at +0.75. He has the most quests of any trader (~83) but they pay +0.01 to +0.04, so this is a volume grind. Start Mechanic rep on day one — he and Ragman decide when you get Kappa."
+  },
+  {
+   "trader": "Ragman",
+   "gate": "Level 42 · 6.50 rep",
+   "advice": "The real bottleneck. His level 42 gate is the highest of any trader, so Ragman alone sets the floor on when Kappa is possible — and he has NO +1.5 quest at all, his biggest awards being Reserve Expert and Booze at +0.75. There is no shortcut. Plan Ragman from your first hours of wipe."
+  },
+  {
+   "trader": "How rep actually works",
+   "gate": "—",
+   "advice": "Reputation comes from quests plus daily and weekly operational tasks, which each pay +0.01 to the issuing trader. Three consequences: never reroll an operational task if you are chasing LL4, because rerolling costs reputation; character level 42 is the hard floor for Kappa, so levelling is a real prerequisite; and a few quests give NEGATIVE rep — Chemical — Part 3 costs Jaeger −0.01, so a Collector prerequisite actively works against a Collector requirement. Caveat: summing the wiki's published per-quest rep falls 2.3 to 3.7 short of the LL4 bar for Therapist, Mechanic, Jaeger and Ragman. The thresholds and big-ticket quests are verified; the exact arithmetic is not."
+  }
+ ]
+}

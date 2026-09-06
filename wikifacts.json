@@ -1,0 +1,1908 @@
+{
+ "debut": {
+  "title": "Debut",
+  "given_by": "Prapor",
+  "location": [
+   "Woods",
+   "Ground Zero",
+   "Interchange",
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 1,
+   "trader": "Prapor"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 5 Scavs on Woods, Ground Zero, Interchange, or Customs"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 1 with Prapor to obtain this quest."
+  ]
+ },
+ "shootout-picnic": {
+  "title": "Shootout Picnic",
+  "given_by": "Prapor",
+  "location": [
+   "Woods",
+   "Ground Zero",
+   "Customs",
+   "Interchange"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 1,
+   "trader": "Prapor"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate any 15 targets on Woods, Ground Zero, Customs, or Interchange"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 1 with Prapor to obtain this quest."
+  ]
+ },
+ "delivery-past": {
+  "title": "Delivery From the Past",
+  "given_by": "Prapor",
+  "location": [
+   "Customs",
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Prapor"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate and obtain the valuable folder in Tarcone director's office on Customs",
+   "Stash the package in the break room on the 2nd floor near Gate 3 on Factory"
+  ],
+  "rep": {
+   "Prapor": "+0.25"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 2 with Prapor to obtain this quest."
+  ]
+ },
+ "setup": {
+  "title": "Setup",
+  "given_by": "Skier",
+  "location": [
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Skier"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 8 PMC operatives with Scav weapons while wearing the specified gear on Customs"
+  ],
+  "rep": {
+   "Skier": "+0.25"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 2 with Skier to obtain this quest."
+  ]
+ },
+ "punisher-1": {
+  "title": "The Punisher - Part 1",
+  "given_by": "Prapor",
+  "location": [
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 25 Scavs with AKS-74U on Customs"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "punisher-2": {
+  "title": "The Punisher - Part 2",
+  "given_by": "Prapor",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 15 Scavs with AKM series weapons on Shoreline"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "punisher-3": {
+  "title": "The Punisher - Part 3",
+  "given_by": "Prapor",
+  "location": [
+   "Reserve"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 12 Scavs with 9x39mm caliber weapons on Reserve",
+   "Find 7 Lower half-masks in raid",
+   "Hand over the items"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "punisher-4": {
+  "title": "The Punisher - Part 4",
+  "given_by": "Prapor",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 10 Scavs while using an SVDS or TKPD on Lighthouse",
+   "Eliminate 10 Scavs while wearing a Scav Vest on Lighthouse",
+   "Find 5 Bars A-2607 95Kh18 knives in raid",
+   "Hand over the items"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "punisher-5": {
+  "title": "The Punisher - Part 5",
+  "given_by": "Prapor",
+  "location": [
+   "Prapor"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find any Kalashnikov AK-74 assault rifle in raid",
+   "Hand over the AK-74",
+   "Find a Colt M4A1 assault rifle in raid",
+   "Hand over the M4A1",
+   "Find any 2 Makarov PM pistols in raid",
+   "Hand over the pistols"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "punisher-6": {
+  "title": "The Punisher - Part 6",
+  "given_by": "Prapor",
+  "location": [
+   "Prapor"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 30 PMC operatives with the specified weapons on Lighthouse, Shoreline, Reserve, Ground Zero or The Lab",
+   "Hand over 10 BEAR or USEC Dogtags",
+   "Locate and neutralize any 5 Bosses"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "uninvited-guests-1": {
+  "title": "Uninvited Guests - Part 1",
+  "given_by": "Prapor",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Prapor"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate and obtain the case with military equipment"
+  ],
+  "rep": {},
+  "req_raw": [
+   "Must reach Loyalty Level 2 with Prapor to obtain this quest.",
+   "Must be playing in the Seasonal mode."
+  ]
+ },
+ "shortage": {
+  "title": "Shortage",
+  "given_by": "Therapist",
+  "location": [
+   "Therapist"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 3 Salewa first aid kit in raid",
+   "Hand over the 3 first aid kits"
+  ],
+  "rep": {
+   "Therapist": "+0.03"
+  },
+  "req_raw": []
+ },
+ "sanitary-standards": {
+  "title": "Sanitary Standards",
+  "given_by": "Therapist",
+  "location": [
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Therapist"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 2 Gas analyzers in raid",
+   "Hand over the 2 Gas analyzers to Therapist",
+   "Stash a Gas analyzer in the med lab on Daytime Factory"
+  ],
+  "rep": {
+   "Therapist": "+0.25"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 2 with Therapist to obtain this quest."
+  ]
+ },
+ "sanitary-standards-2": {
+  "title": "Sanitary Standards - Part 2",
+  "given_by": "Therapist",
+  "location": [
+   "Therapist"
+  ],
+  "char_level": 8,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 2 Gas analyzers in raid",
+   "Hand over the 2 Gas analyzers to Therapist"
+  ],
+  "rep": {
+   "Therapist": "+0.03"
+  },
+  "req_raw": [
+   "Must be level 8 to start this quest."
+  ]
+ },
+ "operation-aquarius": {
+  "title": "Operation Aquarius",
+  "given_by": "Therapist",
+  "location": [
+   "Customs"
+  ],
+  "char_level": 6,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate the water hidden inside of the dorms on Customs",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Therapist": "+0.03",
+   "Skier": "-0.02"
+  },
+  "req_raw": [
+   "Must be level 6 to start this quest."
+  ]
+ },
+ "postman-pat-1": {
+  "title": "Postman Pat - Part 1",
+  "given_by": "Prapor",
+  "location": [
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Prapor"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate the dead messenger and obtain his letter on Factory",
+   "Survive and extract from the location",
+   "Hand over the letter to Therapist"
+  ],
+  "rep": {
+   "Prapor": "+0.25"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 2 with Prapor to obtain this quest."
+  ]
+ },
+ "postman-pat-2": {
+  "title": "Postman Pat - Part 2",
+  "given_by": "Therapist",
+  "location": [
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Hand over the letter from Prapor's messenger"
+  ],
+  "rep": {
+   "Therapist": "+0.02"
+  },
+  "req_raw": []
+ },
+ "supply-plans": {
+  "title": "Supply Plans",
+  "given_by": "Therapist",
+  "location": [
+   "Woods"
+  ],
+  "char_level": 13,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Obtain the Secure Folder 0052 in the sawmill cabin on Woods",
+   "Hand over the folder"
+  ],
+  "rep": {
+   "Therapist": "+0.1"
+  },
+  "req_raw": [
+   "Must be level 13 to start this quest."
+  ]
+ },
+ "vitamins": {
+  "title": "Vitamins",
+  "given_by": "Skier",
+  "location": [
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Skier"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate and obtain the chemical container on Factory",
+   "Hand over the container",
+   "Find 4 Respirators in raid",
+   "Hand over 4 Respirators to Skier",
+   "Find 3 Medical bloodsets in raid",
+   "Hand over 3 Medical bloodsets to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.25"
+  },
+  "req_raw": [
+   "This quest is only obtainable by BEAR PMCs.",
+   "Must reach Loyalty Level 2 with Skier to obtain this quest."
+  ]
+ },
+ "chemical-1": {
+  "title": "Chemical - Part 1",
+  "given_by": "Skier",
+  "location": [
+   "Customs"
+  ],
+  "char_level": 10,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Obtain information about the Deputy Chief's past life on Customs",
+   "Hand over the information to Skier",
+   "Obtain items that can help the investigation",
+   "Hand over the items to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04"
+  },
+  "req_raw": [
+   "Must be level 10 to start this quest."
+  ]
+ },
+ "chemical-2": {
+  "title": "Chemical - Part 2",
+  "given_by": "Skier",
+  "location": [
+   "Customs"
+  ],
+  "char_level": 10,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find any evidence on Customs that could help with the investigation",
+   "Hand over the evidence to Skier",
+   "Find any information on Customs that could help with the investigation",
+   "Hand over the info to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04"
+  },
+  "req_raw": [
+   "Must be level 10 to start this quest."
+  ]
+ },
+ "chemical-3": {
+  "title": "Chemical - Part 3",
+  "given_by": "Skier",
+  "location": [
+   "Factory"
+  ],
+  "char_level": 11,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Obtain the chemical-filled syringe hidden in Factory",
+   "Hand over the chemical-filled syringe to Skier"
+  ],
+  "rep": {
+   "Skier": "+0.04",
+   "Jaeger": "-0.01"
+  },
+  "req_raw": [
+   "Must be level 11 to start this quest."
+  ]
+ },
+ "easy-money-1": {
+  "title": "Easy Money - Part 1",
+  "given_by": "Skier",
+  "location": [
+   "Customs"
+  ],
+  "char_level": 10,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Plant the Bison vs Undertaker poster in the living quarters at the Scav base on Customs"
+  ],
+  "rep": {},
+  "req_raw": [
+   "Must be level 10 to start this quest."
+  ]
+ },
+ "easy-money-2": {
+  "title": "Easy Money - Part 2",
+  "given_by": "Ref",
+  "location": [
+   "Ref"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Hand over 5 found in raid items from the Drinks category",
+   "Hand over 5 found in raid items from the Food category"
+  ],
+  "rep": {
+   "Ref": "+0.02"
+  },
+  "req_raw": []
+ },
+ "fertilizers": {
+  "title": "Fertilizers",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 30,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 5 Bundle of wires in raid",
+   "Find 5 Capacitors in raid",
+   "Handover 5 Bundle of wires to Mechanic",
+   "Handover 5 Capacitors to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Must be level 30 to start this quest."
+  ]
+ },
+ "fishing-gear": {
+  "title": "Fishing Gear",
+  "given_by": "Peacekeeper",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate the boat hidden next to the breakwater on Shoreline",
+   "Stash the MF-UNTAR body armor in the boat",
+   "Stash the multitool in the boat"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.1"
+  },
+  "req_raw": [
+   "Must be Loyalty Level 2 to start this quest"
+  ]
+ },
+ "tigr-safari": {
+  "title": "Tigr Safari",
+  "given_by": "Peacekeeper",
+  "location": [
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 1,
+   "trader": "Peacekeeper"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate and mark any UN Tigr vehicle with an MS2000 Marker on Customs"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.1"
+  },
+  "req_raw": [
+   "This quest is only obtainable by USEC PMCs.",
+   "Must reach Loyalty Level 1 with Peacekeeper to obtain this quest."
+  ]
+ },
+ "spa-tour-2": {
+  "title": "Spa Tour - Part 2",
+  "given_by": "Peacekeeper",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": 12,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Mark the helicopter at the Health Resort with an MS2000 Marker on Shoreline",
+   "Mark the safe road to the helicopter with an MS2000 Marker on Shoreline"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 12 to start this quest."
+  ]
+ },
+ "spa-tour-6": {
+  "title": "Spa Tour - Part 6",
+  "given_by": "Peacekeeper",
+  "location": [
+   "Peacekeeper"
+  ],
+  "char_level": 12,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Hand over 8,000 USD to Peacekeeper"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.04"
+  },
+  "req_raw": [
+   "Must be level 12 to start this quest."
+  ]
+ },
+ "mechanic-intro": {
+  "title": "Introduction",
+  "given_by": "Mechanic",
+  "location": [
+   "Woods"
+  ],
+  "char_level": 2,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find Jaeger's camp at the specified spot on Woods",
+   "Obtain Jaeger's encrypted message",
+   "Hand over the message to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.03"
+  },
+  "req_raw": [
+   "Must be level 2 to start this quest."
+  ]
+ },
+ "gunsmith-870": {
+  "title": "Gunsmith - Model 870",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 10,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify a Remington Model 870 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Must be level 10 to start this quest."
+  ]
+ },
+ "gunsmith-p226r": {
+  "title": "Gunsmith - P226R",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify a P226R to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": []
+ },
+ "gunsmith-akm": {
+  "title": "Gunsmith - AKM",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify an AKM to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "gunsmith-mp5": {
+  "title": "Gunsmith - HK MP5",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 7,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify an MP5 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Must be level 7 to start this quest."
+  ]
+ },
+ "gunsmith-m4a1": {
+  "title": "Gunsmith - M4A1",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 15,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify an M4A1 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Must be level 15 to start this quest."
+  ]
+ },
+ "gunsmith-master-1": {
+  "title": "Gunsmith Master - Part 1",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 27,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Modify an HK 416A5 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 27 to start this quest."
+  ]
+ },
+ "gunsmith-special": {
+  "title": "Gunsmith - Special Order",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Modify an M4A1 to comply with the given specifications"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "farming": {
+  "title": "Farming",
+  "given_by": "Mechanic",
+  "location": [
+   "Customs"
+  ],
+  "char_level": 14,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate the warehouse of seized goods on Customs",
+   "Obtain the package of graphics cards",
+   "Hand over the package of graphics cards to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 14 to start this quest."
+  ]
+ },
+ "farming-2": {
+  "title": "Farming - Part 2",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 12,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 2 Power cords in raid",
+   "Find 4 T-Shaped Plugs in raid",
+   "Find 2 Printed circuit boards in raid",
+   "Hand over 2 Power cords to Mechanic",
+   "Hand over 4 T-Shaped Plugs to Mechanic",
+   "Hand over 2 Printed circuit boards to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 12 to start this quest."
+  ]
+ },
+ "search-mission": {
+  "title": "Search Mission",
+  "given_by": "Prapor",
+  "location": [
+   "Woods"
+  ],
+  "char_level": 5,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate Prapor's missing convoy on Woods",
+   "Locate the temporary USEC camp on Woods"
+  ],
+  "rep": {
+   "Prapor": "+0.1"
+  },
+  "req_raw": [
+   "Must be level 5 to start this quest."
+  ]
+ },
+ "insider": {
+  "title": "Insider",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": 12,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Reach Loyalty Level 3 with Prapor"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 12 to start this quest."
+  ]
+ },
+ "helping-hand": {
+  "title": "A Helping Hand",
+  "given_by": "Mechanic",
+  "location": [
+   "Woods"
+  ],
+  "char_level": 20,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate and obtain Prapor's package on Woods",
+   "Survive and extract from the location",
+   "Complete the task Shipping Delay - Part 1"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 20 to start this quest."
+  ]
+ },
+ "network-provider-1": {
+  "title": "Network Provider - Part 1",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": "+2",
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Hand over the 4 found in raid Electronic components",
+   "Hand over the 4 found in raid Military COFDM Wireless Signal Transmitters",
+   "Hand over the 4 found in raid Gas analyzers",
+   "Hand over the 4 found in raid Broken GPhone smartphones"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Progressing through the story chapter Batya",
+   "Progressing through the story chapter The Ticket",
+   "Completing the quests:"
+  ]
+ },
+ "only-business": {
+  "title": "Only Business",
+  "given_by": "Ragman",
+  "location": [
+   "Ragman"
+  ],
+  "char_level": 15,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Reach Loyalty Level 2 with Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 15 to start this quest."
+  ]
+ },
+ "sew-it-good-1": {
+  "title": "Sew it Good - Part 1",
+  "given_by": "Ragman",
+  "location": [
+   "Ragman"
+  ],
+  "char_level": 25,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 1 Ski hat with holes for eyes in raid",
+   "Hand over 1 Ski hat with holes for eyes to Ragman",
+   "Find 1 Pilgrim tourist backpack in raid",
+   "Hand over 1 Pilgrim tourist backpack to Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 25 to start this quest."
+  ]
+ },
+ "sew-it-good-2": {
+  "title": "Sew it Good - Part 2",
+  "given_by": "Ragman",
+  "location": [
+   "Ragman"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 2 WARTECH TV-109 + TV-106 chest rigs in raid",
+   "Hand over the chest rigs",
+   "Find 2 BlackRock chest rigs in raid",
+   "Hand over the chest rigs"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "req_raw": []
+ },
+ "scrap-metal": {
+  "title": "Scrap Metal",
+  "given_by": "Peacekeeper",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 2,
+   "trader": "Peacekeeper"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Mark the first T-90 tank with an MS2000 Marker on Shoreline",
+   "Mark the second T-90 tank with an MS2000 Marker on Shoreline",
+   "Mark the third T-90 tank with an MS2000 Marker on Shoreline"
+  ],
+  "rep": {
+   "Peacekeeper": "+0.25"
+  },
+  "req_raw": [
+   "This quest is only obtainable by BEAR PMCs.",
+   "Must reach Loyalty Level 2 with Peacekeeper to obtain this quest."
+  ]
+ },
+ "no-fuss-needed": {
+  "title": "No Fuss Needed",
+  "given_by": "Ragman",
+  "location": [
+   "Ragman"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Reach Loyalty Level 3 with Therapist"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "req_raw": []
+ },
+ "dressed-to-kill": {
+  "title": "Dressed to Kill",
+  "given_by": "Ragman",
+  "location": [
+   "Ragman"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Find 2 Kinda Cowboy hats in raid",
+   "Find 2 Ushanka ear-flap caps in raid",
+   "Hand over 2 Ushanka ear-flap caps to Ragman",
+   "Hand over 2 Kinda Cowboy hats to Ragman"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "req_raw": []
+ },
+ "big-sale": {
+  "title": "Big Sale",
+  "given_by": "Ragman",
+  "location": [
+   "Interchange"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate the AVOKADO store on Interchange",
+   "Locate the KOSTIN store on Interchange",
+   "Locate the tRend store on Interchange",
+   "Locate the DINO CLOTHES store on Interchange",
+   "Locate the TOP BRAND store on Interchange",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Ragman": "+0.03"
+  },
+  "req_raw": []
+ },
+ "acquaintance": {
+  "title": "Acquaintance",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Hand over any 10 items from the Food Category"
+  ],
+  "rep": {
+   "Jaeger": "+0.1"
+  },
+  "req_raw": []
+ },
+ "tarkov-shooter-1": {
+  "title": "The Tarkov Shooter - Part 1",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 5 Scavs from over 40 meters away while using a bolt-action rifle with iron sights"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "tarkov-shooter-2": {
+  "title": "The Tarkov Shooter - Part 2",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Shoot any target in the legs from over 40 meters away while using a bolt-action rifle 3 times",
+   "Shoot any target in the head from over 40 meters away while using a bolt-action rifle 2 times"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "tarkov-shooter-3": {
+  "title": "The Tarkov Shooter - Part 3",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 3 PMCs from less than 25 meters away while using a bolt-action rifle"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "tarkov-shooter-4": {
+  "title": "The Tarkov Shooter - Part 4",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 5 PMC operatives from over 80 meters away while using a bolt-action rifle"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "sbih": {
+  "title": "Shooter Born in Heaven",
+  "given_by": "Mechanic",
+  "location": [
+   "Woods",
+   "Reserve",
+   "Shoreline",
+   "Customs",
+   "Lighthouse",
+   "Streets of Tarkov",
+   "Interchange",
+   "Ground Zero"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 4,
+   "trader": "Mechanic"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Customs or Lighthouse",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Streets of Tarkov or Shoreline",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Interchange or Ground Zero",
+   "Eliminate 5 PMC operatives with a headshot while using a bolt-action rifle on Woods or Reserve"
+  ],
+  "rep": {
+   "Mechanic": "+1.5"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 4 with Mechanic to obtain this quest."
+  ]
+ },
+ "huntsman-secured-perimeter": {
+  "title": "The Huntsman Path - Secured Perimeter",
+  "given_by": "Jaeger",
+  "location": [
+   "Factory"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 6 PMСs in the office area (any floor) on Factory"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "huntsman-sellout": {
+  "title": "The Huntsman Path - Sellout",
+  "given_by": "Jaeger",
+  "location": [
+   "Interchange"
+  ],
+  "char_level": 32,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate Killa",
+   "Find 1 Killa's Maska-1SCh bulletproof helmet in raid",
+   "Hand over 1 Killa's Maska-1SCh bulletproof helmet to Jaeger"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 32 to start this quest."
+  ]
+ },
+ "huntsman-sadist": {
+  "title": "The Huntsman Path - Sadist",
+  "given_by": "Jaeger",
+  "location": [
+   "Shoreline"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate Sanitar"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "huntsman-woods-cleaning": {
+  "title": "The Huntsman Path - Forest Cleaning",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate 50 Scavs all over the Tarkov territory"
+  ],
+  "rep": {
+   "Jaeger": "+0.75"
+  },
+  "req_raw": [
+   "Obtain level 3 loyalty with Jaeger"
+  ]
+ },
+ "huntsman-trophy": {
+  "title": "The Huntsman Path - Trophy",
+  "given_by": "Jaeger",
+  "location": [
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Eliminate Reshala",
+   "Find 1 Reshala's Golden TT in raid",
+   "Hand over 1 Reshala's Golden TT to Jaeger"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": []
+ },
+ "hunting-trip": {
+  "title": "Hunting Trip",
+  "given_by": "Jaeger",
+  "location": [
+   "Jaeger"
+  ],
+  "char_level": 33,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate and neutralize Shturman with a headshot from over 40 meters away while using an M700 sniper rifle with the specified scope"
+  ],
+  "rep": {
+   "Jaeger": "+0.02"
+  },
+  "req_raw": [
+   "Must be level 33 to start this quest."
+  ]
+ },
+ "goals-and-means": {
+  "title": "Goals and Means",
+  "given_by": "Mechanic",
+  "location": [
+   "Mechanic"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 20 PMC operatives from over 50 meters away while using any 9x39 caliber weapon"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": []
+ },
+ "connections-up-north": {
+  "title": "Connections Up North",
+  "given_by": "Skier",
+  "location": [
+   "Skier"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 20 PMC operatives from over 40 meters away while using a bolt-action rifle with night or thermal scope"
+  ],
+  "rep": {
+   "Skier": "+0.03"
+  },
+  "req_raw": [
+   "Unlocks 18-24 hours after completion of Silent Caliber and Hunting Trip"
+  ]
+ },
+ "hypotheses-testing": {
+  "title": "Hypotheses Testing",
+  "given_by": "Mechanic",
+  "location": [
+   "The Labyrinth"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate the lab area with the prototype weapon inside The Labyrinth",
+   "Hand over 5 found in raid Labrys research notes"
+  ],
+  "rep": {
+   "Mechanic": "+0.02"
+  },
+  "req_raw": []
+ },
+ "stick-to-it": {
+  "title": "Stick to It",
+  "given_by": "BTR Driver",
+  "location": [
+   "Lighthouse",
+   "Icebreaker"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 30 Rogues"
+  ],
+  "rep": {},
+  "req_raw": [
+   "Talk to the scientist on level 1 via the intercom.",
+   "Reach the damaged door on level 3."
+  ]
+ },
+ "collector": {
+  "title": "Collector",
+  "given_by": "Fence",
+  "location": [
+   "Fence"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": "+3",
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Hand over the found in raid item: 42 Signature Blend English Tea",
+   "Hand over the found in raid item: Antique axe",
+   "Hand over the found in raid item: Axel parrot figurine",
+   "Hand over the found in raid item: BEAR Buddy plush toy",
+   "Hand over the found in raid item: Baddie's red beard",
+   "Hand over the found in raid item: BakeEzy cook book"
+  ],
+  "rep": {},
+  "req_raw": [
+   "Scav karma of at least +3",
+   "Obtain level 4 loyalty with Therapist",
+   "Obtain level 4 loyalty with Prapor",
+   "Obtain level 4 loyalty with Peacekeeper"
+  ]
+ },
+ "compensation-wager": {
+  "title": "Compensation for Damage - Wager",
+  "given_by": "Fence",
+  "location": [
+   "Fence"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": "-1",
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 7 PMC operatives while using any AK-series assault rifle"
+  ],
+  "rep": {
+   "Fence": "+1"
+  },
+  "req_raw": [
+   "Scav karma of -1"
+  ]
+ },
+ "network-provider-2": {
+  "title": "Network Provider - Part 2",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Set up the radio repeater inside the MI-8 helicopter at the water treatment plant on Lighthouse",
+   "Set up the radio repeater inside the abandoned USEC cottage on Lighthouse",
+   "Set up the radio repeater at a high elevation overlooking the lighthouse on Lighthouse",
+   "Set up the radio repeater on the roof of the sunken building at the shore on Lighthouse"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Unlocks 1-9 hours after completion of Network Provider - Part 1"
+  ]
+ },
+ "knock-knock": {
+  "title": "Knock-Knock",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Check if the radio transmitter works near the Lighthouse peninsula",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Mechanic": "+0.01",
+   "Lightkeeper": "+0.01"
+  },
+  "req_raw": []
+ },
+ "getting-acquainted": {
+  "title": "Getting Acquainted",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Obtain the V3 Flash drive on Lighthouse",
+   "Reflash the Radio transmitter",
+   "Hand over the flash drive to Mechanic",
+   "Visit the lighthouse building"
+  ],
+  "rep": {},
+  "req_raw": []
+ },
+ "make-amends": {
+  "title": "Make Amends",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Obtain the V3 Flash drive on Lighthouse",
+   "Reflash the Radio transmitter",
+   "Hand over the flash drive to Mechanic",
+   "Visit the lighthouse building"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "make-an-impression": {
+  "title": "Make an Impression",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Lightkeeper"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Reach the required Bolt-action Rifles skill level of 10",
+   "Eliminate 10 Sniper Scavs from over 350 meters away"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Spotter"
+  ]
+ },
+ "every-hunter-knows": {
+  "title": "Every Hunter Knows This",
+  "given_by": "Jaeger",
+  "location": [
+   "Factory",
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate a good tripwire installation spot on Factory",
+   "Locate a good tripwire installation spot on Customs"
+  ],
+  "rep": {
+   "Jaeger": "+0.01"
+  },
+  "req_raw": []
+ },
+ "golden-swag": {
+  "title": "Golden Swag",
+  "given_by": "Skier",
+  "location": [
+   "Customs"
+  ],
+  "char_level": null,
+  "loyalty": {
+   "ll": 1,
+   "trader": "Skier"
+  },
+  "karma": null,
+  "reqkappa_wiki_flag": true,
+  "objectives": [
+   "Locate and obtain the Golden Zibbo lighter from Dorm room 303 on Customs",
+   "Stash a regular Zibbo at Dorm room 303 on Customs",
+   "Hand over the Golden Zibbo lighter"
+  ],
+  "rep": {
+   "Skier": "+0.1"
+  },
+  "req_raw": [
+   "Must reach Loyalty Level 1 with Skier to obtain this quest."
+  ]
+ },
+ "assessment-1": {
+  "title": "Assessment - Part 1",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 15 PMC operatives near the Lighthouse peninsula"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "assessment-2": {
+  "title": "Assessment - Part 2",
+  "given_by": "Mechanic",
+  "location": [
+   "Woods"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate and mark the first bunker with an MS2000 marker on Woods",
+   "Locate and mark the second bunker with an MS2000 marker on Woods",
+   "Locate and mark the third bunker with an MS2000 marker on Woods",
+   "Locate and mark the fourth bunker with an MS2000 marker on Woods"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "assessment-3": {
+  "title": "Assessment - Part 3",
+  "given_by": "Mechanic",
+  "location": [
+   "The Lab"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 7 Raiders in The Lab",
+   "Find 15 SJ1 TGLabs combat stimulant injector in raid",
+   "Find 5 SJ6 TGLabs combat stimulant injector in raid",
+   "Find 1 SJ9 TGLabs combat stimulant injector in raid",
+   "Hand over 15 SJ1 TGLabs combat stimulant injector to Mechanic",
+   "Hand over 5 SJ6 TGLabs combat stimulant injector to Mechanic"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": []
+ },
+ "key-to-the-tower": {
+  "title": "Key to the Tower",
+  "given_by": "Mechanic",
+  "location": [
+   "Lighthouse"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Find 2 Pieces of plexiglass in raid",
+   "Find 1 Insulating tape in raid",
+   "Find 2 Military circuit boards in raid",
+   "Find 1 Military COFDM Wireless Signal Transmitter in raid",
+   "Find 1 Working LCD in raid",
+   "Obtain 1 Radio transmitter body on Lighthouse"
+  ],
+  "rep": {
+   "Mechanic": "+0.01"
+  },
+  "req_raw": [
+   "Unlocks 24 hours after completion of Assessment - Part 3"
+  ]
+ },
+ "information-source": {
+  "title": "Information Source",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Customs",
+   "Woods",
+   "Interchange",
+   "Streets of Tarkov",
+   "Ground Zero"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Survive and extract from Woods through Bridge V-Ex",
+   "Survive and extract from Customs through Dorms V-Ex",
+   "Survive and extract from Interchange through Power Station V-Ex",
+   "Survive and extract from Streets of Tarkov through Primorsky Ave Taxi V-Ex",
+   "Survive and extract from Ground Zero through Police Cordon V-Ex",
+   "Locate and mark the first Patrol-A armored vehicle with an MS2000 Marker on Streets of Tarkov"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "req_raw": []
+ },
+ "missing-informant": {
+  "title": "Missing Informant",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Streets of Tarkov"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate the informant's hideout on Streets of Tarkov",
+   "Locate the informant's backup hideout",
+   "Obtain the informant's journal",
+   "Bring the information to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Information Source"
+  ]
+ },
+ "snatch": {
+  "title": "Snatch",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Lighthouse",
+   "Reserve"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Extract from Lighthouse",
+   "Obtain the forged intelligence at the Rogue base on Lighthouse",
+   "Obtain the original intelligence in the repair station on Reserve",
+   "Stash the forged intelligence under the BMP-2 in place of the original",
+   "Bring the original intelligence to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.01"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Missing Informant"
+  ]
+ },
+ "return-the-favor": {
+  "title": "Return the Favor",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Woods"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 15 PMC operatives around the mountain area on Woods",
+   "Hide the TerraGroup \"Blue Folders\" materials inside the black SUV in the USEC camp on Woods",
+   "Hide the TerraGroup \"Blue Folders\" materials in the crates near the satellite antenna in the USEC camp on Woods"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Snatch"
+  ]
+ },
+ "payback": {
+  "title": "Payback",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Reserve"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate and eliminate Glukhar",
+   "Eliminate 6 of Glukhar's guards",
+   "Shoot a yellow signal flare at the radar station",
+   "Survive and extract from Reserve through Cliff Descent"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Return the Favor"
+  ]
+ },
+ "provocation": {
+  "title": "Provocation",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Interchange"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 20 enemies around the Kiba Arms store while using an ASh-12 on Interchange",
+   "Stash a Salty Dog beef sausage inside the Kiba Arms store",
+   "Stash a Bottle of Fierce Hatchling moonshine inside the secret secure hideout",
+   "Stash a Toilet paper inside the secret container stash",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Payback"
+  ]
+ },
+ "following-bread-crumbs": {
+  "title": "Following the Bread Crumbs",
+  "given_by": "Lightkeeper",
+  "location": [
+   "The Lab",
+   "Reserve"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Eliminate 20 Raiders",
+   "Search the weapon testing area in The Lab",
+   "Search the human experiment room in The Lab",
+   "Obtain the secured tape inside the manager's office in The Lab",
+   "Bring the tape to Lightkeeper"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Provocation"
+  ]
+ },
+ "spotter": {
+  "title": "Spotter",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Streets of Tarkov"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate a good sniping position in Concordia overlooking the construction site",
+   "Hide AI .338 LM Tactical Sound Moderator near the red table",
+   "Locate a good sniping position at Primorsky overlooking the movie theater",
+   "Hide Trijicon REAP-IR thermal scope under Makhors' bed",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.04"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Following the Bread Crumbs"
+  ]
+ },
+ "trouble-big-city": {
+  "title": "Trouble in the Big City",
+  "given_by": "Lightkeeper",
+  "location": [
+   "Streets of Tarkov"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Locate the transport holding the cargo on Streets of Tarkov",
+   "Secure the area from 50 hostile PMC operatives",
+   "Mark the cargo area with an MS2000 Marker",
+   "Launch a yellow flare near the armored convoy to confirm that the job is done",
+   "Survive and extract from the location"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.05"
+  },
+  "req_raw": [
+   "Unlocks 10 hours after completion of Make an Impression"
+  ]
+ },
+ "keepers-word": {
+  "title": "Keeper's Word",
+  "given_by": "Lightkeeper",
+  "location": [
+   "The Labyrinth"
+  ],
+  "char_level": null,
+  "loyalty": null,
+  "karma": null,
+  "reqkappa_wiki_flag": false,
+  "objectives": [
+   "Stash a Cultist knife in the first special place inside The Labyrinth",
+   "Stash a Cultist knife in the second special place inside The Labyrinth",
+   "Stash a Cultist knife in the third special place inside The Labyrinth"
+  ],
+  "rep": {
+   "Lightkeeper": "+0.03"
+  },
+  "req_raw": []
+ }
+}
