@@ -448,3 +448,8 @@ footer{border-top:1px solid var(--line);margin-top:36px;padding:20px 0;color:var
   border:1px solid var(--line2);border-radius:2px;color:var(--txt2)}
 .mfilter button:hover{border-color:var(--gold);color:var(--gold)}
 .mfilter button.on{background:var(--orange);color:#0e100f;border-color:var(--orange)}
+
+/* visible marker when a map image fails rather than silent blank space */
+.gal figure.imgfail{min-height:80px;display:flex;align-items:center;justify-content:center}
+.gal figure.imgfail:before{content:"image unavailable — click to open on the wiki";
+  font:600 10.5px/1.4 var(--mono);color:var(--txt3);text-align:center;padding:14px}

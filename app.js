@@ -272,7 +272,8 @@
         h += row('Visual map guide', '<div class="gal">' + m.images.map(function (im, i) {
           return '<figure data-lb="' + esc(m.name) + '" data-i="' + i + '">' +
             '<span class="zoomhint">ZOOM</span>' +
-            '<img loading="lazy" src="' + esc(im.thumb) + '" alt="' + esc(m.name + ' — ' + im.caption) + '">' +
+            '<img loading="lazy" src="' + esc(im.thumb) + '" alt="' + esc(m.name + ' — ' + im.caption) + '"' +
+            ' onerror="this.style.display=\'none\';this.parentNode.classList.add(\'imgfail\')">' +
             '<figcaption>' + esc(im.caption) + '</figcaption></figure>';
         }).join('') + '</div>');
       if (m.notes)
@@ -339,6 +340,9 @@
     el('lbCap').textContent = im.caption + (n > 1 ? '  ·  ' + (LB.i + 1) + ' of ' + n : '');
     var zoomed = el('lb').classList.contains('zoom');
     var img = el('lbImg');
+    img.onerror = function () {
+      el('lbCap').textContent = im.caption + '  ·  image failed to load — use "Image source" to open it on the wiki';
+    };
     img.src = zoomed ? im.full : im.mid;
     img.alt = LB.map.name + ' — ' + im.caption;
     el('lbSrc').href = im.source;
